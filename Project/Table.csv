@@ -1,0 +1,1468 @@
+talent_id,hero_id,talent_level,talent_name,talent_cooldown,talent_desc
+1,1,4,Adrenal Overload,0,Symbiote host gains 25% increased Attack Speed.
+2,1,16,Adrenaline Boost,0,Symbiote\'s Carapace increases the Movement Speed of the target by 40% for 3.5 seconds.
+3,1,13,Assault Strain,0,"Locust Basic Attacks cleave for 50% damage, and explode on death for 224 (107 + 4% per level) damage."
+4,1,4,Ballistospores,0,Increases Toxic Nest\'s range to global and increases duration by 25%.
+5,1,13,Bombard Strain,0,Locust\'s Basic Attacks become a long-range siege attack that deal 70% more damage.
+6,1,7,Calldown: MULE,60,"Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second. Grants 1 ammo every 3 seconds."
+7,1,1,Envenomed Nest,0,Toxic Nests deal 75% more damage over 3 seconds.
+8,1,16,Envenomed Spikes,0,Your Symbiote\'s Spike Burst also slows enemy Movement Speed by 40% for 2 seconds.
+9,1,20,Evolution Complete,0,Monstrosity gains the ability to Deep Tunnel to any visible location once every 25 seconds.
+10,1,20,Evolutionary Link,0,"As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to 25% of their maximum Health. Refreshes every 5 seconds."
+11,1,10,Evolve Monstrosity,0,"Turn an allied Minion or Locust into a Monstrosity. When enemy Minions or captured Mercenaries near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times. The Monstrosity takes 50% less damage from Minions and Structures.Using Symbiote on the Monstrosity allows you to control it, in addition to Symbiote\'s normal benefits."
+12,1,20,Hivemind,0,"Symbiote creates an additional Symbiote on a nearby allied Hero. This Symbiote mimics the commands of the first, but does half the damage and shielding."
+13,1,16,Locust Brood,45,Activate to spawn 3 Locusts at a nearby location.
+14,1,20,Locust Nest,45,Activate to create a nest that periodically spawns Locusts. Only one Locust Nest can be active at a time.
+15,1,7,Needlespine,0,Increases the damage and range of Symbiote\'s Stab by 20%.
+16,1,7,Networked Carapace,0,"Using Symbiote\'s Carapace also applies an untalented Carapace Shield to all nearby allied Heroes, Minions, and Mercenaries."
+17,1,1,Pressurized Glands,0,Increases the range of Symbiote\'s Spike Burst by 25% and decreases the cooldown by 1 second.
+18,1,4,Prolific Dispersal,0,Reduces the cooldown of Toxic Nest by 2 seconds and adds 2 additional charges.
+19,1,1,Regenerative Microbes,0,Symbiote\'s Carapace heals the target for 149 (71 + 4% per level) Health per second over 4 seconds.
+20,1,13,Soma Transference,0,Symbiote\'s Spike Burst heals the host for 141 (67 + 4% per level) Health per enemy Hero hit.
+21,1,13,Spatial Efficiency,0,Symbiote\'s Stab gains 1 additional charge and its cooldown is reduced by 0.5 seconds.
+22,1,1,Survival Instincts,0,Increases Locust\'s Health by 50% and duration by 40%.
+23,1,4,Sustained Carapace,0,Increases the Shield amount of Symbiote\'s Carapace by 40% and allows it to persist after Symbiote ends.
+24,1,10,Ultimate Evolution,0,"Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Ability Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability."
+25,1,7,Vile Nest,0,Toxic Nests slow enemy Movement Speed by 40% for 2.5 seconds.
+26,1,16,Volatile Mutation,0,Ultimate Evolution clones and Monstrosities deal 301 (143 + 4% per level) damage to nearby enemies every 3 seconds and when they die.
+27,2,1,Extended Spikes,0,Increases the max range of Impale by 25%.
+28,2,1,Dampen Magic,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 1.5 seconds. Can only trigger once every 8 seconds."
+29,2,1,Assault Scarab,0,Increases the attack damage of spawned Beetles by 30%.
+30,2,1,Regeneration Master,0,"Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30. Reward: After gathering 30 Regeneration Globes, you also gain 500 Health."
+31,2,4,Underking,0,Increases Burrow Charge range by 20% and damage by 100%.
+32,2,4,Locust Needles,0,Basic Attacks deal 50% of your Basic Attack Damage in an area around the target.
+33,2,4,Legion of Beetles,0,Anub\'arak automatically spawns Beetles every 8 seconds. Can be toggled on and off.
+34,2,7,Shed Exoskeleton,0,Using Harden Carapace also increases Anub\'arak\'s Movement Speed by 30% for 3 seconds.
+35,2,7,Chitinous Plating,0,Increases Harden Carapace\'s Shield amount by 40%.
+36,2,7,Leeching Scarabs,0,Beetles heal you for 50% of their damage with each attack if you are nearby.
+37,2,10,Locust Swarm,0,Deal 145 (69 + 4% per level) damage per second in an area around yourself. Each enemy damaged heals you for 40 (19 + 4% per level) Health. Lasts 8 seconds.
+38,2,10,Cocoon,0,"Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for 8 seconds. Allies of the Hero can attack the cocoon to break it and free them early."
+39,2,13,Burning Rage,0,Deal 23 damage per second to nearby enemies.
+40,2,13,Urticating Spines,0,Casting Harden Carapace will also deal 176 (84 + 4% per level) damage to nearby enemies.
+41,2,13,Bed of Barbs,0,Create a bed of spikes along Impale\'s path that slows enemy Move Speed by 30% and deals 101 (48 + 4% per level) damage per second. Spikes persist for 3.5 seconds.
+42,2,16,Epicenter,0,Increases Burrow Charge impact area by 85% and lowers the cooldown by 4 seconds for each Hero hit.
+43,2,16,"Beetle, Juiced",0,Every 3rd Basic Attack against enemy Heroes sapwns a Beetle.
+44,2,16,Blood for Blood,0,Activate to deal 10% of target enemy Hero\'s Max Health and heal for twice that amount.
+45,2,20,Hive Master,0,Anub\'arak gains a permanent Vampire Locust that attacks a nearby enemy every 3 seconds. The Vampire Locust deals 336 (160 + 4% per level) damage and returns to heal Anub\'arak for 82 (39 + 4% per level) health.
+46,2,20,Cryptweave,0,Staying near the Coccon allows Anub\'arak to extend the duration by up to 4 seconds per Cocoon.
+47,2,20,Hardened Shield,0,Activate to reduce damage taken by 75% for 4 seconds.
+48,2,20,Rewind,0,Activate to reset the cooldowns of your Basic Abilities.
+49,3,1,Reactive Parry,0,Activating Twin Blades reduces the damage received from the next Hero Basic Attack by 75%. Can store up to 2 charges.
+50,3,1,Amateur Opponent,0,Twin Blades attacks deal 150% bonus damage versus non-Heroic enemies.
+51,3,1,Seasoned Marksman,0,"Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown."
+52,3,4,Psionic Synergy,0,Cooldown Reduction gained by hitting Heroes with Blade Dash is increased to 4 seconds.
+53,3,4,Shield Battery,0,"Shield Overload\'s cooldown recharges 50% faster while the shield is active, and increases the duration of Shielf Overload from 5 to 6 seconds."
+54,3,4,Shield Surge,0,Shield Overload\'s shield amount is increased by 80% while you are below 25% Max Health.
+55,3,7,Solarite Reaper,0,Increases the damage of the first dash of Blade Dash by 150%.
+56,3,7,Warp Sickness,0,Phase Prism also slows the enemy\'s Movement Speed by 35% for 4 seconds.
+57,3,7,Chrono Surge,0,Hitting an enemy Hero with Phase Prism grants 50% bonus Attack Speed for 4 seconds.
+58,3,7,Follow Through,0,"After using an ability, your next Basic Attack within 6 seconds deals 40% additional damage."
+59,3,10,Suppression Pulse,0,"Fire a large area pulse from the Spear of Adun, dealing 250 damage and Blinding enemies for 4 seconds. Unlimited range."
+60,3,10,Purifier Beam,0,"Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 404 damage per second for 8 seconds. The beam will chase the target as they move. Unlimited range."
+61,3,13,Templar\'s Zeal,0,Blade Dash cooldown recharges 100% faster while you are below 50% Health.
+62,3,13,Triple Strike,0,Increases Twin Blades\'s number of Basic Attacks to 3 but increase its cooldown by 1 second..
+63,3,13,Graviton Vortex,0,Phase Prism pulls and damages an additional enemy Hero near the first.
+64,3,13,Phase Bulwark,0,"When Shield Overload activates, you take 40% less damage from Abilities for 4 seconds."
+65,3,16,Zealot Charge,0,Increase Twin Blades\' charge distance by 100%.
+66,3,16,Titan Killer,0,Twin Blades attacks against Heroes deal an additional 2.5% of the target\'s maximum Health in damage.
+67,3,16,Psionic Wound,0,"Twin Blades final strike causes enemy Heroes to become Vulnerable for 2 seconds, increasing all damage taken by 25%."
+68,3,16,Plasma Burn,0,"While Shield Overload is active, you deal 50 damage a second to nearby enemies."
+69,3,20,Orbital Bombardment,0,Suppression Pulse gains an additional charge. There is a 10 second cooldown between uses.
+70,3,20,Target Purified,0,"If the target of Purifier Beam dies, it automatically recasts on the nearest enemy Hero."
+71,3,20,Force of Will,0,Increases Shield Overload\'s cooldown reduction from Basic Attacks to 6 seconds.
+72,3,20,Nexus Blades,0,Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.
+73,4,1,Block,0,"Every 5 seconds, you can Block a Basic Attack from an enemy Hero reducing its damage by 50%. Stores up to 2 charges."
+74,4,1,Eternal Hunger,0,"Quest: Using Frostmourne Hungers on an enemy Hero permanently increases the Mana it restores by 4, up to 40. Reward: After hitting 10 Heroes with Frostmourne Hungers, also increase its damage bonus by 25%."
+75,4,1,Frost Presence,0,Howling Blast\'s cooldown is reduced by 5 seconds when it hits an enemy Hero.
+76,4,4,Frozen Wastes,0,Frozen Tempest Mana cost reduced by 4 per second.
+77,4,4,Deathlord,0,Reduce Death Coil\'s cooldown by 2 seconds and increase its range by 25%.
+78,4,4,Biting Cold,0,Frozen Tempest damage increased by 50%.
+79,4,7,Rune Tap,0,Every 3rd Basic Attack heals you for 4% of your max Health.
+80,4,7,Immortal Coil,0,"You gain the healing effect of Death Coil even when you use it on enemies. If you damage an enemy Hero with it, you also heal for an additional 100% of the damage dealt."
+81,4,7,Icebound Fortitude,0,"Activate to reduce damage taken by 25% and reduce the duration of silences, stuns, slows, roots, and polymorphs agaisnt you by 75% for 3 seconds."
+82,4,10,Army of the Dead,0,Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for 586 Health.
+83,4,10,Summon Sindragosa,0,Deals 504 damage and slows enemies by 60% for 2 seconds. Also disables non-Heroic enemies and Structures for 20 seconds.
+84,4,13,Trail of Frost,0,Increases Howling Blast\'s range by 30% and causes it to also root enemies between you and the target for 1.25 seconds.
+85,4,13,Frost Strike,0,Reduces Frostmourne Hungers\' cooldown by 2 seconds. Frostmourne Hungers also slows the enemy by 40% for 1.5 seconds.
+86,4,13,Frigid Winds,0,"Frozen Tempest reduces enemy Attack Speed by -200% per second, stacking up to 40%."
+87,4,16,Remorseless Winter,0,Enemy Heroes that remain within Frozen Tempest for 3 seconds are rooted for 1.75 seconds. This effect only happen once every 10 seconds.
+88,4,16,Frostmourne Feeds,0,Increased application to your next 2 Basic Attacks.
+89,4,16,Embrace Death,0,Death Coil deals 10% more damage for each 10% of life you are missing.
+90,4,20,Legion of Northrend,0,3 additional Ghouls are created. Ghouls heal for an additional 50% and last 5 seconds longer.
+91,4,20,Absolute Zero,0,"Sindragosa flies twice as far. Enemy Heroes are rooted for 2 seconds, and then slowed by 60% for 3.5 seconds."
+92,4,20,Death\'s Advance,0,Passively increases your Movement Speed by 10%. Activate to increase this bonus to 30% for 3 seconds.
+93,4,20,Anti-Magic Shield,0,"Activate to reduce damage taken from Abilities by 100% for 3 seconds, and heal yourself for 25% of the damage prevented."
+94,5,1,Taste for Blood,0,"Quest:ÿEnemies that die within 1.5 seconds of being hit by Globe of Annihilation increase its damage by 2, up to 500. Reward:ÿNone"
+95,5,1,Sieging Wrath,0,"Quest:ÿEvery time Globe of Annihilation hits an Hero, its damage is increased by 4 up to 100. Reward:ÿAfter hitting 25 Heroes, the range of Globe of Annihilation is increased by 33% and its damage is increased by an additional 100."
+96,5,1,Master of Destruction,0,Reduces the Mana cost from 16 to 10 per second. Every 1.5 seconds spent channeling increases the range by 10% up to a maximum of 30%.
+97,5,4,Gluttony,0,All Shall Burn heals you for 25% of the damage dealt.
+98,5,4,Army of Hell,0,Increases Demon Warrior\'s damage by 20% and reduces their Mana cost by 20.
+99,5,4,Hellish Hirelings,0,The damage bonus from General of Hell is doubled on Mercenaries.
+100,5,4,Sin\'s Grasp,100,"Activate to curse an enemy Hero, dealing 543 (258 + 4% per level) damage over 8 seconds. Minion kills reduce this cooldown by 10 seconds. Can be cast while channeling All Shall Burn. 120 Second Cooldown."
+101,5,7,Infernal Globe,0,Globe of Annihilation\'s cast time is decreased by 40% and its missile speed is increased by 40%.
+102,5,7,Bound Minion,0,"Using General of Hell on a Minion grants them 75 Armor against non-Heroic sources, decreasing damage they take from them by 75% and increases the damage they deal to non-Heroic targets by 100%. Lasts 30 seconds."
+103,5,7,Gluttonous Ward,0,Activate to place a ward on the ground that restores 3% of your maximum Health and Mana every second for 10 seconds. 45 second cooldown.
+104,5,7,March of Sin,0,Increases Azmodan\'s movement speed while channeling All Shall Burn to 80% of normal speed.
+105,5,10,Demonic Invasion,100,"Rain a small army of Demonic Grunts down on enemies, dealing 121 (58 + 4% per level) damage per impact. Demon Grunts deal 60 (29 + 4% per level) damage and have 800 (380 + 4% per level) health. Damage is doubled versus non-Heroic targets."
+106,5,10,Black Pool,60,"Create a pool that empowers Azmodan, his Demons, and allied Minions, increasing their attack and ability damage by 75%. Pools last 5 seconds. 20 second Cooldown per charge, max 2 charges."
+107,5,13,Hellforged Armor,0,"Demon Warriors deal 10 damage to nearby enemies every second and are granted 50 Armor against Non-Heroic sources, decreasing the damage they take by 50%."
+108,5,13,Hedonism,0,Reduces Globe of Annihilation\'s Mana cost by 30.
+109,5,13,Infused Power,0,"All Shall Burn gains an additional charge level, increasing its maximum damage by 40%."
+110,5,16,Battleborn,0,"If Globe of Annihilation hits an enemy, a Demon Warrior is summoned at the impact point."
+111,5,16,Demonic Smite,0,"Every 7.5 seconds, the Demon Lieutenant will blast enemy Non-Heroic units with demonic energy, dealing 411 damage."
+112,5,16,Sin for Sin,0,Activate to deal 10% of target enemy Hero\'s Max Health and heal for twice that amount. Can be cast while channeling All Shall Burn. 45 second Cooldown.
+113,5,20,Perishing Flame,0,"When the Grunts die they explode, dealing 68 damage to nearby enemies."
+114,5,20,Fifth Circle,0,Black Pool makes Basic Attacks and Abilities slow enemies Attack and Movement Speeds by 40% for 3 seconds.
+115,5,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+116,5,20,Forced Recruitment,0,Reduces General of Hell\'s cooldown by 10 seconds and gains an additional charge.
+117,6,1,Dream Shot,0,"Reduces the cooldown of Arcane Flare by 1 second for each enemy Hero hit by the outer radius, and 3 seconds for each hit by the inner radius."
+118,6,1,Unfurling Spray,0,Increases Soothing Mist\'s range by 20%.
+119,6,1,Hyper Shift,0,Each allied Hero healed by Soothing Mist reduces the cooldown of Phase Shift by 2 seconds.
+120,6,1,Bribe,0,"Enemy Minions or captured Mercenaries killed near your Hero grant you stacks of Bribe. Use 20 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 50.Current number of Bribe stacks: 1"
+121,6,4,Arcane Barrage,0,Increases the range of Arcane Flare by 50%.
+122,6,4,Unstable Anomaly,0,"When Polymorph ends, deal 250 (119 + 4% per level) damage to the target and all nearby enemies."
+123,6,4,Manic Pixie,0,"When Soothing Mist heals an ally with Pixie Dust on them, they heal for an additional 228 (119 + 4% per level) over 4 seconds."
+124,6,4,Peekaboo!,0,Phase Shifting to an ally reveals a large area around them and all enemies in it for 6 seconds.
+125,6,7,Mistified,0,Reduces the cooldown of Soothing Mist by 0.5 second every time you cast a Basic Ability.
+126,6,7,Phase Shield,0,"After finishing the teleport, the target of your Phase Shift gains a 877 (416 + 4% per level) point Shield for 20 seconds."
+127,6,7,Cleanse,0,Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.
+128,6,10,Blink Heal,0,"Teleport to a nearby ally, healing them for 447 (213 + 4% per level). Can store 2 charges."
+129,6,10,Emerald Wind,0,"reate an expanding nova of wind, dealing 699 (332 + 4% per level) damage and pushing enemies away. Also passively increases the healing of Soothing Mist by 8%."
+130,6,13,Sticky Flare,0,Targets are slowed by 40% Movement Speed for 2 seconds.
+131,6,13,Pixie Boost,0,"Pixie Dust gives 50% bonus Move Speed, decaying to 20% over 1.5 seconds."
+132,6,13,Shield Dust,0,Pixie Dust reduces Ability damage taken by 40%.
+133,6,13,Ice Block,0,Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.
+134,6,16,Greater Polymorph,0,Increases the duration of Polymorph by 0.75 second.
+135,6,16,Critterize,0,"Polymorph makes enemies Vulnerable, increasing the damage they take by 25%."
+136,6,16,Bouncy Dust,0,Pixie Dust bounces to another nearby ally upon impact.
+137,6,16,Hardened Focus,0,"While above 80% life, your Basic Ability cooldowns regenerate 50% faster."
+138,6,20,Double Wyrmhole,0,Blink Heal can be cast a second time on a different target within 2 seconds without consuming a charge.
+139,6,20,Continuous Winds,0,Emerald Wind releases two additional novas that deal 25% damage.
+140,6,20,Revitalizing Mist,0,Healing another Hero with Soothing Mist increases their healing received from Soothing Mist by 25% for 6 seconds. Stacks 3 times.
+141,6,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+142,7,1,Invigoration,0,"If Hamstring hits a Hero, half of the Mana cost is refunded and the cooldown is reduced by 1 second."
+143,7,1,Block,0,"Every 5 seconds, gain 75 Physical Armor against the next Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges."
+144,7,1,Chop Meat,0,Hamstring does 100% more damage to Minions and Mercenaries.
+145,7,1,Abattoir,0,"Decreases the amount of Fresh Meat lost on death from 10 to 5. Once you complete the Fresh Meat quest, Heroes continue to drop Meat that grants Attack Damage. This bonus Meat is not lost on death."
+146,7,4,Flail Axe,0,Increases the length of Hamstring by 40%.
+147,7,4,Unrelenting Pursuit,0,Reduces the cooldown of Ruthless Onslaught by 33% upon impact.
+148,7,4,Cheap Shot,0,"Hamstring does 100% more damage to targets affected by a slow, root, or stun."
+149,7,7,Insatiable Blade,0,"Increases Butcher\'s Brand\'s healing from 75% to 100% of your Basic Attack damage. While facing the branded enemy, your Movement Speed is increased by 20%."
+150,7,7,Victuals,0,"Every time a nearby enemy minion dies, you regain 4% of your maximum Health."
+151,7,7,Meat Shield,0,"When Ruthless Onslaught impacts an enemy Hero, gain 50 Spell Armor for 2.5 seconds, reducing Ability damage taken by 50%."
+152,7,10,Furnace Blast,60,"After a 3 second delay, fire explodes around you dealing 1096 (520 + 4% per level) damage to enemies.Can be cast while using Ruthless Onslaught."
+153,7,10,Lamb to the Slaughter,80,Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 375 (178 + 4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.
+154,7,13,Cleaver,0,Basic Attack deal 35% of your Basic Attack Damage in an area around the target.
+155,7,13,Savage Charge,0,Ruthless Onslaught deals bonus damage to Heroes equal to 10% of their maximum Health.
+156,7,13,Brutal Strike,0,"After using Hamstring, your next 3 Basic Attacks within 5 seconds deal an additional 15% damage."
+157,7,16,Crippling Slam,0,"Hamstring\'s slow no longer fades out, and the duration is increased by 25%."
+158,7,16,Enraged,25,"Receiving damage that reduces you below 50% of your maximum Health causes you to become Enraged for 10 seconds. While Enraged, you gain 40% Attack Speed and 25 Armor, reducing damage taken by 25%."
+159,7,16,Blood Frenzy,0,"Basic Attacks against enemy Heroes increase your Attack and Movement Speed by 5% for 3 seconds, stacking up to 5 times."
+160,7,20,Fires of Hell,0,Furnace Blast explodes a second time 3 seconds after the initial explosion.
+161,7,20,Slaughterhouse,0,Lamb to the Slaughter now chains all enemy Heroes in range.
+162,7,20,Nexus Blades,0,Basic attacks deal 20% more damage and slow the target for 1 second.
+163,7,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+164,8,1,Accumulating Fire,0,"Quest: Everytime you set a Hero on fire with Breath of Fire, increase its damage over time by 2%, up to 60%. Reward: After igniting 30 Heroes, you gain Resistant for 1 second per Hero set on fire, reducing damage taken by 25%."
+165,8,1,Grounding Brew,0,Fortifying Brew reduces all incoming Ability Damage by 30% while drinking.
+166,8,1,Freshest Ingredients,0,"Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30. Reward: After gathering 30 Regeneration Globes, 50% of the Shield from Fortifying Brew persists indefinitely after drinking."
+167,8,1,Elusive Brawler,20,Activate to evade enemy Basic Attacks for 2 seconds. Your Basic Attacks reduce this cooldown by 3 seconds.
+168,8,4,Deadly Strike,0,"Flying Kick no longer costs Brew. Additionally, its damage is increased by 100% while you have Shields from Fortifying Brew."
+169,8,4,Keg Toss,0,"Quest: Everytime Keg Smash hits a Hero, increase its damage by 3, up to 60. Reward: After hitting 20 Heroes, increase its range by 125% and gain an additional charge."
+170,8,4,Ring of Fire,0,"After using Breath of Fire, ignite in a fiery aura, dealing 114 (55 + 4% per level) damage every second to nearby enemies for 3 seconds."
+171,8,7,Brewmaster\'s Balance,0,"While at or below 50 Brew, gain 20% Movement Speed. While at or above 50 Brew, regenerate an additional 40 (19 + 4% per level) Health per second."
+172,8,7,Bolder Flavor,0,"Fortifying Brew instantly Shields you for 697 (331 + 4% per level). Additionally, Shields persists for 1 extra second after you stop drinking."
+173,8,7,Refreshing Elixir,0,"Increases regeneration effects and all healing received by 30%, or by 60% while drinking Fortifying Brew."
+174,8,10,Wandering Keg,70,"Roll around inside an Unstoppable barrel, dealing 130 (62 + 4% per level) damage to enemies in the way and knocking them back. Lasts for 5 seconds."
+175,8,10,"Storm, Earth, Fire",100,"Split into three elemental spirits for 12.15 seconds, each with 75% of your maximum Health and a unique ability. If all three spirits are killed, Chen will die as well. Storm can grant your spirits Movement Speed. Earth can leap to an area and slow enemies. Fire can grant your spirits Attack Speed."
+176,8,13,Pressure Point,0,"Flying Kick slows the target enemy by 35% for 1 second, or by 70% if they\'re soaked in Brew."
+177,8,13,A Touch of Honey,0,Increase the slow from Keg Smash to 40%.
+178,8,13,Withering Flames,0,Setting an enemy Hero on fire reduces their Ability Power by 25% for 3 seconds.
+179,8,16,Flying Leap,0,Increases Flying Kick\'s range by 20%.
+180,8,16,Another Round,0,"After hitting an enemy Hero with Keg Smash, the cooldown of your next Basic Ability will be reduced by 3 seconds."
+181,8,16,Enough to Share,0,Fortifying Brew also Shields nearby allied Heroes for 119 (57 + 4% per level) per second.
+182,8,20,Untapped Potential,0,Wandering Keg increases Movement Speed by 25% and reduces damage taken by 50%.
+183,8,20,Elemental Conduit,0,Increases the spirits\' Health to 100% of your maximum Health and empowers their abilities. Storm can grant your spirits Unstoppable. Earth\'s leap cooldown is reduced by 3 seconds. Fire grants Attack Speed as long as it is alive.
+184,8,20,Purifying Brew,5,The next Stun or Silence used against you has its duration reduced by 75% and resets the cooldown of Fortifying Brew. Can only trigger once every 10 seconds.
+185,8,20,Stormstout Secret Recipe,0,Heal for 1.5% of your maximum Health every time your Basic Abilities hit an enemy Hero.
+186,9,1,Surging Dash,0,Increases Surging Fist range and speed by 25%.
+187,9,1,Blazing Bulwark,0,"Consuming Blaze grants youÿ??? stack of Block when you hit an enemy Hero, up to 10. Block reduces damage taken from enemy Basic Attacks by 50%."
+188,9,1,Fuel for the Flame,0,Gathering a Regeneration Globe increases your next Consuming Blaze heal by 50%.
+189,9,4,Runed Gauntlet,0,Rune Bomb increases your next Basic Attack by 75%.
+190,9,4,Rollback,0,"Rune Bomb now returns to you, damaging enemies in its path."
+191,9,4,Seared Flesh,0,Every third consecutive Basic Attack against the same target deals 75% bonus damage.
+192,9,7,Power Surge,0,Reduces the initial delay of Surging Fist by 50% and it is 100% wider.
+193,9,7,Fire Eater,0,Basic Attacks against targets inflicted with Consuming Blaze heal you for 50% of the damage dealt.
+194,9,7,I AM Hurrying!,0,"Increases the duration of Gall\'s ""Hurry Up, Oaf!"" by 1.5 second and it no longer fades over time."
+195,9,10,Hammer of Twilight,0,"Passively increases Basic Attack damage by 25%. Activate to swing the Hammer to deal 377 (164 + 4.5% per level) damage, push enemies away, and stun for 0.75 seconds."
+196,9,10,Upheaval,0,"After 1 second pull enemies towards your direction, slowing them by 25% for 3 seconds and dealing 220 (104 + 4% per level) damage."
+197,9,13,Runic Feedback,0,Gall\'s Runic Blast reduces your Rune Bomb cooldown by 1 second per enemy hit.
+198,9,13,Surge of Stamina,0,"After using Surging Fist, the duration of silences, stuns, slows, roots, and polymorphs applied to you are reduced by 50% for 5 seconds."
+199,9,13,Molten Block,0,"Activate to place yourself in Stasis and gain Invulnerability for 3 seconds, damaging nearby enemies for 202 (96 + 4% per level) damage per second."
+200,9,16,Twilight Veil,0,Consuming Blaze reduces damage taken from Abilities by 50% for 2 seconds per enemy Hero hit.
+201,9,16,Frenzied Fists,0,"If Surging Fist hits an enemy Hero, your Attack Speed is increased by 100% for 4 seconds."
+202,9,16,Crippling Blow,0,Enemies hit by Surging Fist are slowed by 90% for 1.25 seconds.
+203,9,20,C\'thun\'s Gift,0,Your Basic Attack becomes ranged and slows targets by 20% for 2 seconds.
+204,9,20,Favor of the Old Gods,0,"Upheaval grants you Resistant, reducing your damage taken by 50% for 5 seconds."
+205,9,20,The Will Of Gall,0,Gall can activate Will of Gall to make you Unstoppable for 2 seconds.
+206,10,1,Compounding Aether,0,Reward:ÿAfter hitting 25 Heroes with Sand Blast increase its damage by 100.
+207,10,1,Deep Breathing,0,"Quest:ÿEvery time Dragon\'s Breath hits a Hero increase its damage by 2, up to 50. Reward:ÿAfter hitting 25 Heroes, increase its damage by an additional 150 and also increase your sight radius by 100%."
+208,10,1,Timewalker\'s Pursuit,25,"Activate to reveal a targeted area for 2 Seconds. Enemies are revealed for 4 Seconds. Quest:ÿGathering a Regeneration Globe increases your Mana Regeneration by 0.1, up to 1.5. Reward:ÿAfter gathering 15 Globes you also gain 5% Ability Power."
+209,10,2,Piercing Sands,0,Sand Blast will now hit the first two Heroes in its path.
+210,10,2,Bronze Talons,0,Increases your Basic Attack range by 35%. Using Sand Blast increases the damage of your next Basic Attack by 250%.
+211,10,2,Enveloping Assault,0,Increases Dragon\'s Breath\'s radius by 25%.
+212,10,5,Mobius Loop,0,"Reduces Dragon\'s Breath\'s Mana cost and cooldown by 50%, but also reduces its damage by 25%."
+213,10,5,Dragon\'s Eye,0,Dragon\'s Breath does 25% more damage to enemies in the center.
+214,10,5,Chrono Sickness,0,"Reduce Time Trap\'s cooldown and Mana cost by 50%. After the Stasis ends, the enemy is also slowed by 50% for 4 seconds."
+215,10,8,Slowing Sands,5,"Place a sand vortex that greatly slows enemies inside it. The longer it is active the more it slows, up to 50% after 5 seconds."
+216,10,8,Temporal Loop,75,"Choose an enemy Hero. After 3 seconds, they will teleport back to the location where you cast Temporal Loop on them."
+217,10,11,Bye Bye!,0,"Reduces the cast time of your Hearthstone by 75%, and it is not interrupted by taking damage."
+218,10,11,Reaching through Time,0,Increases Sand Blast and Dragon?s Breath\'s range by 15%.
+219,10,11,Time Out,60,Activate to place yourself in Stasis and gain Invulnerability for up to 7 seconds. Can be reactivated to end the effect early.
+220,10,14,Shifting Sands,0,"Hitting an enemy Hero with Sand Blast increases your Ability Power by 8% for the next 10 seconds. This bonus can be stacked up to 40%, and the duration is refreshed whenever you damage enemy Heroes with Sand Blast."
+221,10,14,Fast Forward,0,"If Sand Blast travels at least 75% of its base distance and hits a Hero, its cooldown is reduced to 0.75 seconds."
+222,10,14,Quantum Overdrive,30,Activate to increase Ability Power by 20% for 10 seconds.
+223,10,18,Pocket of Time,0,Removes Slowing Sands Mana cost and increases the slow from 50% to 80%.
+224,10,18,Loophole,0,Temporal Loop hits all enemy Heroes near your initial target.
+225,10,18,Past and Future Me,0,"After casting Sand Blast, leave an echo of yourself behind. The next time you cast Sand Blast, the echo also casts an untalented Sand Blast that does 40% damage."
+226,10,18,Andorhal Anomaly,0,"You gain 3 charges of Time Trap, and can have 3 active at once. When your cooldown finishes, you gain 3 charges at once."
+227,11,1,Enduring Swarm,0,"While active, Dark Swarm reduces damage taken from Spells by 60%."
+228,11,1,Primal Aggression,0,Dark Swarm duration increased by 0.5 seconds and it deals 90% bonus damage to Minions and Mercenaries.
+229,11,1,Enhanced Agility,0,"Quest:ÿEach time you collect 50 Essence, permanently increase your Movement Speed by 1%, up to 10%."
+230,11,1,Tissue Regeneration,0,"Quest:ÿEach time you collect 50 Essence, permanently increase your Health Regeneration by 5, up to 50."
+231,11,4,Lurker Strain,0,Burrow grants Stealth for 3 seconds. Emerging from Burrow knocks nearby enemies back and slows them by 30% for 2 seconds.
+232,11,4,One-Who-Collects,0,Increases Essence collected from Minions by 50%.
+233,11,4,Hero Stalker,0,Increases Essence gained from Takedowns by 100%.
+234,11,7,Feeding Frenzy,0,Basic Attacks reduce Drag\'s cooldown by 1.5 seconds.
+235,11,7,Constriction,0,Increases Drag duration by 0.5 seconds.
+236,11,7,Symbiosis,0,"Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.4 seconds."
+237,11,7,Essence Devourer,0,"Quest:ÿGathering Regeneration Globes grant 10 Essence and increase your maximum Essence by 1, to a maximum of 10 increased Essence. Reward:ÿAfter collecting 10 Regeneration Globes, the amount of Essence you gain from Regeneration Globes is increased to 15."
+238,11,10,Isolation,0,"Launch biomass that hits the first enemy Hero dealing 439 (208 + 4% per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds."
+239,11,10,Adaptation,0,"After 5 seconds, heal for 60% of the damage you took over this period."
+240,11,13,Swift Pursuit,0,Brushstalker\'s Movement Speed duration after leaving a Bush is increased from 1 to 3 seconds.
+241,11,13,Ferocious Stalker,0,"After using Brushstalker, increase all damage you deal by 25% for 10 seconds."
+242,11,13,Primal Swarm,0,Dark Swarm causes enemies hit to take 10% extra damage for 0.75 seconds.
+243,11,16,Paralyzing Enzymes,0,Drag slows enemies by 50% for 2 seconds after it ends.
+244,11,16,Elongated Tongue,0,Increase Drag range by 20%.
+245,11,16,Tunneling Claws,0,You can move while Burrowed
+246,11,20,Contagion,0,Isolation hits all Heroes near the first target.
+247,11,20,Change Is Survival,0,Increases Adaptation healing to 200% of the damage received.
+248,11,20,Apex Predator,0,Reduces Brushstalker\'s cooldown by 25 seconds and the cast time by 0.5 seconds.
+249,11,20,Essence Claws,0,"Your Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, you gain 5 Essence."
+250,12,1,Bulwark,0,Increase the duration of Shadow Charge?s Resistance effect from 2 to 5 seconds.
+251,12,1,Devil\'s Due,0,Regeneration Globes and Healing Fountains are 2% more effective for every stack of Black Soulstone.
+252,12,1,Life Leech,0,Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero\'s maximum Health and heal you for the same amount.
+253,12,4,From the Shadows,0,Enemies knocked against unpathable locations are stunned for an additional 0.5 seconds.
+254,12,4,Speed Demon,0,Diablo gains 30% Movement Speed for 5 seconds after being Stunned or Rooted.
+255,12,4,Demonic Strength,0,"Once Overpower\'s stun expires, the target is slowed by 30% for 3 seconds."
+256,12,7,Soul Feast,0,Each Soulstone stack grants 0.4 Health Regeneration per second.
+257,12,7,Soul Shield,0,Each Black Soulstone stack Diablo has grants him 0.35% Resistance to enemy Abilities.
+258,12,7,Diabolical Momentum,0,Basic Attacks lower the cooldown of Shadow Charge and Overpower by 1.5 seconds.
+259,12,10,Apocalypse,100,Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 damage and stunning for 2 seconds.
+260,12,10,Lightning Breath,60,Become Unstoppable while channeling lightning that deals 800 damage over 4 seconds. The direction of the Lightning changes with your mouse cursor position.
+261,12,13,Devastating Charge,0,"Shadow Charging an enemy into unpathable terrain deals an additional 5% of that targets max Health in damage. Quest:ÿEvery time you charge an enemy into unpathable terrain, increase the bonus damage by 2%, stacking up to a 10% bonus (15% max health possible)"
+262,12,13,Fire Devil,0,Fire Stomp increases your Basic Attack damage by 25% and surrounds you in flames that deal 20 damage every second for 6 seconds.
+263,12,13,Hellfire,0,"Each enemy Hero hit by Fire Stomp increases the damage of the next Fire Stomp by 10%, stacking up to 100%."
+264,12,16,Debilitating Flames,0,"Enemy Heroes hit by Fire Stomp are slowed by 15% for 2 seconds, up to 30%."
+265,12,16,Domination,0,Reduces the cooldown of Overpower by 4 seconds. Casting Overpower resets the cooldown of Shadow Charge.
+266,12,16,Fearful Presence,20,Activate to reduce the damage dealt by nearby enemy Heroes by 30% for 3 seconds. Passive:ÿHeroes and Summons that attack Diablo have their Attack Speed slowed by 20% for 2.5 seconds.
+267,12,20,Dying Breath,0,Apocalypse\'s cooldown is reduced by 20 seconds and is cast for free when you die.
+268,12,20,Hellstorm,0,Lightning Breath lasts and reaches 50% longer.
+269,12,20,Lord of Terror,60,Activate to steal 10% of the maximum Health of nearby enemy Heroes.
+270,12,20,Hellgate,90,Activate to teleport a short distance and place a Demonic Rune at that location. After 1.75 seconds the rune explodes dealing 137 damage and stuns enemies for 1.75 seconds.
+271,13,1,Guitar Hero,0,"While Guitar Solo is active, you heal for 30% of the damage dealt by Basic Attacks. Also increases the Attack Speed bonus of Rockstar by 5%."
+272,13,1,Prog Rock,0,"Quest: Gathering a Regeneration Globe permanently increases the healing per second of Guitar Solo by 5, to a maximum of 100. Reward: After reaching 100 increased healing, Guitar Solar also helas nearby allied Heroes for 117 (56 + 4% per level) Health every second while it is active."
+273,13,1,Block Party,0,"Rockstar also grants allies a stack of Block, reducing the damage they take from the next Basic Attack by 50% for 8 seconds. Stacks up to 2 times."
+274,13,4,Crowd Surfer,0,Allows Powerslide to travel over walls and terrain.
+275,13,4,Loud Speakers,0,Increases Face Melt range and knockback by 50%.
+276,13,4,Speed Metal,0,Rockstar also gives 20% Movement Speed for 2 seconds.
+277,13,7,Pinball Wizard,0,Face Melt does 150% more damage to enemies recently affected by Powerslide.
+278,13,7,Echo Pedal,0,"Using a Basic or Heroic ability releases two pulses of 71 (34 + 4% per level) damage. This deals 100% bonus damage to Minions and Mercenaries. The first occurs instantly, the second occurs 2 seconds later."
+279,13,7,Hammer-on,0,"After using an Ability, your next 2 Basic Attacks deal 30% more damage."
+280,13,10,Mosh Pit,120,"After 0.75 seconds, channel to stun nearby enemies for 4 seconds."
+281,13,10,Stage Dive,75,"Leap to target location, landing after 2.75 seconds, dealing 724 (330 + 4% per level) damage to enemies in the area, and slowing them by 50% for 3 seconds."
+282,13,13,Mic Check,0,Hitting at least 2 targets with Face Melt reduces its cooldown by 5 seconds.
+283,13,13,Encore,0,"Face Melt leaves an Amp behind, which will knock enemies away again 2 seconds later."
+284,13,13,Face Smelt,0,Face Melt slows enemies by 60% fading over 2 seconds.
+285,13,16,Show Stopper,0,Reduces all damage taken by 25% for 4 seconds after using Powerslide.
+286,13,16,Aggressive Shredding,0,Your Basic Attacks reduce the cooldown of Guitar Solo by 1 second.
+287,13,16,Imposing Presence,20,Heroes and Summons that attacks you have their Attack Speed slowed by 20% for 2.5 seconds. Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds.
+288,13,20,Tour Bus,0,"Mosh Pit refreshes the cooldown of Powerslide. You can Powerslide during Mosh Pit, which also increases its duration by 2 seconds."
+289,13,20,Crowd Pleaser,0,"Stage Dive\'s impact area is 50% bigger, and its cooldown is reduced by 15 seconds for every enemy Hero hit."
+290,13,20,Death Metal,0,"Upon dying, a ghost uses Mosh Pit at your location."
+291,13,20,Storm Shield,45,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+292,13,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+293,14,1,Gathering Storm,0,Quest:ÿEvery time Hammerang hits a Hero increase its damage by 1.5. Reward:ÿNone
+294,14,1,Seasoned Marksman,60,"Quest:ÿEvery Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage. Reward:ÿUpon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds."
+295,14,1,Wingman,0,"Enemy Minions killed near you grant a stack of Bribe. Use 20 stacks to bribe a Mercenary, instantly defeating them and permenantly increasing the damage of Lightning Rod by 5%. Does not work on Bosses. Maximum of 80 stacks."
+296,14,4,Static Shield,0,Gain a Shield equal to 4% of your maximum Health after every Lightning Rod strike. Lasts 4 seconds and stacks.
+297,14,4,Updraft,0,Increase Barrel Roll\'s range and Shield amount by 40%.
+298,14,4,Hammer Gains,0,Basic Attacks heal for 20% of the damage dealt to the primary target.
+299,14,7,Secret Weapon,0,Increases Hammerang\' range by 30% and Basic Attacks deal 60% bonus damage while Hammerang is in flight.
+300,14,7,BOOMerang,0,Reactivate Hammerang mid-flight to deal 384 (182 + 4% per level) damage around the Hammer.
+301,14,7,Charged Up,0,Increases the number of Lightning Rod strikes by 2 and its range by 25%.
+302,14,10,Hinterland Blast,0,"After a short delay, deal 901 (428 + 4% per level) damage to enemies within a long line."
+303,14,10,Mighty Gust,0,"Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds."
+304,14,13,Thunderstrikes,0,Lightning Rod deals 20% more damage each subsequent strike.
+305,14,13,Flow Rider,0,"While Tailwind is active, your Basic Abilities recharge 100% faster."
+306,14,13,Giant Killer,0,Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero\'s maximum Health.
+307,14,16,Crippling Hammer,0,Increases the Hammerang\'s slow from 25% to 50%.
+308,14,16,Aerie Gusts,0,"Reduces the activation time for Tailwind from 6 to 3 seconds, and increase the Movement Speed bonus from 15% to 25%."
+309,14,16,Afterburner,0,"Barrel Roll increases your Movement Speed by 60%, decaying over 3 seconds."
+310,14,20,Call of the Wildhammer,0,Hinterland Blast has double the range and deals 25% more damage.
+311,14,20,Wind Tunnel,0,Mighty Gust creates a wind tunnel for 4 seconds. Enemies caught in the tunnel will periodically be pushed back.
+312,14,20,Nexus Frenzy,0,Increases Attack Speed by 20% and Attack Range by 20%.
+313,14,20,Epic Mount,0,"Reduce the cooldown of Flight to 30 seconds, reduce the cast time before flying to 0.5 seconds, and increase the speed by 50%."
+314,15,1,Spurred Onward,0,"Increase the Initial speed boost of Hurry Up, Oaf! to 70%. Hurry Up, Oaf! cooldown reduced by 2 seconds when hitting an enemy Hero with an Ability."
+315,15,1,Shove,20,Nudge Cho a small distance in the direction you choose.
+316,15,1,Eye of Kilrogg,45,"Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 4 charges."
+317,15,4,Bomb\'s Away,0,Increases Cho\'s Rune Bomb range by 20%.
+318,15,4,Runic Persistence,0,Using Runic Blast no longer destroys Rune Bomb.
+319,15,4,Double Back,0,Dread Orb\'s third bounce instead bounces backwards.
+320,15,7,Edge of Madness,0,"Increases Shadowflame damage by 20% against nearby targets, and 10% to mid-range targets. Distant targets take normal damage."
+321,15,7,Double Trouble,0,"If Shadowflame hits an enemy Hero afflicted with Cho\'s Consuming Blaze, its cooldown is reduced by 1.25 seconds."
+322,15,7,Dark Descent,0,"Increases Runic Blast\'s damage by 5% everytime you get a Hero takedown, up to 20%. These bonuses are lost upon dying."
+323,15,10,Shadow Bolt Volley,0,"After 1 second, unleash 19.375 Shadow Bolts over 3.875 seconds, each dealing 103 damage to the first target hit. The bolts fire towards your mouse."
+324,15,10,Twisting Nether,0,"After 1 second, nearby enemies are slowed by 40% while you channel, up to 5 seconds. Activate to deal 342 damage."
+325,15,13,Rising Dread,0,Dread Orb does 25% more damage on the second bounce and 75% more damage the third bounce.
+326,15,13,Speed of Twilight,0,"When Dread Orb hits an enemy Hero, gain 30% Movement Speed for 5 seconds."
+327,15,13,Dread Shield,0,"When Dread Orb hits an enemy Hero, gain a Shield absorbing 561 damage for 5 seconds."
+328,15,16,Twilight Nova,0,"After the first bounce, 2 extra bombs bounce to the sides once."
+329,15,16,Giant Scorcher,0,Shadowflame also does 3.5% of a Hero\'s maximum Health.
+330,15,16,Shadowflare,0,Increases Shadowflare\'s width by 50%. Enemies hit are slowed by 25% for 1 second.
+331,15,20,Shadowfury,0,Shadow Bolt Volley hits all enemies in its path.
+332,15,20,The Nether Calls,0,"Increases Twisting Nether\'s slow by 10% and damage by 10% for every second channeled, to a maximum of 40% increase."
+333,15,20,Psychotic Break,0,"Increases your Ability Damage by 5%. Upon dying, the cooldown on your Heroic Ability is reset and you can continue to use Abilities for 10 seconds."
+334,16,,Extra TNT,0,"Increases Xplodium Charge damage by 10% per target hit, up to 100%."
+335,16,,Scrap-o-Matic Smelter,0,Increases the Mana restored from Scrap by 100%.
+336,16,,Break it Down!,0,Scrap causes Abilities to cooldown four times as fast for 3 seconds.
+337,16,,Regeneration Master,0,"Quest:ÿGathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30. Reward:ÿAfter gathering 30 Regeneration Globes, you also gain 500 Health."
+338,16,4,Clockwerk Steam Fists,0,"Quest:ÿBasic Attacks increase the duration of active Rock-It! Turrets by 2 seconds. Reward: After increasing turret duration by 600 total seconds, reduce the charge cooldown of Rock-It! Turret by 3 seconds."
+339,16,4,Ark Reaktor,0,"Reduces Xplodium Charge\'s cooldown by 2 seconds. If Xplodium Charge hits an enemy Hero, you gain 2 charges of Rock-It! Turret."
+340,16,4,"Reduce, Reuse, Recycle",0,Enemy Minions that die near you have a 15% chance to drop Scrap.
+341,16,4,Mercenary Lord,0,"Friendly Non-Boss Mercenaries near your hero deal 50% more damage. Gain 50 Armor against Minions and Mercenaries, reducing the damage taken by 50%."
+342,16,7,Rock-It! Turret XL,0,Rock-It! Turrets attack up to 2 additonal enemies for 60% damage.
+343,16,7,Engine Gunk,0,Rock-It! Turret attacks slow enemies by 25% for 2 seconds.
+344,16,7,Hyperfocus Coils,0,Deth Lazor charges twice as fast.
+345,16,10,Robo-Goblin,0,"Basic Attacks deal an additional 150% damage to Minions, Mercenaries, and Structures."
+346,16,10,Grav-O-Bomb 3000,0,"After a 2 second delay, pull enemies toward the center of an area and deal 550 (262 + 4% per level) damage."
+347,16,13,Turret Storage,0,Increases Rock-It! Turret maximum charges from 2 to 3.
+348,16,13,EZ-PZ Dimensional Ripper,0,Deth Lazor slows Heroes by 40% and freezes non-Heroes for 3 seconds.
+349,16,13,X-Tra Large Bombs,0,Increases Xplodium Charge range and radius by 30%.
+350,16,13,Sprint,60,Activate to gain 75% Movement Speed for 3 seconds.
+351,16,16,Superior Schematics,0,Increase Rock-It! Turrets damage by 25% when you are within their attack range.
+352,16,16,Goblin Fusion,0,Deth Lazor can be charged for 1 additional second to increase its damage bonus by an additional 100%.
+353,16,16,Kwik Release Charge,0,Xplodium Charge gains a second charge.
+354,16,20,Mecha-Lord,0,Basic attacks deal 200% damage to Heroes.
+355,16,20,Miniature Black Hole,0,Grav-O-Bomb radius increased by 25% and damage increased by 50%.
+356,16,20,Firin\' Mah Lazorz,0,Firing Deth Lazor causes all of your Rock-It! Turrets to fire a Deth Lazor of their own that deals 301 (143 + 4% per level) damage.
+357,16,20,It\'s Raining Scrap,60,Activate to create 5 Scrap near you over 5 seconds.
+358,17,1,Wolfheart,0,"While Inner Beast is active, each Basic Attack lowers its cooldown by 0.8 seconds."
+359,17,1,Perfect Aim,0,Increases Gilnean Cocktail\'s range by 30% and refunds 50 Mana if it hits an enemy Hero.
+360,17,1,Viciousness,0,"Increases Inner Beast\'s duration to 4 seconds, and causes Ability damage to also refresh its duration."
+361,17,4,Thick Skin,0,"Using Darkflight grants 50 Physical Armor against the next 2 Hero Basic Attacks while inÿWorgenÿForm, reducing the damage taken by 50%"
+362,17,4,Eyes in the Dark,0,Disengage grants Stealth for 3 seconds.
+363,17,4,Insatiable,0,"Inner Beast causes Basic Attacks to restore 10 Mana, up to 140."
+364,17,4,Draught Overflow,0,Increases Gilnean Cocktail\'s explosion length by 35%.
+365,17,7,Quicksilver Bullets,0,IncreasesÿHumanÿBasic Attack range by 20%.
+366,17,7,Incendiary Elixir,0,"Quest:ÿEvery time you hit an enemy Hero with the explosion damage from Gilnean Cocktail increase its explosion damage by 15, up to 225. Reward:ÿAfter hitting 15 Heroes, the cooldown is also reduced by 4 seconds."
+367,17,7,Wizened Duelist,0,"Quest:ÿHero takedowns increase Basic Attack damage by 3%, to a maximum of 30%. This bonus is lost on death. Reward:ÿNone"
+368,17,10,Go for the Throat,0,"Leap at an enemy Hero and shapeshift into aÿWorgen, slashing for 921 (437 + 4% per level) total damage. If this kills them, the Ability can be used a second time within 10 seconds for free."
+369,17,10,Marked for the Kill,0,"Shapeshift into aÿHumanÿand fire a shot hitting the first enemy Hero in its path for 149 (71 + 4% per level) damage. For 5 seconds, their Armor is lowered by 25, taking 25% more damage. Each time Greymane damages the Marked Hero, the duration is refreshed."
+370,17,13,Running Wild,0,Increases Darkflight and Disengage\'s range by 35%.
+371,17,13,Visceral Attacks,0,WorgenÿBasic Attacks reduce Razor Swipe\'s cooldown by 1 second.
+372,17,13,On the Prowl,0,Inner Beast increases your Movement Speed by 30% once it has been active for 3 seconds.
+373,17,13,Unfettered Assault,0,Increases Razor Swipe\'s lunge distance by 60%.
+374,17,16,Eager Wolf,0,Increases the Attack Speed bonus of Inner Beast by an additional 40% after it has been active for 4 seconds.
+375,17,16,Executioner,0,"Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds."
+376,17,16,Alpha Killer,0,WorgenÿBasic Attacks against Heroes deal bonus damage equal to 3% of the Hero\'s maximum Health.
+377,17,20,Unleashed,0,"If the free cast of Go for the Throat kills its target, another free cast is provided that deals 35% more damage, up to 140%."
+378,17,20,Gilnean Roulette,0,Marked for the Kill\'s Armor reduction is now refreshed by any damage done to the Marked Hero.
+379,17,20,Hunter\'s Blunderbuss,0,HumanÿBasic Attacks splash for 100% damage behind the target.
+380,17,20,Tooth and Claw,0,WorgenÿBasic Attacks cleave for 100% damage.
+381,18,1,Pursuit of Flame,0,Quest:ÿHit 40 enemy Heroes with Fel Flame. Reward:ÿFel Flame\'s radius is increased by 10%.
+382,18,1,Glyph of Drain Life,0,Increases the cast range of Drain Life by 25%.
+383,18,1,Echoed Corruption,0,"Quest:ÿHit 40 enemy Heroes with Corruption. Reward:ÿAfter the third strike, Corruption strikes 3 times in the opposite direction."
+384,18,1,Chaotic Energy,0,Quest:ÿGathering a Regen Globe causes your next Basic Ability with a Mana cost to refund 40 Mana. Reward:ÿAfter Gathering 20 Regen Globes your Basic Ability Mana costs are permanently reduced by 20.
+385,18,4,Health Funnel,0,"If an enemy dies while under the effect of Drain Life, the cooldown is instantly refreshed."
+386,18,4,Improved Life Tap,0,Life Tap now restores 35% Mana.
+387,18,4,Consume Soul,30,Instantly kill an enemy Minion and heal for 800 (380 + 4% per level) Health. Stores 2 charges.
+388,18,7,Bound by Shadow,0,Each enemy Hero hit with Fel Flame reduces the cooldown of Corruption by 1 second.
+389,18,7,Devour the Frail,0,Drain Life deals 50% more damage to enemies below 50% Health.
+390,18,7,Curse of Exhaustion,0,"Upon expiration, Corruption slows enemy Movement Speed by 50% for 2.5 seconds."
+391,18,7,Hunger for Power,0,Increases Ability Power by 15% but reduces healing received from allies by 25%.
+392,18,10,Horrify,80,"After a short delay, deal 263 (125 + 4% per level) damage and fear enemy Heroes in the area for 2 seconds."
+393,18,10,Rain of Destruction,100,Summon a rain of meteors in an area for 7 seconds. Each meteor deals 362 (172 + 4% per level) damage in a small area.
+394,18,13,Fel Armor,0,"Hitting an enemy Hero with Fel Flame grants 40 Spell Armor for 2.5 seconds, reducing Ability Damage taken by 40%."
+395,18,13,Harvest Life,0,Drain Life heals for 50% more Health when used on Heroes.
+396,18,13,Dark Bargain,0,Your maximum Health is permanently increased by 25% but your Death Respawn time is increased by 15 seconds.
+397,18,13,Healthstone,60,Activate to heal for 25% of your maximum Health.
+398,18,16,Rampant Hellfire,0,Fel Flame\'s damage is increased by 8% for 5 seconds when hitting an enemy Hero. This can stack up to 5 times.
+399,18,16,Ruinous Affliction,0,"Corruption deals an additional 171 (82 + 4% per level) damage on impact. If the enemy is hit by all three strikes, the third strike deals 511 (243 + 4% per level) damage."
+400,18,16,Darkness Within,0,"After using Life Tap, the next ability you cast has 25% increased Ability Power."
+401,18,20,Haunt,0,"Increases the duration of Horrify by 1 second and feared enemies lose 25 Armor, causing them to take 25% increased damage."
+402,18,20,Deep Impact,0,Rain of Destruction slows enemies Movement Speed by 90% for 0.5 seconds.
+403,18,20,Demonic Circle,60,Summon a Demonic Circle at your location. Activate to teleport to the Demonic Circle.
+404,19,1,Immolation,0,"After using Sweeping Strike, burn nearby enemies for 49 (23 + 4% per level) damage a second for 4 seconds."
+405,19,1,Battered Assault,0,Increase Sweeping Strike\'s Basic Attack damage bonus duration from 3 to 5 seconds. If Sweeping Strike hits 2 Heroes its damage bonus is increased from 35% to 125%.
+406,19,1,Unending Hatred,0,"Quest:ÿEvery Minion you kill gives you 0.1 Attack Damage. Every Takedown gives 1 Attack Damage. Reward:ÿOnce you reach 20 Attack Damage, receive an additional 20 Attack damage."
+407,19,4,Rapid Chase,0,Dive grants 15% Movement Speed for 2 seconds.
+408,19,4,Friend or Foe,0,Increases the range of Dive by 20% and allows it to be used on allied Heroes without damaging them.
+409,19,4,Unbound,0,"Sweeping Strike can go over walls and terrain. Reward:ÿAfter hitting 30 Heroes with Sweeping Strike, gain a second charge."
+410,19,7,Reflexive Block,0,"Using Dive grants 75 Physical Armor against the next 2 Hero Basic Attacks for 3 seconds, reducing the damage taken by 75%."
+411,19,7,Thirsting Blade,0,Betrayer\'s Thirst\'s healing from Basic Attacks is increased from 30% to 50% while Sweeping Strike\'s damage bonus is active.
+412,19,7,Hunter\'s Onslaught,0,Basic Abilities heal for 25% of the damage they deal. Double this bonus versus Heroes.
+413,19,10,Metamorphosis,120,"Transform into Demon Form at the target location, dealing 101 (48 + 4% per level) damage in the area. Temporarily increase your maximum Health by 439 (208 + 4% per level) for each Hero hit. Lasts for 18 seconds."
+414,19,10,The Hunt,60,"Charge to target unit, dealing 550 (262 + 4% per level) damage on impact and stunning for 1 second."
+415,19,13,Nimble Defender,0,"If Sweeping Strikes hits an enemy Hero, gain 25 Armor for 2 seconds, reducing damage taken by 25%."
+416,19,13,Elusive Strike,0,Sweeping Strike reduces the cooldown of Evasion by 3 seconds every time it damages an enemy Hero.
+417,19,13,Sixth Sense,0,"Evasion grants Illidan 75 Spell Armor against the next 2 sources of Spell damage, reducing their damage by 75%."
+418,19,16,Marked for Death,0,Dive deals an extra 395 (188 + 4% per level) damage if you hit a target consecutively within 10 seconds.
+419,19,16,Fiery Brand,0,Every 4th attack against the same Hero deals an additional 6% of their maximum Health as damage.
+420,19,16,Blades of Azzinoth,0,Hitting 5 Heroes with Sweeping Strike allows you to activate Blades of Azzinoth to increase your Basic Attack damage by 75% for 8 seconds.
+421,19,20,Demonic Form,0,"Permanently remain in Demonic Form. Metamorphosis also increases your Attack Speed by 20% and reduces the duration of slows, roots, and stuns against you by 50%. You can now mount in Demonic Form."
+422,19,20,Nowhere to Hide,0,The Hunt gains unlimited range. You passively reveal enemy Heroes below 25% Health anywhere on the Battleground.
+423,19,20,Nexus Blades,0,Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.
+424,19,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+425,20,1,Winter\'s Reach,0,Increases the range of Frostbolt by 30%.
+426,20,1,Lingering Chill,0,Increases the duration of Chill from 4 seconds to 6 seconds.
+427,20,1,Deep Chill,0,Increases the slow of Chill from 25% to 30%.
+428,20,1,Conjurer\'s Pursuit,0,"Quest:ÿGathering Regeneration Globes increases your Mana Regeneration by 0.1 per second, up to 2.5 per second. Reward:ÿAfter gathering 25 Globes, also increase your maximum Mana by 100."
+429,20,4,Frost Shards,0,Frostbolt will now pierce the first target to hit an additional target behind them.
+430,20,4,Arcane Intellect,0,Dealing damage to a Chilled target returns Mana to Jaina. Basic Attacks return 5 Mana and abilities return 20.
+431,20,4,Frost Armor,0,"Enemy Heroes that attack you are Chilled. Additionally, every 10 seconds, gain 50 Physical Armor against the next enemy Hero Basic attack, reducing the damage taken by 50%."
+432,20,7,Ice Floes,0,"Doubles the width of Cone of Cold and causes each target hit to reduce its cooldown by 1 seconds, to a maximum of 5 seconds per cast."
+433,20,7,Frostbitten,0,Increases the damage bonus of Frostbite from 50% to 65%.
+434,20,7,Ice Lance,0,When Frostbolt hits a Chilled target its cooldown is reduced by 2 seconds and you regain 10 Mana.
+435,20,10,Ring of Frost,0,"After a 1.5 second delay, create a Ring of Frost in an area that deals 310 damage and roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it."
+436,20,10,Summon Water Elemental,0,"Summons a Water Elemental at target location. The Water Elemental\'s Basic Attacks do 78 damage, splash for 25% damage and Chill. Can reactivate the Ability to retarget the Water Elemental. Lasts 20 seconds."
+437,20,13,Storm Front,0,Increases the cast range of Blizzard by 100%.
+438,20,13,Ice Barrier,0,"When Jaina does increased damage from Frostbite, she is shielded for 25% of the total damage dealt. This Shield lasts 4 seconds."
+439,20,13,Icy Veins,60,Activate to make your Basic Abilities\' cooldowns recharge three times as fast and reduce their Mana cost by 50% for 5 seconds.
+440,20,16,Snowstorm,0,Increases the radius of Blizzard by 30%.
+441,20,16,Northern Exposure,0,"Enemies damaged by Cone of Cold have their Armor lowered by 25 for 2 seconds, increasing the damage they take by 25%."
+442,20,16,Numbing Blast,0,Cone of Cold also roots Chilled targets for 1 second.
+443,20,20,Cold Snap,0,The center of the ring also explodes with frost after the first ring expires.
+444,20,20,Wintermute,0,"Increases the cast range of Water Elemental by 50%, and the Water Elemental will now mimic your Basic Abilities for 50% damage."
+445,20,20,Improved Ice Block,20,"Activate to place yourself in Stasis and gain Invulnerability for 2.5 seconds. When this effect expires, nearby enemies are Chilled."
+446,20,20,Arcane Power,60,Activate to instantly restore 400 Mana and increase Ability Power by 15% for 10 seconds.
+447,21,1,Regeneration Master,0,"Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30. Reward: After gathering 30 Regeneration Globes, you also gain 500 Health."
+448,21,1,Reinforce,0,Using Basic Abilities reduces the next Basic Attack against you by 50%. Maximum 2 stacks.
+449,21,1,Righteous Smash,0,Punish restores 10 Mana per enemy hit.
+450,21,1,Knight Takes Pawn,0,Condemn deals 165 additional damage to Minions and Mercenaries and stuns them for 3 seconds.
+451,21,4,Amplified Healing,0,Increases regeneration effects and all healing received by 30%.
+452,21,4,Roar,0,Increases Punish damage by 50%.
+453,21,4,Eternal Retaliation,0,Condemn\'s cooldown is lowered by 0.75 seconds for each enemy affected. Maximum of 10 targets.
+454,21,4,Laws of Hope,0,Regenerating 10 Health per second.Activate to heal 20% of your max Health over 4 seconds.
+455,21,7,Blessed Momentum,0,Basic Attacks reduce your Basic Ability cooldowns by 0.5 seconds.
+456,21,7,Conviction,0,Movement Speed is increased by 25% while Condemn is charging up.
+457,21,7,The Crusade Marches On,0,Basic and Heroic Abilities lower the cooldown of Iron Skin by 1.5 seconds.
+458,21,7,Sins Exposed,0,"Shield Glare marks enemies for 4 seconds. The next time any ally damages them, they take 68 extra damage and the mark is removed."
+459,21,10,Falling Sword,0,"You leap towards an area. While in the air, you can steer the landing location by moving. After 2 seconds you land, dealing 356 damage to nearby enemies and knocking them into the air."
+460,21,10,Blessed Shield,0,"Deal 114 damage and stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 damage and stunning them for 0.75 seconds."
+461,21,13,Burning Rage,0,Deal 23 damage per second to nearby enemies.
+462,21,13,Hold Your Ground,0,"Increases Iron Skin\'s Shield by 20%, and if the Shield is destroyed by damage the cooldown is reduced by 4 seconds."
+463,21,13,Subdue,0,Increases Punish\'s slow to 80% decaying over 3 seconds.
+464,21,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+465,21,16,Holy Renewal,0,Every enemy Hero affected by Shield Glare heals you for 114.
+466,21,16,Blessed Hammer,0,"Condemn also creates a hammer that spirals around you, dealing 41 damage to enemies it hits."
+467,21,16,Fanaticism,0,"While Iron Skin is active, gain 8% Movement Speed each time you take damage. Stacks up to 40%."
+468,21,16,Imposing Presence,0,Enemies that attack you have their Attack Speed slowed by 40%.
+469,21,20,Heaven\'s Fury,0,"While in the air, holy bolts rain down on enemies dealing 75 damage and reducing the cooldown of Falling Sword by 2 seconds for each enemy hit."
+470,21,20,Radiating Faith,0,Increases Blessed Shield\'s stun duration by 33% and maximum enemies hit by 2.
+471,21,20,Indestructible,0,"Upon taking fatal damage, gain a Shield equal to your maximum Health for 5 seconds. This effect has a 120 second cooldown."
+472,21,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+473,22,1,Convection,0,"Quest:ÿWhen Flamestrike damages an enemy Hero, increase its damage by 5, up to 100. Lose all damage bonuses if you die. Reward:ÿAfter gaining 100 bonus damage, increase Flamestrike damage by an additional 100 and no longer lose the bonus if you die."
+474,22,1,Fel Infusion,0,Increases your Ability Power by 4%. Heal for 94 Health when you activate Verdant Spheres.
+475,22,1,Mana Addict,0,"Quest: Gathering a Regeneration Globe increases your maximum Mana by 15. Reward:ÿAfter gathering 20 Regeneration Globes, you can also activate Arcane Barrier to gain a Shield equal to 100% of your maximum Mana for 4 seconds. 45 second cooldown."
+476,22,4,Nether Wind,0,"Increases Gravity Lapse\'s range by 30%. When Gravity Lapse hits an enemy Hero, refund 80 Mana."
+477,22,4,Energy Roil,0,"When Gravity Lapse hits a Hero, reduce its cooldown by 9 seconds."
+478,22,4,Mana Tap,0,Activating Verdante Spheres restores 4% of your maximum Mana.
+479,22,7,Burned Flesh,0,"When Flamestrike damages 2 or more Heroes, they take additional damage to 8% of their maximum Health."
+480,22,7,Sun King\'s Fury,0,Living Bombs that spread to enemy Heroes deal 35% more damage.
+481,22,7,Sunfire Enchantment,0,Activating Verdant Spheres causes your next Basic Attack to instead shoot a spell dealing 362 (165 + 4% per level) damage.
+482,22,10,Phoenix,0,"Launch a Phoenix to an area, dealing 171 damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 171 damage and splashing for 50%."
+483,22,10,Pyroblast,0,"After 2 seconds, cast a slow-moving fireball that deals 2150 damage to an enemy Hero and 1075 damage to enemies nearby."
+484,22,13,Pyromaniac,0,"Each time Living Bomb deals periodic damage, your Basic Ability cooldowns are refreshed by 1 second."
+485,22,13,Backdraft,0,Living Bomb\'s explosion slows enemies Movement Speed by 30% for 2 seconds.
+486,22,13,Fission Bomb,0,Increases Living Bomb\'s explosion radius by 20%.
+487,22,16,Fury of the Sunwell,0,Flamestrike will explode a second time 1.5 seconds later.
+488,22,16,Twin Spheres,0,Verdant Spheres gains a second charge.
+489,22,16,Arcane Dynamo,0,"Using a Basic Ability increases your Ability Power by 3% for 5 seconds, stacking up to 15%."
+490,22,20,Rebirth,0,Increases Phoenix duration by 100%. You may order the Phoenix to move to a different location once while the Phoenix is alive.
+491,22,20,Presence Of Mind,0,Increases Pyroblast\'s explosion radius by 50% and reduces its cooldown by 25 seconds per enemy Hero hit.
+492,22,20,Master of Flames,0,Living Bomb\'s spread from explosions can now also spread Living Bomb.
+493,22,20,Flamethrower,0,"Increases the cast range of Flamestrike by 40%. If you hit 2 or more Heroes, Flamestrike\'s cooldown is reduced by 4 seconds."
+494,23,1,Siphoning Impact,0,"If the targeted enemy dies within 1.5 seconds, Kerrigan heals for 10% of her maximum Health."
+495,23,1,Sharpened Blades,0,Impaling Blades deals 25% more damage.
+496,23,1,Energizing Grasp,0,Reduces the Mana cost of Primal Grasp by 75%.
+497,23,1,Block,0,"Every 5 seconds, gain 75 Physical Armor against the next Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges."
+498,23,4,Clean Kill,0,"If Ravage kills the target, it restores 75% of its Mana cost and increases the damage of your next Ravage by 25%."
+499,23,4,Psionic Pulse,0,"After casting Primal Grasp, deal 88 (42 + 4% per level) damage per second to nearby enemies. Lasts 5 seconds."
+500,23,4,Fury of the Swarm,0,Basic Attacks splash for 60% damage around the target.
+501,23,4,Envenom,60,"Activate to poison an enemy Hero, dealing 352 damage over 10 seconds."
+502,23,7,Adaptation,0,"Ravage can be used to jump to allies, refunding 50% of the cooldown and 100% of the Mana cost."
+503,23,7,Blade Torrent,0,Increases Impaling Blades\' radius by 30%.
+504,23,7,Assimilation Mastery,0,Increases the duration of Assimilation by 100%. While Assimilation Shields are active your Health and Mana regeneration is increased by 100%.
+505,23,7,Bladed Momentum,0,Basic Attacks reduce your Basic Ability cooldowns by 0.6 seconds.
+506,23,10,Maelstrom,0,Deals 82 damage per second to nearby enemies. Lasts for 7 seconds.
+507,23,10,Summon Ultralisk,0,Summon an Ultralisk that attacks the target to deal 91 damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.
+508,23,13,Lingering Essence,0,Increases Assimilation Shield\'s duration to 20 seconds.
+509,23,13,Eviscerate,0,Increases Ravage\'s range by 40%.
+510,23,13,Double Strike,0,"When your Basic Abilities damage an enemy, your next Basic Attack hits for 75% bonus damage."
+511,23,13,Queen\'s Rush,50,Activate to increase your Movement Speed by 30% for 4 seconds. Queen\'s Rush is also applied for free on Takedowns.
+512,23,16,Aggressive Defense,0,Increases base Shield amount gained from Assimilation by 100%.
+513,23,16,Essence for Essence,60,Activate to deal 10% of target enemy Hero\'s Max Health and gain Assimilation Shields for twice that amount.
+514,23,16,Overdrive,25,Activate to increase Ability Power by 25% and Mana costs by 40% for 5 seconds.
+515,23,20,Omegastorm,0,Maelstrom size increased by 25% . Amount of Assimilation Shields generated by Maelstrom increased by 100%.
+516,23,20,Torrasque,0,"The Ultralisk morphs into an egg when it dies. If the egg isn\'t killed within 4 seconds, a new Ultralisk is born."
+517,23,20,Nexus Blades,0,Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.
+518,23,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+519,24,1,Transcendence,0,Every 3rd Basic Attack heals the lowest nearby allied Hero for 160 (76 + 4% per level).
+520,24,1,Iron Fists,0,Every 3rd Basic Attack deals 125% bonus damage and gives 30% increased Move Speed for 2 seconds.
+521,24,1,Insight,0,"Quest: Every 3rd Basic Attack restores 31 (15 + 4% per level) Mana and grants a stack of Insight. Reward: Once you have 100 stacks of Insight, every 3rd attack also reduces the cooldown of all your Basic Abilities by 1 second."
+522,24,4,Spirit Ally,45,Place a Spirit Ally that heals allies in a large area around it for 2% of their maximum Health every second. Has 316 (150 + 4% per level) Health and lasts 10 seconds. You can Radiant Dash to Spirit Allies.
+523,24,4,Earth Ally,30,Place an Earth Ally that reduces Heroic Basic Attack damage nearby allied Heroes receive by 50%. Has 843 (400 + 4% per level) Health and lasts 10 seconds. Kharazim can Radiant Dash to Earth Allies.
+524,24,4,Air Ally,20,"Place an Air Ally that grants vision of a large area around it. Has 158 (75 + 4% per level) Health, lasts 40 seconds, and stores up to 2 charges. Kharazim can Radiant Dash to Air Allies."
+525,24,7,Blinding Speed,0,Decreases Radiant Dash\'s cooldown by 2 seconds and increases the maximum number of charges by 1.
+526,24,7,Heavenly Zeal,0,Increases Breath of Heaven\'s Movement Speed bonus from 10% to 25%.
+527,24,7,Blazing Fists,0,Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 0.75 seconds.
+528,24,10,Divine Palm,0,"Protect an allied Hero from death, causing them to be healed for 2501 (1187 + 4% per level) if they take fatal damage in the next 3 seconds."
+529,24,10,Seven-Sided Strike,0,Become Invulnerable and strike 7 times over 1.81 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.
+530,24,13,Quicksilver,0,Radiant Dashing to an ally gives you and the target 30% bonus Movement Speed for 3 seconds.
+531,24,13,Fists of Fury,0,Increases Deadly Reach\'s duration by 100%.
+532,24,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. This can only trigger once every 30 seconds.Can be toggled to allow or prevent this talent from triggering."
+533,24,13,Sixth Sense,0,"While stunned or rooted, Block all Basic Attacks, reducing their damage by 75% for 4 seconds."
+534,24,16,Cleansing Touch,0,Radiant Dashing to an ally makes them Unstoppable for 1 second.
+535,24,16,Way of the Hundred Fists,0,Radiant Dashing to an enemy launches a rapid volley of 6 Basic Attacks dealing 50% damage each.
+536,24,16,Echo of Heaven,0,"Breath of Heaven heals 75% of its normal amount, but heals a second time 3 seconds later."
+537,24,16,Dash of Light,0,Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3 seconds.
+538,24,20,Peaceful Repose,0,Divine Palm\'s cooldown is set to 5 seconds if the Hero does not die.
+539,24,20,Transgression,0,Seven-Sided Strike hits 4 additional times.
+540,24,20,Storm Shield,45,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+541,24,20,Epiphany,60,Activate to restore 32.81% of your maximum Mana and refill 2 charges of Radiant Dash.
+542,25,1,Mana Thirst,0,Skeletal Swing restores 10 Mana per enemy hit.
+543,25,1,Hopelessness,0,Increases the range of Drain Hope by 20%.
+544,25,1,Block,0,"Every 5 seconds, you can Block a Basic Attack from an enemy Hero reducing its damage by 50%. Stores up to 2 charges."
+545,25,1,Reanimation,0,"You can gather Regeneration Globes while Undying. Quest: Gathering a Regeneration Glove increases your Health Regeneration by 1 per second, up to 30 per second. Reward: After gathering 30 Globes, you also respawn 10 seconds faster."
+546,25,4,Fealty Unto Death,0,"When a nearby Minion dies, you restore 1% of your maximum Health and 5 Mana. Half as effective while Undying."
+547,25,4,Willing Vessel,0,Increases the healing from Drain Hope to 25% of your maximum Health and Drain Essence to 12.5% of your maximum Health.
+548,25,4,Hardened Bones,0,"During Wraith Walk, you take 25% less damage."
+549,25,4,Royal Focus,0,"If your body takes no damage during Wraith Walk\'s duration, the cooldown is reduced to 4 seconds."
+550,25,7,Ghastly Reach,0,Increases the range of Skeletal Swing by 25%.
+551,25,7,Lingering Apparition,0,Increases the duration of Wraith Walk by 80%.
+552,25,7,Paralyzing Rage,0,Increases the Movement Speed slow of Skeletal Swing to 60%.
+553,25,7,Ossein Renewal,0,Activate to heal 20% of your maximum life over 6 seconds. Half as effective while Undying.
+554,25,10,Entomb,0,Create an unpathable tomb in front of you for 4 seconds.
+555,25,10,March of the Black King,0,"Become Unstoppable and swing your mace three times, healing yourself for 7.03% of your maximum Health for each enemy Hero hit and dealing 401 (191 + 4% per level) damage."
+556,25,13,Burning Rage,0,Deal 23 damage per second to nearby enemies.
+557,25,13,Crushing Hope,0,"If Drain Hope lasts its full duration, it deals bonus damage equal to 10% of the victim\'s Maximum Health. This damage does not heal you."
+558,25,13,Drain Momentum,0,Drain Hope now increases your Movement Speed by 10% instead of reducing it.
+559,25,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+560,25,16,Renewed Swing,0,Skeletal Swing can be recast again for free within 3 seconds for 50% damage.
+561,25,16,Consume Vitality,0,"Skeletal Swing heals you for 2% of your maximum Health per target hit, up to 10%. Half as effective while Undying."
+562,25,16,Unyielding Despair,0,"Every second Drain Hope is active, its cooldown is reduced by 1 second."
+563,25,16,Imposing Presence,0,Enemies that attack you have their Attack Speed slowed by 40%.
+564,25,20,Buried Alive,0,Enemies inside Entomb take 198 (94 + 4% per level) damage per second.
+565,25,20,Death March,0,Your final swing of March of the Black King also applies the base version of Drain Hope to all enemy Heroes in a large area.
+566,25,20,Spectral Leech,0,Basic Attacks against enemy Heroes deal bonus damage equal to 5% of the Hero\'s maximum Health and heal you for the same amount.
+567,25,20,Hardened Shield,0,Activate to reduce damage taken by 75% for 4 seconds.
+568,26,1,Conjurer\'s Pursuit,0,"Quest: Gathering Regeneration Globes increases your Mana Regeneration by 0.1 per second, up to 2.54 per second. Reward: After gathering 25 Globes, also increase your maximum Mana by 100."
+569,26,1,Pro Toss,0,Increases the range of Healing Brew by 30%.
+570,26,1,Timeless Creature,0,Increases the duration of Cloud Serpent by 50%.
+571,26,1,Gale Force,0,Increases Blinding Wind damage by 50%.
+572,26,4,Healing Ward,0,Activate to place a ward on the ground that heals allies in an area for 1.95% of their max Health every second for 10 seconds.
+573,26,4,Mending Serpent,0,Cloud Serpent heals the friendly unit for 22 Health each time it attacks.
+574,26,4,Mass Vortex,0,Increases the number of enemies hit by Blinding Wind from 2 to 4.
+575,26,4,Lingering Blind,0,Increases the duration of Blinding Wind by 50%.
+576,26,7,Pitch Perfect,0,"After casting Healing Brew, its cost is reduced by 10 Mana for 6 seconds. This effect does not stack."
+577,26,7,The Good Stuff,0,Healing Brew heals for an additional 60 Health over 6 seconds.
+578,26,7,Lightning Serpent,0,"Cloud Serpent\'s attacks bounce to 3 nearby enemy targets, dealing 15 damage each."
+579,26,7,Cleanse,0,Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.
+580,26,10,"Jug of 1,000 Cups",0,"Rapidly tosses brew to the most injured nearby allies, prioritizing Heroes, restoring a total of 1632 Health over 6 seconds."
+581,26,10,Water Dragon,0,"Summon a Water Dragon that after a delay hits the nearest enemy Hero and all enemies near them, dealing 318 damage and slowing their Movement Speed by 70% for 4 seconds."
+582,26,13,Elusive Feet,0,"When Fast Feet is triggered, gain 2 charges of Block (75% reduced Basic Attack damage) for 10 seconds. Can only trigger once every 10 seconds."
+583,26,13,Hindering Winds,0,Blinding Wind also slows enemy Movement Speed by 25% for 2 seconds.
+584,26,13,Surging Winds,0,Gain 5% Ability Power for 8 seconds for every enemy hit by Blinding Wind. Additional enemies hit refresh the duration of this buff and further increase Ability Power. Stacks up to 4 times.
+585,26,13,Shrink Ray,0,Activate to reduce an enemy Hero\'s damage by 50% and Movement Speed by 50% for 4 seconds.
+586,26,16,Shake It Off,0,Reduces the duration of the next Stun or Root against you by 75%. Can only trigger once every 15 seconds.
+587,26,16,Safety Sprint,0,Increase the Movement Speed bonus of Fast Feet from 10% to 20% while under 50% Health.
+588,26,16,Two For One,0,"Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1.5 seconds."
+589,26,16,Serpent Sidekick,0,You also gain a Cloud Serpent whenever you cast it on another ally.
+590,26,20,"Jug of 1,000,000 Cups",0,"Jug of 1,000 Cups hits two targets at a time."
+591,26,20,Double Dragon,0,"After hitting a target with Water Dragon, another dragon is summoned at the point of impact."
+592,26,20,Kung Fu Hustle,0,Ability cooldowns refresh 150% faster while Fast Feet is active.
+593,26,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+594,26,20,Bolt of the Storm,0,Activate to teleport to a nearby location.
+595,27,1,Astral Presence,0,Your Mana regeneration is increased by 100% while below 25% Mana.
+596,27,1,Power Hungry,0,Regeneration Globes restore 100% more Mana and grant 10% Ability Power for 20 seconds.
+597,27,1,Force Armor,0,"When Magic Missiles damages an enemy Hero, gain 50 Spell Armor against the next enemy Ability, reducing the damage taken by 50%. Can only gain 1 charge per cast, up to 4 charges maximum."
+598,27,1,Aether Walker,0,"If you haven\'t taken damage in the last 5 seconds, Teleport costs no Mana and its cooldown is decreased by 2 seconds."
+599,27,4,Charged Blast,0,Basic Attacking a target recently hit by a Magic Missile does an extra 191 (91 + 4% per level) damage.
+600,27,4,Triumvirate,0,"If Arcane Orb hits an enemy Hero after traveling at least 50% of its base range, the cooldown is reduced by 50%."
+601,27,4,Dominance,0,Takedowns restore 20% of your maximum Health.
+602,27,7,Seeker,0,"If three Magic Missiles hit the same target, the third one deals an additional 274 (130 + 4% per level) damage."
+603,27,7,Zei\'s Vengeance,0,"Arcane Orb does up to 25% more damage to enemies based on distance. Additionally, it\'s cooldown is reduced by 2 seconds."
+604,27,7,Calamity,0,Teleport does 542 (309 + 3% per level) damage to enemy Heroes near your destination.
+605,27,10,Disintegrate,0,"Channel a powerful beam, dealing 1168 (462 + 5% per level) damage over 2.5 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position."
+606,27,10,Wave of Force,0,Knock away all enemies from an area and deal 425 (168 + 5% per level) damage.
+607,27,13,Cannoneer,0,"When you use an Ability, increase your next Basic Attack by 75% and cause it to deal Ability damage. Stacks up to 3 times."
+608,27,13,Glass Cannon,0,"Increases your Ability Power by 15%, but decreases your maximum Health by 15%."
+609,27,13,Illusionist,0,"Increases Teleport range by 50%, and if you lose more than 20% of your Health at once, its cooldown is instantly refreshed. This cannot happen more than once every 4 seconds."
+610,27,16,Fireflies,0,Drastically increases Magic Missiles speed. Its cooldown is reduced by 1 second and its Mana cost is reduced by 5.
+611,27,16,Mirrorball,0,"Magic Missiles fires an additional 2 missiles, but its Mana cost is increased by 5."
+612,27,16,Arcane Orbit,0,"Arcane Orb travels 25% farther, doing up to 25% more damage."
+613,27,16,Diamond Skin,0,"When you Teleport, gain 20% of your maximum Health as a Shield for 4 seconds."
+614,27,20,Temporal Flux,0,"Disintegrate gradually slows enemies caught in its beam, to a maximum of 60%."
+615,27,20,Repulsion,0,Increases Wave of Force knockback distance by 150% and increases its cast range by 100%.
+616,27,20,Tal Rasha\'s Elements,0,"Using abilities grants 5% Ability Power, up to a maximum of 20%. This bonus is reset when the same ability is used within a chain."
+617,27,20,Archon: Pure Power,0,"Activate to enter Archon form, allowing you to repeatedly use Disintegrate, but be unable to cast other Abilities."
+618,28,1,Olaf the Stout,0,"Every 8 seconds Olaf can block a Basic Attack, reducing its damage by 75%. Can store up to 2 charges."
+619,28,1,Spy Games,0,"After standing still for 3 seconds, Erik gains Stealth and his Sight Radius is increased by 75%. The Stealth persists for 3 seconds after moving."
+620,28,1,Explosive Attacks,0,Increases Baleog?s splash damage against non-Heroic enemies to 100%.
+621,28,1,Viking Bribery,0,"Enemy Minions or captured Mercenaries killed near your Hero grant you stacks of Viking Bribery. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 100.Current number of Viking Bribery stacks:"
+622,28,4,Pain Don\'t Hurt,0,Baleog\'s Basic Attacks and splash damage heal for 20% of the damage dealt. Healing is doubled against Heroes.
+623,28,4,Erik the Swift,0,"Permanently increases Erik\'s base Movement Speed by 10%, and as long as Erik is moving he heals 34 Health per second."
+624,28,4,It\'s a Sabotage!,0,Erik\'s Basic Attacks against Structures destroy 5 Ammo and deal 135 damage over 10 seconds.
+625,28,4,Mercenary Lord,0,Non-Boss Mercenaries near your hero deal 50% more damage. Reduces damage taken from Minions and Mercenaries by 50%.
+626,28,7,Baleog the Fierce,0,"Baleog\'s Basic Attacks increase his Attack Speed by 8%, stacking up to 5 times. After 3 seconds of not attacking, these stacks will rapidly decay."
+627,28,7,Spin To Win!,0,Activate to have each Viking deal 101 damage to nearby enemies.
+628,28,7,Norse Force!,0,"All Vikings gain a 110 to 220 point Shield, increasing in strength for each Viking alive. Lasts 4 seconds."
+629,28,7,Norse Force,30,"All Vikings gain a 240 (50 + 10 per level) to 480 (100 + 20 per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds."
+630,28,10,Longboat Raid!,0,"Hop into an Unstoppable Longboat that fires at nearby enemies for 112 damage per second and can fire a mortar that deals 205 damage in an area. The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds.Requires all surviving Vikings to be nearby."
+631,28,10,Play Again!,0,"Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. Only one Viking may attempt to summon at a time."
+632,28,13,Hunka\' Burning Olaf,0,Olaf deals 34 damage every second to nearby enemies.
+633,28,13,Jump!,0,Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.
+634,28,13,Nordic Attack Squad,0,Activate to have all Viking Basic Attacks deal bonus damage equal to 1% of a Hero\'s maximum Health for 5 seconds.
+635,28,16,Large and In Charge,0,"When Olaf charges enemies, they are stunned for 1 second."
+636,28,16,Impatience Is a Virtue,0,Enemies damaged by a Viking\'s Basic Attack reduce the cooldown of all Viking Abilities by 0.25 seconds.
+637,28,16,64 KB Marathon,0,"Gain an additional 40% Movement Speed when activating Go Go Go! that decays over 4 seconds. Additionally, the Vikings will break out of Roots and Slows."
+638,28,16,Executioner,0,"Basic Attacks deal 40% more damage against slowed, rooted, or stunned targets."
+639,28,20,Ragnarok \'n\' Roll!,0,The Longboat can attack two targets at once and the range of its Mortar is increased by 100%.
+640,28,20,Checkpoint Reached,0,"10 seconds after using Play Again!, any dead Vikings are revived and summoned again, and all are healed to full."
+641,28,20,The Sequel!,0,Reduces the Lost Vikings\' death timer by 50%.
+642,28,20,Fury of the Storm,0,"Every 5 seconds, your next Basic Attack will deal an additional 41 damage to the target, and 105 damage to all nearby Minions and Mercenaries. Each Viking has their own cooldown."
+643,29,1,Prolonged Safeguard,0,Increases Safeguard\'s duration by 1 second.
+644,29,1,Trauma Trigger,0,You gain an untalented Safeguard automatically if you take damage while below 50% Health. This effect has a 20 second cooldown.
+645,29,1,Feedback Loop,0,"When Safeguard expires, 45 Mana is refunded."
+646,29,1,Scouting Drone,0,"Places a Scouting Drone at target location, revealing a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks. Stores up to 2 charges."
+647,29,4,Bioshield,0,"If your target is at full Health, they gain a Shield that absorbs 78 damage, stacking up to 5 times."
+648,29,4,Advanced Block,0,Periodically reduces the damage received from Hero Basic Attacks by 50%. Stores up to 3 charges.
+649,29,4,Upgraded Ballistics,0,Displacement Grenade travels 50% faster and enemies directly impacted take 33% more damage.
+650,29,4,Infused Grenade,0,Displacement Grenade\'s Mana cost is refunded if you hit an enemy Hero.
+651,29,7,Clear!,0,Displacement Grenade\'s explosion radius increased by 33% and knocks back farther.
+652,29,7,Irradiate,0,Enemies near your Healing Beam\'s target take 22 damage a second.
+653,29,7,Calldown: MULE,0,"Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second. Grants 1 ammo every 3 seconds."
+654,29,7,Cleanse,0,"Activate to remove all stuns, roots, silences, and slows from the target and reduce the duration of their reapplication by 50% for 2 seconds."
+655,29,10,Stim Drone,0,Grant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds.
+656,29,10,Medivac Dropship,0,"Target a location for a Medivac transport. For up to 10.5 seconds before takeoff, allies can right-click to enter the Medivac."
+657,29,13,Intensive Care,0,"When Healing Beam is on a single target for over 3 seconds, its healing amount increases by 25% and Mana cost increases by 4."
+658,29,13,Couples Therapy,0,While channeling Healing Beam you are healed for 25% of the healing amount at the cost of an additional 4 Mana per second.
+659,29,13,Preventative Care,0,Basic Attacks against your Healing Beam target reduce the attacker\'s Attack Speed by 25% for 2.5 seconds.
+660,29,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+661,29,16,Shield Sequencer,0,"After casting Safeguard, you can cast it a second time within 3 seconds at no cost."
+662,29,16,System Shock,0,Displacement Grenade slows enemies by 50% for 4 seconds. The slow amount decays over its duration.
+663,29,16,Second Opinion,0,Reduces Displacement Grenade\'s cooldown by 2 seconds and it now holds a second charge.
+664,29,20,Transfusion,0,Increases the duration of Stim Drone by 2 seconds. You also gain the effect of Stim Drone when cast on an ally.
+665,29,20,Medbay,0,Medivac heals nearby allies and everyone aboard for 137 Health per second.
+666,29,20,Caduceus Reactor 2.0,0,"While Caduceus Reactor is active you restore 8 Mana a second and gain a Shield that absorbs 96 damage, stacking up to 5 times."
+667,29,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+668,30,1,Blossom Swell,0,Increases Noxious Blossom\'s radius by 20%.
+669,30,1,Photosynthesis,0,"Crippling Spores returns 10 Mana per enemy hit, up to 40 Mana."
+670,30,1,Natural Perspective,0,Nature\'s Toxin reveals enemies for its duration.
+671,30,1,Cruel Spores,0,"When Crippling Spores hits only Minions or Mercenaries, its cooldown is reduced by 80% and 20 mana is restored."
+672,30,4,Nimble Wisp,0,Increases Wisp Movement Speed by 100% and vision radius by 50%.
+673,30,4,Timelost Wisp,0,Wisp costs no Mana and its cooldown recharges 125% faster while no Wisp is active.
+674,30,4,Skybound Wisp,0,Wisp can see over obstacles and reveals the area for 4 seconds after dying.
+675,30,4,Dividing Wisp,0,The first time you relocate a Wisp it leaves a copy of itself in the previous location.
+676,30,7,Siphoning Toxin,0,As long as you have Nature\'s Toxin active on an enemy you heal for 40 (19 + 4% per level) Health a second.
+677,30,7,Wild Vigor,0,Using Crippling Spores increases the damage of your next 4 Basic Attacks by 50%.
+678,30,7,Splintered Spear,0,Using Noxious Blossom causes your next Basic Attack to hit up to 4 enemies. These extra attacks can apply Nature\'s toxin.
+679,30,7,Nature\'s Culling,0,Increases Nature\'s Toxin\'s damage by 150% to non-Heroic enemies.
+680,30,10,Thornwood Vine,0,Send forth vines that deal 360 (171 + 4% per level) damage to all enemies in a line. Can hold 3 charges.
+681,30,10,Leaping Strike,0,"Leap over an enemy, slowing them by 80% for 0.35 seconds and attacking for 594 (286 + 4% per level) damage. Has 2 charges."
+682,30,13,Pestering Blossom,0,Increases Noxious Blossom\'s range by 50%.
+683,30,13,Unfair Advantage,0,Nature\'s Toxin deals 50% more damage to Heroes that are slowed.
+684,30,13,Giant Killer,0,Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero\'s maximum Health.
+685,30,13,Greater Spell Shield,0,"Every 30 seconds, gain 75 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 75%. Can be toggled to allow or prevent this talent from triggering automatically."
+686,30,16,Choking Pollen,0,Increases Noxious Blossom damage by 125% against enemies afflicted with Nature\'s Toxin.
+687,30,16,Star Wood Spear,0,Using Crippling Spores increases your Basic Attacks range by 50% for 6 seconds.
+688,30,16,Invigorating Spores,0,Using Crippling Spores increases your Attack Speed by 50% for 6 seconds.
+689,30,16,Let Them Wither,0,"Increases Crippling Spores\' slow to 50%, and causes it to no longer decay."
+690,30,20,Forest\'s Wrath,0,"Increases Thornwood Vine\'s range by 30%, its speed by 20%, and your vision radius by 35%."
+691,30,20,Boundless Stride,0,All Leaping Strike charges are returned every 20 seconds. You can also use Leaping Strike on allies.
+692,30,20,Galloping Gait,0,Activate to increase the Movement Speed bonus of Dryad\'s Swiftness to 80% for 6 seconds.
+693,30,20,Abolish Magic,35,"Target an Ally to remove all damage over time and disabling effects from them and yourself. For 2 seconds after, the duration of disabling effects is reduced by 50%."
+694,31,,Shan\'do\'s Clarity,0,Reduces Innervate\'s cooldown by 10 seconds.
+695,31,,Moonburn,0,Increases Moonfire\'s damage to Minions and Mercenaries by 100%.
+696,31,,Scouting Drone,45,"Places a Scouting Drone at target location, revealing a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks. Stores up to 2 charges."
+697,31,4,Elune\'s Grace,0,"Increases the range of Regrowth, Moonfire, and Entangling Roots by 30%."
+698,31,4,Versatile,0,Increases the Mana return of Innervate to 25%.
+699,31,4,Vengeful Roots,0,Entangling Roots also spawns a Treant that does 141 (67 + 4% per level) damage per second and lasts 10 seconds.
+700,31,7,Strangling Vines,0,Entangling Roots deals 100% more damage.
+701,31,7,Calldown: MULE,60,"Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second. Grants 1 ammo every 3 seconds."
+702,31,7,Cleanse,60,"Activate to remove all stuns, roots, silences, and slows from the target and reduce the duration of their reapplication by 50% for 2 seconds."
+703,31,10,Tranquility,100,Heals 176 (84 + 4% per level) Health per second to nearby allies over 10 seconds.
+704,31,10,Twilight Dream,90,"After a short delay, deal 820 (389 + 4% per level) damage in a large area around you, silencing enemies making them unable to use Abilities for 3 seconds. Also passively increases your Mana Regeneration by 1.5."
+705,31,13,Life Seed,0,Nearby damaged allied Heroes will automatically gain the heal over time portion of Regrowth. This effect has a 20 second cooldown.
+706,31,13,Full Moonfire,0,Increases Moonfire\'s radius by 60% and reduces its Mana cost by 50%.
+707,31,13,Shrink Ray,0,Activate to reduce an enemy Hero\'s damage by 50% and Movement Speed by 50% for 4 seconds.
+708,31,13,Ice Block,60,Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.
+709,31,16,Hardened Focus,0,"While above 80% life, your Basic Ability cooldowns regenerate 50% faster."
+710,31,16,Tenacious Roots,0,"Entangling Roots grows 25% larger, lasts 25% longer, and roots targets for 0.5 seconds longer."
+711,31,16,Hindering Moonfire,0,Moonfire slows targets by 25% for 2 seconds.
+712,31,16,Lunar Shower,0,"Using Moonfire reduces the cooldown of your next Moonfire by 0.5 seconds, and increases the damage by 15%. Stacks up to 3 times and resets after 6 seconds."
+713,31,20,Serenity,0,Increases Tranquility\'s healing by 25% and it also restores 5 Mana per second.
+714,31,20,Nightmare,0,Increases Twilight Dream\'s silence duration to 4 seconds and it also slows enemies by 50%.
+715,31,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+716,31,20,Rewind,60,Activate to reset the cooldowns of your Basic Abilities.
+717,31,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+718,32,1,Stable Portal,0,Increases Portal duration by 50%.
+719,32,1,Portal Mastery,0,Medivh can manually place both Portal locations. Activate your Trait to cancel an unliked Portal.
+720,32,1,Raven\'s Intellect,0,Raven Form increases Medivh\'s Mana Regeneration by 100%.
+721,32,4,Mage Armor,0,Allies gain Block the first time they use a Portal reducing damage taken from the next 3 enemy Heroic Basic Attacks by 50%. Lasts 5 seconds.
+722,32,4,Bird\'s Eye View,0,Permanently increase Raven Form\'s vision range by 25%. Activate to increase this bonus to 200% for 5 seconds.
+723,32,4,Dust of Appearance,0,Activate to reveal enemy Heroes in the area surrounding Medivh for 10 seconds. Does not cancel Raven Form.
+724,32,7,Arcane Charge,0,"When Arcane Rift damages an enemy Hero, the next Arcane Rift deals 25% more damage."
+725,32,7,The Master\'s Touch,0,Quest: Hit 30 enemy Heroes with Arcane Rift without dying. Reward: Permanently increases the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.
+726,32,7,Arcane Explosion,0,"The first time Force of Will absorbs damage, it deals 401 (191 + 4% per level) damage to nearby enemies."
+727,32,7,Raven Familiar,0,A Raven Familiar joins allies that use a Portal. The Raven will dive at the ally\'s next Basic Attack target for 250 (119 + 4% per level) damage.
+728,32,10,Poly Bomb,0,"Polymorph an enemy Hero, suppressing their attacks and Silecing them for 2 seconds. On expiration, Poly Bomb spreads to other nearby enemy Heroes."
+729,32,10,Ley Line Seal,0,"After 0.5 seconds, unleash a wave of energy that imprisons enemy Heroes in Stasis for 3 seconds."
+730,32,13,Quickening,0,Reduces Portal cooldown by 50%.
+731,32,13,Astral Projection,0,Increases Portal cast range by 50%.
+732,32,13,Winds of Celerity,0,Increases Raven Form\'s Movement Speed bonus by 50%.
+733,32,16,Circle of Protection,0,An untalented Force of Will is also applied to allies near the target.
+734,32,16,Enduring Will,0,Increases Force of Will duration by 33.33%
+735,32,16,Reabsorption,0,"Upon expiration, Force of Will heals the target for 50% of the damage it absorbed."
+736,32,20,Glyph of Poly Bomb,0,Poly Bomb explodes 1 second sooner and the spread radius is increased by 25%.
+737,32,20,Medivh Cheats!,0,Increase the duration of the Stasis effect by 33.33% and gain the ability to redirect the wave once while it\'s activate.
+738,32,20,Guardian of Tirisfal,0,Minions and Catapults hit by Arcane Rift are instantly killed.
+739,32,20,Arcane Brilliance,0,Activate to instantly restore 200 Mana to all nearby allied Heroes and grant them 10% Ability Power for 10 seconds.
+740,32,20,Invisibility,0,Stealth an allied Hero for 20 seconds.
+741,33,1,Block,0,"Every 5 seconds, you can Block a Basic Attack from an enemy Hero reducing its damage by 50%. Stores up to 2 charges."
+742,33,1,Perfect Storm,0,"Reduces Storm Bolt\'s Mana cost by 25%. Quest: Every time Storm Bolt hits a Hero, increase its damage by 5."
+743,33,1,Third Wind,0,"Increases Health Restoration rate to 169 (81 + 4% per level) per second, and raises Health threshold to 50% Health for improved 336 (160 + 4% per level) per second Restoration."
+744,33,4,Sledgehammer,0,"Deals 400% damage to Minions, Structures and Mercenaries. Destroys 4 ammo from Structures."
+745,33,4,Reverberation,0,Increases the Attack Speed slow from 25% to 50% and the duration from 2.5 seconds to 3 seconds.
+746,33,4,Crowd Control,0,Each enemy hit by Thunder Clap reduces its cooldown by 0.75 seconds.
+747,33,4,Thunder Burn,0,Thunder Clap leaves a zone on the ground taht explodes after 2 seconds dealing 106 (50 + 4% per level) damage and applying a 25% slow for 2.5 seconds.
+748,33,7,Piercing Bolt,0,"Penetrates through the first target hit, hitting 1 additional target."
+749,33,7,Landing Momentum,0,Increases your Movement Speed by 25% for 4 seconds upon landing with Dwarf Toss.
+750,33,7,Skullcracker,0,Every 3rd Basic Attack against the same target will stun them for 0.25 seconds.
+751,33,7,Iron-forged Momentum,0,Basic Attacks reduce your Basic Ability cooldowns by 0.75 seconds.
+752,33,10,Avatar,90,"Transform for 20 seconds, gaining 2463 (1169 + 4% per level) Health and causing your Basic Attacks to stun enemies."
+753,33,10,Haymaker,40,"Stun target enemy Hero, and wind up a punch dealing 699 (332 + 4% per level) damage and knocking the target back, hitting enemies in the way for 699 (332 + 4% per level) damage and knocking them aside."
+754,33,13,Burning Rage,0,Deal 23 damage per second to nearby enemies.
+755,33,13,Healing Static,0,Heal for 5% of your Max Health for each target hit by Thunder Clap.
+756,33,13,Thunder Strike,0,Thunder Clap deals 300% damage if only one target is hit.
+757,33,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+758,33,16,Dwarf Launch,0,Increases the range and impact radius of Dwarf Toss by 50%.
+759,33,16,Heavy Impact,0,Enemies hit by Dwarf Toss are stunned for 0.75 seconds.
+760,33,16,Give \'em the Axe!,0,"Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 60% for 3 seconds."
+761,33,16,Imposing Presence,20,Heroes and Summons that attack you have their Attack Speed slowed by 20% for 2.5 seconds.Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds.
+762,33,16,Stoneform,0,Activate to heal for 40% of your maximum Health over 10 seconds. Second Wind is disabled during this time.
+763,33,20,Unstoppable Force,0,"Increases the duration of Avatar by 30%, and the duration of Disables are reduced by 75% while in Avatar."
+764,33,20,Grand Slam,0,"Damage of Haymaker increased by 25%, Mana cost lowered by 40, and can store 2 charges."
+765,33,20,Hardened Shield,60,Activate to reduce damage taken by 75% for 4 seconds.
+766,33,20,Rewind,60,Activate to reset the cooldowns of your Basic Abilities.
+767,34,1,Fishtank,0,"Every 5 seconds, reduce the damage taken from the next Hero Basic Attack by 50%. Stores up to 2 charges."
+768,34,1,Bubble Breeze,0,Gain 20% Movement Speed while in Safety Bubble.
+769,34,1,Assault Egg,0,Health and sight range of Egg increased by 150%.
+770,34,1,Bribe,0,"Enemy Minions killed near you grant a stack of Bribe. Use 20 stacks to bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster. Current number of Bribe stacks: 1."
+771,34,4,Bigger Slime,0,Slime area increased by 30%.
+772,34,4,Tufferfish,0,Pufferfish take an additional attack before being disarmed.
+773,34,4,Living The Dream,0,"You gain 5% Ability Power. Quest: Every 5 seconds you are alive you gain an additional 1% Ability Power, up to an additional 15%. These stacks are lost on death."
+774,34,4,Envenom,0,"Activate to poison an enemy Hero, dealing 352 damage over 10 seconds."
+775,34,7,Slime Advantage,0,Your Basic Attacks deal 100% bonus damage to Slimed targets.
+776,34,7,Hindering Slime,0,Increases the slow amount of Slime from 20% to 30%.
+777,34,7,Compressed Air,0,Area of effect of Pufferfish increased by 50%.
+778,34,7,Clairvoyance,0,Activate to reveal an area for 10 seconds. Enemies in the area are revealed for 4 seconds.
+779,34,10,March of the Murlocs,0,"Command a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 95 damage and slow its target by 15% for 5 seconds. Does half damage to Structures."
+780,34,10,Octo-Grab,0,Summon an octopus to stun target enemy Hero for 3.06 seconds while you hit them for 1 damage a second.
+781,34,13,Continuous Slime,0,Decreases the cooldown of Slime from 4 seconds to 3 seconds.
+782,34,13,Wrath of Cod,0,Increase Pufferfish\'s damage by 35% against Slimed targets.
+783,34,13,Bubble Machine,0,Safety Bubble cooldown reduced by 5 seconds.
+784,34,13,Hidden Assault,0,"When you respawn from the Egg, you gain Stealth and 20% Movement Speed for 5.125 seconds."
+785,34,16,Slimy End,0,Slime is used on death.
+786,34,16,Slimy Pufferfish,0,The Pufferfish casts Slime at its location upon landing.
+787,34,16,Rejuvenating Bubble,0,Safety Bubble restores 50% of your Health.
+788,34,16,Blood for Blood,0,Activate to deal 10% of target enemy Hero\'s Max Health and heal for twice that amount.
+789,34,20,Never-Ending Murlocs,0,Murlocs from March of the Murlocs travel farther and cling to targets for 2 seconds longer.
+790,34,20,... And A Shark Too!,0,Increases the damage of Octo-Grab by 13700%.
+791,34,20,Rewind,0,Activate to reset the cooldowns of your Basic Abilities.
+792,34,20,Bolt of the Storm,0,Activate to teleport to a nearby location.
+793,35,1,Widowmakers,0,"Reward:ÿAfter hitting Heroes 100 times with Corpse Spider attacks, their damage is increased by 30%."
+794,35,1,Pandemic,0,"Reward:ÿAfter hitting 40 Heroes with Plague of Toads, it spawns 2 additional toads."
+795,35,1,Thing of the Deep,0,Passive:ÿIncreases the range of your Basic Abilities by 20%.
+796,35,4,Hexed Crawlers,0,Corpse spiders restore 0.75% of your maximum Health and Mana when tey attack an enemy Hero.
+797,35,4,Big Voodoo,0,Passive:ÿIncreases the Health and Mana bonuses from Voodoo Ritual by 100%.
+798,35,4,Blood Ritual,0,"Passive:ÿIf an enemy dies while poisoned by Voodoo Ritual, restore 2% of your maximum Health and Mana."
+799,35,7,Spirit of Arachyr,0,"If your jar of Corpse Spiders hits only 1 enemy, it spawns 2 additional spiders."
+800,35,7,Dead Rush,0,Wall of Zombies deals 75% more damage. When it expires up to 5 remaining Zombies uproot and attack nearby enemies for 3 seconds.
+801,35,7,Toads of Hugeness,0,"Increase the damage and explosion radius of Plague of Toads by 20% after each hop, up to maximum of 80%."
+802,35,10,Gargantuan,70,"Summon a Gargantuan that guards an area for 20 seconds. Deals 331 (158 + 4% per level) damage to nearby enemies when summoned, attacks for 428 (203 + 4% per level) damage, and can be ordered to stomp."
+803,35,10,Ravenous Spirit,90,Channel a Ravenous Spirit that deals 412 (196 + 4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.
+804,35,13,Guardian Toads,0,"Hitting an enemy Hero with Plague of Toads gives 25 Armor for 2 seconds, reducing damage taken by 25%."
+805,35,13,Superstition,0,"Gain 50 Spell Armor, taking 50% less damage from Abilities, but lose 30 Physical Armor, taking 30% more damage from Basic Attacks."
+806,35,13,Ice Block,60,Active:ÿActivate to place yourself in Stasis and gain Invulnerability for 3 seconds.
+807,35,16,Spider Colony,0,Corpse Spiders\' cooldown recharges 100% faster while above 1863 (884 +4% per level) Health.
+808,35,16,Ring of Poison,0,"Zombie Wall last 1 second longer, and the center is filled with poison that deals a total of 822 (390 + 4% per level) damage over 4 seconds. This damage starts small and increases over the duration."
+809,35,16,Soul Harvest,15,"Active:ÿActivate to increase your Health and Ability Power by 5% for each nearby enemy, up to a maximum of 25%. Lasts 15 seconds."
+810,35,20,Humongoid,0,Reduce Gargantuan\'s cooldown by 45 seconds and its mana cost by 50%.
+811,35,20,Annihilating Spirit,0,Increases the range of Ravenous Spirit by 50% and Movement Speed by 30%.
+812,35,20,Fury of the Storm,0,"Passive:ÿEvery 5 seconds, your next basic attack will deal an additional 91 damage to the target, and 228 damage to all nearby Minions and Mercenaries."
+813,35,20,Vile Infection,0,"Reward:ÿAfter reaching 150 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased by 200%."
+814,36,1,Advanced Cloaking,0,"While Stealthed, Nova gains 2 Mana per second and 25% movement speed."
+815,36,1,Longshot,0,Increases the cast range of Pinning Shot by 30%. Pinning Shot also increases your next Basic Attack range by 30%.
+816,36,1,Covert Ops,0,"Increases Pinning Shot\'s slow by 2% for every second that Nova is Cloaked, to a maximum of a 50%. Bonus fades when Nova is un-Cloaked for 1 second."
+817,36,4,Remote Delivery,0,Increases Holo Decoy cast range by 100% and its sight range by 50%.
+818,36,4,Rapid Projection,0,Reduces Holo Decoy\'s cooldown and Mana cost by 40%.
+819,36,4,Holo Stability,0,Increases the duration of Holo Decoy by 120%.
+820,36,4,Covert Mission,0,"Enemy minions killed near you grant stacks. Hero Takedowns grant 10 stacks. Use 25 stacks to bribe a mercenary, instantly defeating them. Does not work on Bosses. Maximum 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster."
+821,36,7,One in the Chamber,0,"After using an ability, your next Basic Attack within 3 seconds deals 80% additional damage."
+822,36,7,Anti-Armor Shells,0,"Your Basic Attacks deal 250% damage, but your Attack Speed is proportionally slower."
+823,36,7,Snipe Master,0,Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 15%. Stacks up to 5 times. All stacks are lost if Snipe fails to hit an enemy Hero.
+824,36,10,Triple Tap,0,"Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 741 (352 + 4% per level) damage each."
+825,36,10,Precision Strike,0,"After a 1.5 second delay, deals 1000 (475 + 4% per level) damage to enemies within an area. Unlimited range."
+826,36,13,Double Tap,0,Pinning Shot now has 2 charges.
+827,36,13,Psionic Efficiency,0,Removes Snipe\'s Mana cost and increases its range by 10%.
+828,36,13,Explosive Round,0,Snipe also deals 50% damage to enemies near the impact.
+829,36,16,Perfect Shot,0,Hitting an enemy Hero with Snipereduces the cooldown by 3 seconds.
+830,36,16,Crippling Shot,0,"Pinning Shot lowers a Hero\'s Armor by 25 for the duration of the slow, causing them to take 25% increased damage."
+831,36,16,Lethal Decoy,0,Holo Decoy does 40% of Nova\'s damage.
+832,36,20,Fast Reload,0,Triple Tap\'s cooldown is reset if it kills an enemy Hero.
+833,36,20,Precision Barrage,0,Precision Strike holds two charges with a short cooldown.
+834,36,20,Rewind,60,Activate to reset the cooldowns of your Basic Abilities.
+835,36,20,Ghost Protocol,60,"Activate to gain Stealth and become unrevealable for 2 seconds. You do not lose Stealth from attacking, or using Abilities during this time."
+836,37,1,Give Me More!,0,Increases Adrenaline Rush healing by 50%.
+837,37,1,Seasoned Marksman,0,"Quest:ÿEvery Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage. Reward:ÿUpon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown."
+838,37,1,Scouting Drone,45,"Places a Scouting Drone at target location, revealing a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks. Stores up to 2 charges."
+839,37,4,Focused Attack,0,"Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second."
+840,37,4,Vigorous Assault,0,Basic Attacks heal for 15% of the damage dealt to the primary target.
+841,37,4,Confident Aim,0,Lowers the cooldown of Penetrating Round by 4 seconds if it hits an enemy Hero.
+842,37,4,Relentless Leader,0,"Once every 8 seconds, if you are stunned or rooted you knock nearby enemies away and reduce the cooldown of Adrenaline Rush by 15 seconds."
+843,37,7,Hamstring Shot,0,Enemies hit by Penetrating Round have a 20% Movement Speed slow for 3 seconds.
+844,37,7,Revolution Overdrive,0,Gain 10% Movement Speed while affected by Inspire. Increase this bonus by 5% for each allied Hero nearby when Inspire is cast.
+845,37,7,Fight or Flight,0,"Whenever Adrenaline Rush activates it gives 25 Armor, reducing damage taken by 25% for 4 seconds. Adrenaline Rush can also be manually activated."
+846,37,7,Puttin\' On a Clinic,0,"Whenever an enemy Minion you have recently damaged is destroyed, your Ability cooldowns are reduced by 1.5 seconds."
+847,37,10,Hyperion,0,"Order the Hyperion to make a strafing run dealing 66 damage a second, hitting up to 4 enemies. Also occasionally fires its Yamato Cannon on Structures for 794 damage. Lasts 12 seconds."
+848,37,10,Raynor\'s Raiders,0,Summon two Stealthed Banshees that attack an enemy. Each Banshee deals 43.2 damage a second and lasts 22 seconds. Can reactivate the Ability to retarget the Banshees.
+849,37,13,Giant Killer,0,Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero\'s maximum Health.
+850,37,13,Double-Barreled,0,Penetrating Round gains a second charge.
+851,37,13,Steel Resolve,0,Increases Inspire\'s duration by 50% and causes Adrenaline Rush to also apply Inspire.
+852,37,16,Executioner,0,"Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds."
+853,37,16,Cluster Round,0,"Penetrating Round damage is increased by 20% for each additional target hit up to 100%, and the width is increased by 50%."
+854,37,16,Bullseye,0,The first enemy hit by Penetrating Round is stunned for 1 second.
+855,37,20,Scorched Earth,0,"An additional set of lasers blast the ground 5 times per second, dealing 40 damage in an area."
+856,37,20,Dusk Wings,0,Banshees remain Stealthed while attacking and fire 50% more frequently.
+857,37,20,A Card to Play,0,"Whenever a Hero (ally or enemy) is killed, the cooldown of your Heroic Ability is reduced by 15 seconds."
+858,37,20,Nexus Frenzy,0,Increases Attack Speed by 20% and Attack Range by 20%.
+859,37,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+860,38,1,Colossal Totem,0,Increases the area and range of Earthbind Totem by 50%.
+861,38,1,Electric Charge,0,Increases the radius of Lightning Shield by 25%.
+862,38,1,Wolf Run,0,Increases the Movement Speed of Ghost Wolf from 30% to 40%.
+863,38,1,Lightning Bond,0,Casting Lightning Shield on an ally also cast an untalented version on you.
+864,38,4,Spiritwalker\'s Grace,0,Reduces Chain Heal\'s Mana cost from 65 to 45.
+865,38,4,Feral Heart,0,Increases Health and Mana Regeneration by 75% while in Ghost Wolf form.
+866,38,4,Stormcaller,0,Reduces Lightning Shield\'s Mana cost from 60 to 35.
+867,38,4,Healing Totem,0,Activate to place a Totem that heals allies in an area for 1.95% of their max Health every second for 10 seconds.
+868,38,7,Blood and Thunder,0,Ghost Wolf attacks reduce Basic Ability cooldowns by 2 seconds.
+869,38,7,Farsight,0,Activate to reveal an area for 10 seconds. Enemies in the area are revealed for 4 seconds.
+870,38,7,Cleanse,0,Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.
+871,38,7,Totemic Projection,0,Reactivate Earthbind Totem to move an existing totem to a new location once.
+872,38,10,Ancestral Healing,0,"After 1 second, heal an allied Hero for 1552 Health."
+873,38,10,Bloodlust,0,Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed. Lasts for 8 seconds.
+874,38,13,Earth Shield,0,Lightning Shield gives a Shield that absorbs damage equal to 12% of their maximum Health for 3 seconds.
+875,38,13,Tidal Waves,0,Reduces Chain Heal\'s cooldown by 1 second for each Hero healed.
+876,38,13,Earthliving Enchant,0,"When Chain Heal heals a Hero below 50% Health, they are healed an additional 439 Health over 5 seconds."
+877,38,16,Earthgrasp Totem,0,"When Earthbind Totem is first cast, it slows nearby enemies by 90% for 1.5 second."
+878,38,16,Hunger of the Wolf,0,Ghost Wolf attacks against Heroes deal an additional 5% of the target\'s maximum Health and heal you for 5% of your maximum Health.
+879,38,16,Rising Storm,0,"Every time Lightning Shield damage an enemy Hero, increase that Lightning Shield\'s damage by 10%. Stacks up to 20 times."
+880,38,20,Farseer\'s Blessing,0,Increases healing amount by 50%. Allies near the target are healed for 25% of the amount of health regained.
+881,38,20,Gladiator\'s War Shout,0,All alies affected by Bloodlust now heal for 30% of their Basic Attack damage done to their primary target.
+882,38,20,Rewind,0,Activate to reset the cooldowns of your Basic Abilities.
+883,38,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+884,39,1,Grizzled Bear,0,Misha periodically reduces the damage received from Hero Basic Attacks by 50%. Stores up to 2 charges.
+885,39,1,Hunter-Gatherer,0,"Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30 per second. Reward: After gathering 30 Globes, Rexxar gains 600 maximum Health."
+886,39,1,Survivalist Training,0,Regeneration Globes restore 100% more Mana.
+887,39,1,Flare,0,"Fire a flare at an area, revealing it for 5 seconds."
+888,39,4,Hungry Bear,0,Misha\'s Basic Attacks heal her for 3.9% of her maximum Health.
+889,39,4,Crippling Talons,0,Increases Spirit Swoop\'s slow amount to 40% and its duration to 3 seconds.
+890,39,4,Taking Flight,0,"Increases Spirit Swoop\'s range by 20%. If Spirit Swoop hits an enemy Hero, the Mana cost is refunded."
+891,39,4,Easy Prey,0,"Increases Misha\'s damage to Minions and Mercenaries by 150%, and reduces the damage Misha takes from Minions and Mercenaries by 50%."
+892,39,7,Blood of the Rhino,0,Increases Mend Pet\'s duration by 5 seconds.
+893,39,7,Throwing Axes,0,Increases your Basic Attack range by 25%.
+894,39,7,Aspect of the Beast,0,"Misha\'s Basic Attacks lower the cooldown of Misha, Charge! by 1.5 seconds."
+895,39,7,Bird of Prey,0,Increases Spirit Swoop\'s damage by 200% to non-Heroic enemies.
+896,39,10,Bestial Wrath,0,Increases Misha\'s Basic Attack damage by 150% for 12 seconds.
+897,39,10,Unleash the Boars,0,"Release a herd of boars that track down all enemy Heroes in a direction, dealing 242 (115 + 4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds."
+898,39,13,Wildfire Bear,0,Misha deals 28 damage per second to nearby enemies.
+899,39,13,Thrill of the Hunt,0,Your Basic Attacks increase both you and Misha\'s Movement Speed by 25% for 2 seconds.
+900,39,13,Bear Necessities,0,"If Misha, Charge! doesn\'t hit an enemy Hero, it can be cast again for free for the next 3 seconds."
+901,39,13,Barkskin,0,"Misha takes 50% less damage from Abilities for 5 seconds after using Misha, Charge!"
+902,39,16,Critical Care,0,Increases the healing of Mend Pet by 50% while Misha is under 50% health.
+903,39,16,Aspect of the Hawk,0,"When Spirit Swoop hits an enemy Hero, you gain 100% Attack Speed for 3 seconds."
+904,39,16,Primal Intimidation,0,Enemies that Basic Attack you or Misha have their Attack Speed slowed by 40%.
+905,39,16,Feign Death,0,"Fake your death, becoming Invulnerable and untargetable for 5 seconds. During this time you control Misha."
+906,39,20,Spirit Bond,0,Increases the duration of Bestial Wrath by 50% and Misha\'s Basic Attacks heal Rexxar for 50% of her damage dealt during Bestial Wrath.
+907,39,20,Kill Command,0,Unleash the Boars deals 50% more damage and roots for 1.5 seconds.
+908,39,20,Frenzy of Kalimdor,0,"Your Basic Attacks deal 10% more damage, and Misha\'s Basic Attacks slow the target by 20% for 1.25 seconds."
+909,39,20,Hardened Skin,0,You and Misha take 75% less damage for 4 seconds.
+910,40,1,Advanced Artillery,0,Increase the damage bonus to long distance enemies by 10%.
+911,40,1,Resistant,0,"While in Siege Mode, the duration of Silences, Stuns, Slows, and Roots are reduced by 75%."
+912,40,1,Ambush,0,"Stealth when entering Siege Mode. Your next Basic Attack from Siege Mode will deal 100% more damage. Lose Stealth when Basic Attacking, using an Ability, taking damage, or returning to Tank Mode."
+913,40,1,Regeneration Master,0,"Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30. Reward: After gathering 30 Regeneration Globes, you also gain 500 Health."
+914,40,4,Vigorous Assault,0,Basic Attacks heal for 15% of the damage dealt to the primary target.
+915,40,4,Focused Attack,0,"Every 10 seconds, your next Basic Attack against a Hero deals 75% additional damage. Basic Attacks reduce this cooldown by 1 second."
+916,40,4,Excessive Force,0,Double the knock back distance.
+917,40,7,Mine Field,0,Increase the number of mines by 2.
+918,40,7,Hyper-Cooling Engines,0,Reduce the cooldown of Thrusters by 10 seconds. Thrusters are always active while at the Altar.
+919,40,7,First Aid,0,Activate to heal 11.07% of your max Health over 6 seconds.
+920,40,10,Blunt Force Gun,0,"Fire a missile across the battlefield, dealing 365 damage to enemies in its path."
+921,40,10,Napalm Strike,0,"Deals 164 damage on impact, and leaves a napalm area that deals 50 damage per second. Lasts for 4 seconds."
+922,40,13,Giant Killer,0,Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero\'s maximum Health.
+923,40,13,First Strike,0,Basic Attacks deal 25% more damage if you haven\'t been attacked within the last 5 seconds.
+924,40,13,Bullhead Mines,0,Middle Spider Mine knocks target back a short distance.
+925,40,13,Barricade,0,Create a wall of path blocking debris for 4 seconds.
+926,40,16,Executioner,0,"Basic Attacks deal 40% more damage against slowed, rooted, or stunned targets."
+927,40,16,Hover Siege Mode,0,You can move at 50% Movement Speed in Siege Mode.
+928,40,16,Graduating Range,0,"While in Siege Mode your standard Basic Attack range increases by 20% every 3 seconds, up to 100%."
+929,40,16,Stoneskin,0,Activate to gain 30% of your maximum Health as a Shield for 5 seconds.
+930,40,20,Orbital BFG,0,Blunt Force Gun\'s missile orbits the planet every 5 seconds. Only the last missile fired orbits.
+931,40,20,Advanced Lava Strike,0,Napalm Strike\'s range is increased by 75% and its impact does 50% more damage.
+932,40,20,Fury of the Storm,0,"Every 5 seconds, your next basic attack will deal an additional 91 damage to the target, and 228 damage to all nearby Minions and Mercenaries."
+933,40,20,Nexus Frenzy,0,Increases Attack Speed by 20% and Attack Range by 20%.
+934,41,1,War Paint,0,Basic Attacks heal you for 30% of the damage dealt.
+935,41,1,Block,0,"Every 5 seconds, you can Block a Basic Attack from an enemy Hero reducing its damage by 50%. Stores up to 2 charges."
+936,41,1,Shot of Fury,0,Increases your maximum Fury by 50. You can also activate your Trait to gain 50 Fury. Usable while Whirlwinding.
+937,41,4,Focused Attack,0,"Every 10 seconds, your next Basic Attack against a Hero deals 75% additional damage. Basic Attacks reduce this cooldown by 1 second."
+938,41,4,Shattered Ground,0,Increases Seismic Slam splash damage to 75% of primary target damage.
+939,41,4,Hurricane,0,Reduces the cooldown of Whirlwind by 1 second and Whirlwind removes all slows and roots on Sonya.
+940,41,4,Mercenary Lord,0,Non-Boss Mercenaries near your hero deal 50% more damage. Reduces damage taken from Minions and Mercenaries by 50%.
+941,41,7,Poisoned Spear,0,Ancient Spear deals an additional 75% damage over 4 seconds.
+942,41,7,Composite Spear,0,Increases the range of Ancient Spear by 30% and increases Fury generated by 20.
+943,41,7,Follow Through,0,"After using an ability, your next Basic Attack within 6 seconds deals 40% additional damage."
+944,41,7,Ferocious Healing,0,Consume 20 Fury to heal 10.15% of your maximum Health.Usable while Whirlwinding.
+945,41,10,Leap,0,"Leap into the air, dealing 123 damage to nearby enemies, and stunning them for 1.5 seconds."
+946,41,10,Wrath of the Berserker,0,"Increase damage dealt by 40%. Reduce the duration of silences, stuns, slows, roots, and polymorphs against you by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained."
+947,41,13,Life Funnel,0,"Increases the healing of Whirlwind to 30%, tripled versus Heroes."
+948,41,13,Aftershock,0,Using Seismic Slam reduces its Fury cost by 50% for 2 seconds.
+949,41,13,Mystical Spear,0,Reduces the cooldown of Ancient Spear by 3 seconds. You are pulled to the target location even if you don\'t hit an enemy.
+950,41,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+951,41,16,Furious Blow,0,"Increases Seismic Slam damage by 50%, but costs 40 Fury."
+952,41,16,No Escape,0,Increases the Movement Speed bonus from using Basic and Heroic Abilities to 25%.
+953,41,16,Imposing Presence,0,Enemies that attack you have their Attack Speed slowed by 40%.
+954,41,16,Nerves of Steel,0,Activate to gain 30% of your maximum Health as a Shield for 5 seconds. Usable while Whirlwinding.
+955,41,20,Arreat Crater,0,Leap leaves behind an impassable crater for 5 seconds. Reduces Leap\'s cooldown by 20 seconds.
+956,41,20,Anger Management,0,Increases all Fury generated during Wrath of the Berserker by 100%.
+957,41,20,Nexus Blades,0,Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.
+958,41,20,Ignore Pain,0,Activate to reduce damage taken by 75% for 4 seconds. Usable while Whirlwinding.
+959,42,1,Chew Your Food,0,Using Devour also heals you for 9.555% of your max Health over 3.06 seconds.
+960,42,1,Dampen Magic,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 1.5 seconds. Can only trigger once every 8 seconds."
+961,42,1,Hungry for More,0,Collecting Regeneration Globes permanently increases your maximum Health by 30.
+962,42,1,Heavy Slam,0,Slam damage increased by 50%
+963,42,4,Amplified Healing,0,Increases regeneration effects and all healing received by 30%.
+964,42,4,Mercenary Lord,0,Non-Boss Mercenaries near your hero deal 50% more damage. Reduces damage taken from Minions and Mercenaries by 50%.
+965,42,4,Vile Cleaver,0,Basic Attacks create a cloud of Vile Gas on the target.
+966,42,4,Putrid Ground,0,Enemies hit by Slam are infected with Vile Gas.
+967,42,7,Savor the Flavor,0,Using Devour on an enemy Hero permanently increases your Health Regeneration by 2 per second.
+968,42,7,Last Bite,0,"If an enemy dies within 3 seconds of being damaged by Devour, its cooldown is reduced by 12 seconds."
+969,42,7,Tenderizer,0,Basic Attacks slow enemy Movement Speed by 25% for 1.5 seconds.
+970,42,7,Toxic Gas,0,Increases Vile Gas radius by 102.5% and the duration of the effect by 1 second.
+971,42,10,Putrid Bile,0,"Emit bile that deals 37 damage per second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds."
+972,42,10,Gorge,0,"Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 damage. The trapped Hero cannot move or act and doesn\'t take damage from other sources. Cannot be used on massive Heroes."
+973,42,13,Relentless,0,"Reduces the duration of silences, stuns, slows, and roots against your Hero by 50%."
+974,42,13,Mega Smash,0,Range and arc of Slam increased by 25%.
+975,42,13,Indigestion,0,Using Devour also creates a Retchling that applies Vile Gas Poison when it attacks.
+976,42,13,Helping Hand,0,"Hook can also pull allied Heroes (but will not damage them). When used to pull allies, the cooldown is reduced by 50%."
+977,42,16,Pulverize,0,Decreases Slam\'s cooldown by 2 seconds and it also slows enemies by 75% for 1 second.
+978,42,16,Fishing Hook,0,Hook has an additional 40% range.
+979,42,16,Shish Kabob,0,Hook can pull up to 2 targets.
+980,42,16,Stoneskin,0,Activate to gain 30% of your maximum Health as a Shield for 5 seconds.
+981,42,20,Regenerative Bile,0,"Putrid Bile lasts 2 seconds longer, grants an additional 10% Movement Speed and heals for 48.65% of the damage dealt."
+982,42,20,Hungry Hungry Stitches,0,"While active, Gorge can be repeatedly recast until the first target is expelled. Increases Gorge damage by 40%."
+983,42,20,Hardened Shield,0,Activate to reduce damage taken by 75% for 4 seconds.
+984,42,20,Bolt of the Storm,0,Activate to teleport to a nearby location.
+985,43,1,Overflowing Quiver,0,"When a nearby enemy Minion dies, a free Withering Fire is shot. This cannot hit Heroes and has a short cooldown."
+986,43,1,Dreadful Wake,0,Increases the effect of Black Arrow on Minions and Mercenaries to 7 seconds. Restores 5 Mana per minion or mercenary hit.
+987,43,1,Mercenary Queen,0,Friendly non-Boss Mercenaries near you deal 50% more damage.
+988,43,4,Withering Barrage,0,Increase Withering Fire charges by 1. Charges can be fired 33% faster.
+989,43,4,With the Wind,0,Increases Withering Fire\'s range by 25%.
+990,43,4,Lost Soul,0,Reduce Shadow Dagger\'s cooldown by 1.25 seconds each time it spreads to a Hero.
+991,43,7,Barbed Shot,0,"Withering Fire deals 200% bonus damage to Minions, Mercenaries, and Monsters."
+992,43,7,Unstable Poison,0,"Minions and Mercenaries that die under the effects of Black Arrows explode, dealing 255 (121 + 4% per level) damage to nearby enemies. Does not damage Heroes or Structures."
+993,43,7,Possession,0,Force an enemy Minion to fight for you. 3 charges. 8 second charge cooldown.
+994,43,10,Wailing Arrow,0,Shoot an arrow that can be reactivated to deal 228 damage and Silencing enemies in an area making them unable to use Abilities for 2.5 seconds. The arrow detonates automatically when it reaches maximum range.
+995,43,10,Mind Control,0,"After 1 second cast, take control of an emeny Hero\'s movement and prevent them for doing anything else. Channel last 2.5 seconds."
+996,43,13,Life Drain,0,Shadow Dagger heals you for 82 (39 + 4% per level) each time it spreads to a new enemy.
+997,43,13,Windrunner,0,"After you teleport from Haunting Wave, you can cast a second one for free within 2 seconds."
+998,43,13,Will of the Forsaken,0,Activate to become Unstoppable and gain 40% Movement Speed for 3 seconds.
+999,43,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+1000,43,16,Evasive Fire,0,"When you hit an emeny with Whitering Fire, gain 10% Movement Speed for 2 seconds, stacking up to 30%."
+1001,43,16,Cold Embrace,0,"Shadow Dagger makes the initial enemy Vulnerable, taking 25% more damage, for 2 seconds."
+1002,43,16,Overwhelming Affliction,0,"Black Arrows now also applies to Heroes, slowing their Movement Speed by 6% for the duration. Stacks up to 5 times."
+1003,43,16,Remorseless,0,"After using an Ability, your next Basic Attack within 3 seconds deals 40% additional damage."
+1004,43,20,Deafening Blast,0,Enemies at the center of Wailing Arrow\'s explosion take 50% more damage and are silenced for twice as long.
+1005,43,20,Dark Lady\'s Call,0,Mind Controlled enemies gain 100% Movement Speed for the duration.
+1006,43,20,Fury of the Storm,0,"Every 5 seconds, your next basic attack will deal an additional 91 damage to the target, and 228 damage to all nearby Minions and Mercenaries."
+1007,43,20,Bolt of the Storm,0,Activate to teleport to a nearby location.
+1008,44,1,Psi-Infusion,0,"Quest:ÿGain 1 Mana for every Non-Structure enemy hit by Psionic Storm. Reward:ÿAfter hitting 500 enemies, increase the size of Psionic Storm by 20%. Reward:ÿAfter hitting 1000 enemies, increase the damage of Psionic Storm by 20%."
+1009,44,1,Templar?s Will,0,"Quest:ÿAttacking enemy Heroes restores 4 mana per second. Reward:ÿAfter spending 30 seconds attacking Heroes, Distortion Beam range is increased by 20%. Reward:ÿAfter spending 60 seconds attacking Heroes, Distortion Beam\'s range is increased by an additional 20%."
+1010,44,1,Khaydarin Resonance,0,"Quest:ÿRegeneration Globes grant an additional 50% Mana.Reward:ÿAfter collecting 20 Regeneration Globes, Plasma Shield retains 50% of its value after it expires. Reward:ÿAfter collecting 40 Regeneration Globes, Plasma Shield persists indefinitely."
+1011,44,4,Khala\'s Celerity,0,"Upon expiration or breaking, the target of Plasma Shield gains 25 Armor for 3 seconds, causing them to take 25% less damage."
+1012,44,4,Khala\'s Embrace,0,Plasma Shield also grants 25% Movement Speed for 5 seconds.
+1013,44,4,Khala\'s Light,0,Increase the Life Steal of Plasma Shield to 40%.
+1014,44,7,Psionic Projection,0,Increases the cast range of Plasma SHield and Psionic Storm by 40%.
+1015,44,7,Resonation,0,Distortion Beam slows enemies affected by Psionic Storm by 40%.
+1016,44,7,Mental Acuity,0,"Quest:ÿEach Takedown earned lowers the cooldown of Oracle by 3 seconds, to a maximum of 15 seconds. Reward:ÿUpon getting 5 Takedowns, the sight range of Oracle is increased by 50%."
+1017,44,10,Archon,100,"Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 182 (+4% per level) damage, slow the target by 40% for 1 second and splashs for 91 (+4% per level) damage to enemies within 2.5 range. Lasts for 10.5 seconds."
+1018,44,10,Force Wall,12,Create a wall that blocks all units from moving through it for 2.5 seconds.
+1019,44,13,Deep Shift,0,Dimensional Shift duration and Movement Speed bonuses are increased by 50%.
+1020,44,13,Adun\'s Wisdom,0,"While Oracle is active, Basic Abilities cooldown 50% faster."
+1021,44,13,Nulification,60,Activate to reduce the damage the target enemy Hero deals by 75% for 3 seconds.
+1022,44,16,Phase Disruption,0,"Enemy Heroes being hit by Psionic Storm, have their Physical Armor reduced by 25, causing them to take 25% more damage from Basic Attacks."
+1023,44,16,Psionic Echo,0,"Enemy Heroes being hit by Psionic Storm, have their Physical Armor reduced by 25, causing them to take 25% more damage from Basic Attacks."
+1024,44,16,Focused Beam,0,"While Oracle is active, Basic Attacks against Heroes deal an additional 1% of the target\'s maximum Health as damage."
+1025,44,20,Twilight Archon,0,Basic Attacks while in Archon form refresh its duration.
+1026,44,20,Force Barrier,0,Force Wall\'s Range ins increased by 100% and its cooldown is reduced by 6 seconds.
+1027,44,20,Prismatic Link,0,Basic Attacks bounce to hit 2 additional targets for 52% (+4% per level) damage.
+1028,44,20,Shield Battery,70,Activate to give all nearby allied Heroes an untalented Plasma Shield.
+1029,45,1,Block,0,"Every 5 seconds, you can Block a Basic Attack from an enemy Hero reducing its damage by 50%. Stores up to 2 charges."
+1030,45,1,Rolling Thunder,0,Increases Chain Lightning\'s range by 30% and attacking enemies recently hit by Chain Lightning restores 10 Mana.
+1031,45,1,Rabid Wolves,0,Damaging Heroes with Feral Spirit grants 3 stacks of Frostwolf Resilience.
+1032,45,1,Seasoned Marksman,0,"Quest:ÿEvery Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage. Reward:ÿUpon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown."
+1033,45,4,Ride The Lightning,0,Chain Lightning can hit 2 additional enemies for 50% damage.
+1034,45,4,Spirit Journey,0,Feral Spirit travels 50% farther.
+1035,45,4,Mana Tide,0,Frostwolf Resilience also restores 15 Mana.
+1036,45,4,Envenom,60,"Activate to poison an enemy Hero, dealing 352 damage over 10 seconds."
+1037,45,7,Wind Shear,0,Reduces the cooldown of Windfury by 4 seconds.
+1038,45,7,Stone Wolves,0,Increases the duration of Feral Spirit\'s root from 1 second to 1.5 seconds.
+1039,45,7,Follow Through,0,"After using an ability, your next Basic Attack within 6 seconds deals 40% additional damage."
+1040,45,7,Frostwolf\'s Grace,30,Frostwolf Resilience can be activated to immediately heal you.
+1041,45,10,Sundering,75,"After a short delay, sunder the earth in a long line, dealing 601 (285 + 4% per level) damage and shoving enemies to the side, stunning them for 1.0 seconds."
+1042,45,10,Earthquake,60,"Summon a massive Earthquake that pulses every 2 seconds. Each pulse slows all enemies in the area by 70%, and deals 110 (52 + 4% per level) damage to enemy Heroes . Does 3 pulses.."
+1043,45,13,Restless Wolves,0,"If Feral Spirit hits an enemy Hero, its cooldown is reduced by 50%."
+1044,45,13,Grace Of Air,0,Windfury attacks grant twice as many stacks of Frostwolf Resilience.
+1045,45,13,Giant Killer,0,Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero\'s maximum Health.
+1046,45,13,Spell Shield,1,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+1047,45,16,Forked Lightning,0,Allows Chain Lightning to hold 2 charges that can be used in quick succession.
+1048,45,16,Tempest Fury,0,The final strike of Windfury hits 3 times for 75% normal damage.
+1049,45,16,Ride The Wind,0,Increases Windfury\'s Movement Speed bonus from 30% to 40%. Windfury attacks increase the Movement Speed duration by 1 second.
+1050,45,16,Blood for Blood,60,Activate to deal 10% of target enemy Hero\'s Max Health and heal for twice that amount.
+1051,45,20,Worldbreaker,0,Sundering travels indefinitely.
+1052,45,20,Earthen Shields,0,You and your allies within the Earthquake area gain a Shield equal to 15% of max Health each pulse. This shield lasts 4 seconds.
+1053,45,20,Nexus Blades,0,Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.
+1054,45,20,Bolt of the Storm,70,Activate to teleport to a nearby location.
+1055,46,1,Pulse Strike,0,Increases Melee\'s Pulse Bomb charge from 10% to 20% against Heroes.
+1056,46,1,Slipstream,0,Increases the amount of time Recalled by 1 second.
+1057,46,1,Tracer Rounds,0,Your Basic Attacks reveal enemies for 4 seconds.
+1058,46,4,Parting Gift,0,Recall leaves behind 3 bombs that deal 526 (250 + 4% per level) damage each to different targets.
+1059,46,4,Is That a Health Pack?!,0,Increases Regeneration Globe and Healing Fountain healing by 100%.
+1060,46,4,Untouchable,0,"Quest:ÿTakedowns increase your Basic Attack damage by 2%, up to 30%. These bonuses are lost on death. Reward:ÿNone"
+1061,46,7,Jumper,0,Increases Blink\'s charges by 1.
+1062,46,7,Bullet Time,0,Basic Attacks lower the cooldown of Blink by 0.1 seconds.
+1063,46,7,Spatial Echo,0,Hero Takedowns grant 2 charges of Blink.
+1064,46,10,Sticky Bomb,0,Increases Pulse Bomb\'s radius by 50% and enemies hit are slowed by 70% for 3 seconds.
+1065,46,10,Quantum Spike,0,Pulse Bomb deals an additional 10% of the primary target\'s maximum Health.
+1066,46,10,Pulse Rounds,0,Increases Pulse Bomb\'s range and charge rate from Basic Attacks against Heroes by 100%.
+1067,46,13,Bullet Spray,0,"Increases Melee\'s radius by 40%, and causes it to damage all enemies in range."
+1068,46,13,Ricochet,0,"Your Basic Attacks have a 50% chance to hit another nearby enemy, prioritizing Heroes."
+1069,46,13,Leeching Rounds,0,Your Basic Attacks against Heroes heal you for 20% of their damage dealt.
+1070,46,16,Sleight of Hand,0,Reduces Reload time by 50%. This equals 20% more damage per second.
+1071,46,16,Focus Fire,0,"If an entire ammo magazine is unloaded on an enemy, the last bullet will deal 191 (91 + 4% per level) bonus damage. This is equal to 35% of the total magazine."
+1072,46,16,Locked and Loaded,0,Reactivate Reload within the last 50% of its cast time to increase your Basic Attack damage by 40% for that magazine.
+1073,46,20,Get Stuffed!,0,Reduces Melee\'s cooldown by 3 seconds. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knocks the target away from you.
+1074,46,20,Total Recall,0,"Recall\'s cooldown is increased by 8 seconds, but it heals you equal to the amount of Health you lost during that time."
+1075,46,20,Composition B,0,"If you successfully stick a Pulse Bomb to an enemy Hero, you also drop another one at their feet that deals 50% damage and explodes slightly earlier."
+1076,47,1,Press the Advantage,0,Run and Gun increases your Basic Attack range by 35% for 4 seconds.
+1077,47,1,Dash,0,"Quest:ÿRun and Gun increases your Movement Speed by 1% for each Regeneration Globe you gather, up to 25%. Lasts 2 seconds. Reward:ÿOnce you have gathered 25 Regeneration Globes, also increase the range of Run and Gun by 50%."
+1078,47,1,Combat Tactician,0,Basic Attacks reduce the cooldown of Run and Gun by 0.8 seconds.
+1079,47,4,In the Rhythm,0,"Quest:ÿWhile Minigun is active, Basic Attack against Heroes permanently increase future Minigun durations by .03 seconds. Reward:ÿNone"
+1080,47,4,Fully Loaded,0,Reduce Minigun\'s cooldown by 33%.
+1081,47,4,The Bigger They Are...,0,"Increases Minigun damage bonus to 4% while enemy Heroes are above 40% Health, but Minigun no longer has any effect on targets below 40%."
+1082,47,4,Master Assassin,0,"Quest:ÿHero Takedowns permanently increase your Attack Speed by 1%, stacking up to 15 times. Reward:ÿUpon reaching 15 Stacks, your attack speed is increased by an additional 10%."
+1083,47,7,Quarterback,0,Increases the range of Frag Grenade by 50%.
+1084,47,7,Concussion Grenade,0,Increases Frag Grenade\'s radius by 25% and the knockback by 100%.
+1085,47,7,Relentless Soldier,0,"Being Stunned or Rooted grants 25 Armor for 3 seconds, reducing damage taken by 25%."
+1086,47,10,Commandeer Odin,0,"Call down an Odin to pilot. The Odin deals increased Damage, has 60% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds."
+1087,47,10,Drakken Laser Drill,30,"Active:ÿCall down a Laser Drill to attack nearby enemies, dealing 142 damage every second. Reactivate to assign a new target. Lasts 22 seconds."
+1088,47,13,That\'s the Stuff!,0,Minigun heals you for 100% of the bonus damage it deals to Heroes.
+1089,47,13,Neosteel Coating,0,"Activate to gain 50 Spell Armor for 3 seconds, reducing Ability Damage taken by 50%."
+1090,47,13,Spray \'n\' Pray,0,Increases Overkill\'s range by 25%.
+1091,47,16,Titan Grenade,0,Frag Grenade deals bonus damage to Heroes equal to 5% of their maximum Health.
+1092,47,16,Lead Rain,0,Overkill also slows enemy movement speed by 20%.
+1093,47,16,Armor Piercing Rounds,0,Increases Overkill\'s damage to the primary target by 50%.
+1094,47,20,Big Red Button,0,Odin lasts 50% longer and Ragnarok Missiles also launches a Nuclear Missile.
+1095,47,20,Focusing Diodes,0,"Increases the range of the Drakken Laser Drill by 50%. Deals increased damage the longer it remains on a single target, up to 100% extra damage."
+1096,47,20,Sizzlin\' Attacks,0,Your Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigum.
+1097,47,20,Bob and Weave,0,Run and Gun and Odin\'s Thrusters gain 2 additional charges and reduces Run and Gun\'s Mana cost from 50 to 25.
+1098,48,1,Purge Evil,0,Smite deals 30% more damage to Heroes.
+1099,48,1,Protection in Death,0,"When Archangel\'s Wrath explodes, shield nearby allies for 50% of their max Health for 10 seconds."
+1100,48,1,Even In Death,0,"Increases Archangel\'s Wrath\'s damage by 25%. Basic Abilities also can be used before exploding, but deal no damage."
+1101,48,1,Regeneration Master,0,"Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage, to a max of 40 damage.Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 30% for 3 seconds. 60 second cooldown."
+1102,48,4,Horadric Reforging,0,"If El\'druins Might hits an enemy, its cooldown is reduced by 3 seconds."
+1103,48,4,Swift Retribution,0,Increases Smite\'s Movement Speed by 10% and duration by 1 second.
+1104,48,4,Amplified Healing,0,Increases regeneration effects and all healing received by 30%.
+1105,48,4,Vigorous Strike,0,Basic Attacks heal for 25% of the damage dealt to the primary target.
+1106,48,7,Angel\'s Grace,0,"After teleporting using El\'Druin\'s Might, gain 30% Movement Speed for 3 seconds."
+1107,48,7,Reciprocate,0,"When your shield expires, it explodes for 439 (208 + 4% per level) damage to nearby enemies."
+1108,48,7,Zealotry,0,"Increases the duration of Righteousness by 50%, and reduces its cooldown by 2 seconds."
+1109,48,7,Searing Attacks,0,Activate to increase Basic Attack damage by 50% for 5 seconds. Each attack costs 15 Mana.
+1110,48,10,Judgment,0,"After 0.75 seconds, charge an enemy Hero dealing 220 (104 + 4% per level) damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take 110 (52 + 4% per level) damage."
+1111,48,10,Sanctification,0,After 0.5 seconds create a field of holy energy that makes allied Heroes Invulnerable. Lasts 3 seconds.
+1112,48,13,Burning Rage,0,Deal 23 damage per second to nearby enemies.
+1113,48,13,Angelic Absorption,0,Enemies that attack you while shielded grant 138 Health over 3 seconds.
+1114,48,13,Imposing Will,0,Enemies that attack you while shielded have their Attack Speed and Movement Speed slowed by 50% for 2 seconds.
+1115,48,13,Angelic Might,0,Gain 25% increased damage on your next Basic Attack for each target hit by Smite.
+1116,48,16,Blade of Justice,0,"After teleporting using El\'Druin\'s Might, increase your Attack Speed by 50% for 5 seconds."
+1117,48,16,Holy Ground,0,Create a ring that blocks enemies from entering the area teleported to using El\'Druin\'s Might.
+1118,48,16,Salvation,0,Each allied Hero that is affected by Righteousness increases Tyrael\'s Shield amount by 35%.
+1119,48,16,Blood for Blood,0,Activate to deal 10% of target enemy Hero\'s Max Health and heal for twice that amount.
+1120,48,20,Angel of Justice,0,"Increases the cast range of Judgment by 50%, and reduces the cooldown by 40 seconds."
+1121,48,20,Holy Arena,0,Increases duration of Sanctification by 1 second and increases the damage of allies by 25%.
+1122,48,20,Hardened Shield,0,Activate to reduce damage taken by 75% for 4 seconds.
+1123,48,20,Nexus Blades,0,Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.
+1124,49,1,Celestial Attunement,0,Reduce the Mana cost of Light of Elune by 15.
+1125,49,1,Ranger\'s Mark,0,Lower the Cooldown of Hunter\'s Mark by 6 seconds.
+1126,49,1,Seasoned Marksman,0,"Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown."
+1127,49,1,Empower,0,"When Sentinel impacts, your cooldowns are instantly reduced by 2 seconds."
+1128,49,4,Pierce,0,"Sentinel no longer stops at the first Hero hit, affecting all enemy Heroes along the path."
+1129,49,4,Focused Attack,0,"Every 10 seconds, your next Basic Attack against a Hero deals 75% additional damage. Basic Attacks reduce this cooldown by 1 second."
+1130,49,4,Protective Shield,0,Activate to shield an allied Hero for 15% of their max Health for 5 seconds.
+1131,49,4,Healing Ward,0,Activate to place a ward on the ground that heals allies in an area for 1.95% of their max Health every second for 10 seconds.
+1132,49,4,Searing Arrows,0,Activate to increase Basic Attack damage by 50% for 5 seconds. Each attack costs 10 Mana.
+1133,49,7,Quickening Blessing,0,"If cast on an ally, Light of Elune also increases their Movement Speed by 25% for 3 seconds."
+1134,49,7,Lunar Blaze,0,Increases the range of Lunar Flare by 40%.
+1135,49,7,Lunar Momentum,0,Basic Attacks reduce your Basic Ability cooldowns by 0.75 seconds.
+1136,49,7,Calldown: MULE,0,"Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second. Grants 1 ammo every 3 seconds."
+1137,49,10,Shadowstalk,0,"Stealth all allied Heroes and heal them for 256 over 8 seconds. At the conclusion of Shadowstalk, they receive a burst of 100 healing."
+1138,49,10,Starfall,0,Deal 91 damage per second and slow enemies by 20% in an area. Lasts 8 seconds.
+1139,49,13,Overflowing Light,0,"When you are above 50% Health, Light of Elune\'s allied heal is increased by 30%."
+1140,49,13,Huntress\' Fury,0,Gain 40% additional Attack Speed for 5 seconds when using Hunter\'s Mark.
+1141,49,13,Sprint,0,Activate to gain 75% Movement Speed for 3 seconds.
+1142,49,13,Shrink Ray,0,Activate to reduce an enemy Hero\'s damage by 50% and Movement Speed by 50% for 4 seconds.
+1143,49,16,Trueshot Aura,0,You passively grant 15% Basic Attack damage to nearby allied Heroes.
+1144,49,16,Mark of Mending,0,Basic Attacks against Marked targets heal for 2.5% maximum Health.
+1145,49,16,Ranger,0,"Increases width of Sentinel by 100%. Increases damage dealt based on distance traveled, up to a maximum of +200% damage."
+1146,49,16,Shooting Star,0,Lunar Flare does 50% more damage. Hitting an enemy Hero will also refund the mana cost.
+1147,49,20,Hunter\'s Swiftness,0,"When using Shadowstalk, you and allied Heroes gain 30% Movement Speed for 8 seconds."
+1148,49,20,Celestial Wrath,0,Starfall can be cast globally. Damage is increased by 30%.
+1149,49,20,Nexus Frenzy,0,Increases Attack Speed by 20% and Attack Range by 20%.
+1150,49,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+1151,49,20,Rewind,0,Activate to reset the cooldowns of your Basic Abilities.
+1152,50,1,Conjurer\'s Pursuit,0,"Quest: Gathering Regeneration Globes increases your Mana Regeneration by 0.1 per second, up to 2.54 per second. Reward: After gathering 25 Globes, also increase your maximum Mana by 100."
+1153,50,1,Hammer of the Lightbringer,0,Basic Attacks also restore 8 Mana.
+1154,50,1,Fist of Justice,0,Basic Attacks reduce cooldown of Hammer of Justice by 1 second.
+1155,50,1,Wave of Light,0,"Each Hero healed by Holy Radiance returns 10 Mana and reduces the cooldown by 1 second, up to a maximum of 50 Mana and 5 seconds."
+1156,50,4,Boundless Conviction,0,Increases the width and length of Holy Radiance by 40%.
+1157,50,4,Beacon of Light,0,You heal yourself for 30% of all healing done to allied Heroes.
+1158,50,4,Protective Shield,0,Activate to shield an allied Hero for 15% of their max Health for 5 seconds.
+1159,50,7,Burden of Guilt,0,"After Hammer of Justice\'s stun fades, the enemy\'s Movement Speed is slowed by 30% for 2 seconds."
+1160,50,7,Holy Fire,0,Deal 40 (19 + 4% per level) damage per second to nearby enemies. Basic Attacks against enemy Heroes increase this damage by 20% for 3 seconds. This can stack up to 3 times.
+1161,50,7,Cleanse,0,Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.
+1162,50,10,Divine Shield,0,Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds.
+1163,50,10,Divine Storm,0,Deal 187 damage and stun nearby enemies for 1.75 seconds.
+1164,50,13,Blessed Champion,0,"After usding Holy Light, your Basic Attacks heal you and nearby allied Heroes for 20% of the healed amount. Last 5 seconds."
+1165,50,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+1166,50,13,Holy Shock,0,"Holy Light can be used on an enemy to do 49.88% of its healing amount as damage and with 6 seconds less cooldown. When used this way, your next Holy Light heals for 50% more."
+1167,50,13,Shrink Ray,0,Activate to reduce an enemy Hero\'s damage by 50% and Movement Speed by 50% for 4 seconds.
+1168,50,16,Gathering Radiance,0,"Each Hero that Holy Radiance passes through increases the healing and damage of your next Holy Radiance by 8%, to a maximum of 80% increase."
+1169,50,16,Hardened Focus,0,"While above 80% life, your Basic Ability cooldowns regenerate 50% faster."
+1170,50,16,Righteous Defense,0,Healing a Hero with Holy Light reduces all damage they take by 50% for 2 seconds.
+1171,50,16,Benediction,0,Activate to reduce the Mana cost of your next Basic Ability by 50 and its cooldown by 10 seconds.
+1172,50,20,Bulwark of Light,0,Divine Shield lasts 2 seconds longer and its cooldown is reduced by 20 seconds.
+1173,50,20,Divine Hurricane,0,Divine Storm\'s radius is increased by 50% and its cooldown is reduced by 20 seconds.
+1174,50,20,Redemption,0,"After Eternal Devotion ends, return to 50% of your maximum Health at your spirit\'s location. This effect has a 180 second cooldown."
+1175,50,20,Storm Shield,0,Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.
+1176,51,1,Monster Hunter,0,"Reduces the Mana cost of Hungering Arrow by 40 and increases the damage it deals to Minions, Mercenaries, and Monsters by 150%."
+1177,51,1,Caltrops,0,Drop 3 Caltrops while Vaulting. Caltrops do 99 (47 + 4% per level) damage and slow enemies by 20% for 1 second.
+1178,51,1,Hot Pursuit,0,"When at 10 stacks of Hatred, the Movement Speed bonus increases to 20% total and you gain 4 Mana per second."
+1179,51,4,Puncturing Arrow,0,"Quest:ÿHitting an enemy Hero with the initial impact of Hungering Arrow increases its damage by 5, up to a maximum of 100. Reward:ÿAfter gaining 100 bonus damage, gain an additional 75 bonus damage and Hungering Arrow also bounces 1 additional time."
+1180,51,4,Punishment,0,Each stack of Hatred increases the damage of Multishot by 4%.
+1181,51,4,Creed of the Hunter,0,Increases Attack Speed by 10%.
+1182,51,7,Arsenal,0,"Multishot also fires 3 grenades, which deal 263 (125 + 4% per level) damage. Each enemy Hero hit by a grenade reduces the cooldown of Multishot by 2 seconds."
+1183,51,7,Death Dealer,0,"Increases Vault Basic Attack damage bonus from 6% to 14% per stack of Hatred. If this attack kills its victim, the Mana cost and cooldown of Vault are refunded."
+1184,51,7,Repeating Arrow,0,The cooldown for Hungering Arrow is reset when Vault is used.
+1185,51,10,Strafe,0,"Rapidly attack nearby visible enemies for 132 (63 + 4% per level) damage per hit, prioritizing heroes over minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds."
+1186,51,10,Rain of Vengeance,0,Launch a wave of Shadow Beasts that deals 493 (234 + 4% per level) damage and stuns enemies in the target area for 0.5 seconds. Stores 2 charges.
+1187,51,13,Siphoning Arrow,0,You heal for 75% of the damage dealt to Heroes by Hungering Arrow.
+1188,51,13,Tempered by Discipline,0,"While at 10 stacks of Hatred, your Basic Attacks heal you for 25% of the damage dealt."
+1189,51,13,Gloom,5,"Activate to consume all Hatred, gaining 3 Spell Armor per Hatred consumed for 5 seconds. Passive:ÿPermenantly gain 20 Spell Armor, reducing Ability Damage taken by 20%."
+1190,51,16,Frost Shot,0,Increases the range of Multishot by 20% and it also slows by 25% for 1.5 seconds.
+1191,51,16,Seething Hatred,0,Basic Attacks now grant 2 stacks of Hatred and the time it takes before Hatred expires is increased by 2 seconds.
+1192,51,16,Manticore,0,Every 3rd Basic Attack against the same target deals an additional 5% of their maximum Health as damage.
+1193,51,20,Vengeance,0,Strafe also fires penetrating bolts in a line for 75 (36 + 4% per level) damage every 0.25 seconds. 25% of the damage you deal with Strafe is returned as Health.
+1194,51,20,Storm of Vengeance,0,Basic Attacks reduce the charge cooldown of Rain of Vengeance by 5 seconds.
+1195,51,20,Rancor,0,"Each stack of Hatred also increases Attack Speed by 2%. While at 10 stacks of Hatred, gain an additional 30% Attack Speed."
+1196,51,20,Farflight Quiver,0,Increases your Basic Attack range by 40%.
+1197,52,1,Backlash,0,"When Bone Armor expires, nearby enemy Heroes take damage equal to 15% of their maximum Health."
+1198,52,1,Shackler,0,"While Bone Armor is active, you slow nearby enemies by 35% for 1 Second."
+1199,52,1,Shade,0,"While Bone Armor is active, you evade all Basic Attacks, but increases the cooldown of Bone Armor by 20 seconds."
+1200,52,4,Death\'s Reach,0,Increases Spectral Scythe range by 20%.
+1201,52,4,Jailors,0,Bone Prison spawns 2 Skeletal Warriors that fixate on the emeny for 15 seconds. These do not count towards your Raise Skeleton maximum.
+1202,52,4,Trag\'Oul\'s Essence,0,Gain 8 Mana when you raise a Skeletal Warrior.
+1203,52,7,Harvest Vitality,0,Cursed Strikes heals you for 145 (69 + 4% per level) for each Hero hit.
+1204,52,7,Weaken,0,Increases Cursed Strikes Attack Speed slow from 50% to 75%.
+1205,52,7,Rathma\'s Blessing,0,Raising a Skeletal Warrior heals you for 55 (55 + 4% per level).
+1206,52,10,Poison Nova,0,"After a short delay, release poisonous missiles that deal 1249 (593 + 4% per level) damage to all enemies hit over 10 seconds."
+1207,52,10,Skeletal Mages,0,Summon 4 Frost Mages in a line that attack nearby enemies for 103 (49 + 4% per level) damage a second and slow them by 30% for 2 seconds. Last up to 15 seconds.
+1208,52,13,Decrepify,0,Spectral Scythe slows enemies by 40% for 3 seconds.
+1209,52,13,Giant\'s Curse,0,Cursed Stike deals an additional 2% of maximum Health as damage to Heroes.
+1210,52,13,Corpse Explosion,0,When Skeletal Warriors die they explode for 116 (55 + 4% per level) damage in a small area. Deals 100% increased damage to non-Heroic enemies.
+1211,52,16,Executioner,0,"Basic Attacks deal 40% more damage against slowed, rooted, or stunned targets."
+1212,52,16,Flowing Wounds,0,Reduces Spectral Scythe\'s cooldown by 5 seconds if you hit an enemy Hero.
+1213,52,16,Amplify Damage,0,"Enemies rooted by Bone Prision become Vunerable for 1.75 seconds, taking 25% increased damage."
+1214,52,16,Skeleton Mastery,0,Increases the maximum Skeletal Warriors you can have to 6 and increases their damage by 50%.
+1215,52,20,Call of the Grave,0,Poison Nova deals an additional 1% of the target\'s maximum life as damage every second.
+1216,52,20,Raised Mage,0,"When a nearby enemy Hero dies, a Frost Mage appears from their corpse to fight for you. Also increases thge slow of Frost Mages from 30% to 50%."
+1217,52,20,Mortal Wound,0,Enemies hit by Spectral Scythe receive 75% less healing for 4 seconds.
+1218,52,20,Bone Spear,10,Deal 510 (230 + 4% per level) damage to enemies in a line.
+1219,53,1,Volatile Acid,0,"Banelings can travel 50% further before exploding and their damage to Minions, Mercenaries, and Structures is increased by 50%."
+1220,53,1,Corpse Feeders,0,Reduces the cooldown of Infested Drop by 3 seconds and Roachlings take 40% less damage from non-Heroic sources.
+1221,53,1,Infest,1,"Nearby Ranged Minions deal an additional 200% damage, plus an additional 1% per 1000 Siege damage Zagara has dealt. Can be toggled on or off."
+1222,53,4,Envenomed Spines,30,Activate to have Zagara\'s next Basic Attack apply 504 (240 + 4% per level) damage over 5 seconds.
+1223,53,4,Medusa Blades,0,Basic Attacks deal 33% damage to three nearby targets.
+1224,53,4,Serrated Spines,0,Quest: Each Basic Attack against a Hero increases Zagara\'s Attack Damage by 0.3.
+1225,53,7,Baneling Massacre,0,Zagara gains 2 additional charges of Banelings.
+1226,53,7,Viscous Acid,0,Banelings slow enemies by 20% for 1.5 seconds.
+1227,53,7,Bile Drop,0,"Quest: Increases the impact damage of Infested Drop by 50%. Each Hero hit by the impact damage of Infested Drop increases the bonus damage by another 10%. Reward: Upon reaching 10% bonus damage, increases the impact radius of Infested Drop by 20%."
+1228,53,10,Devouring Maw,0,Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 176 (84 + 3% per level) damage per second.Usable on Unstoppable enemies.
+1229,53,10,Nydus Network,0,"Passive: Creep spreads 25% farther. Passive: While on Creep, each Basic Attack educes all of Zagara\'s cooldowns by 1 second. Summon a Nydus Worm on Creep anywhere that Zagara has vision of. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-cliking near it. While insde a Nydus Worm, Zagara regenerates 9.75% Health and Mana per second."
+1230,53,13,Hydralisk Transfusion,0,Zagara is healed for 75% of the damage dealt by Hunter Killers\' Basic Attacks.
+1231,53,13,Protective Coating,0,"While on Creep, Zagara takes 20% less damage."
+1232,53,13,Spell Shield,0,"Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. Can only trigger once every 30 seconds."
+1233,53,16,Brood Expansion,0,Reduces the cooldown of Hunter Killer by 6 seconds.
+1234,53,16,Corrosive Saliva,0,"When used against Heroes, Hunter Killers deal additional damage equal to 2% of their maximum Health."
+1235,53,16,Mutalisk,0,Your Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack and do not have a timed life.
+1236,53,20,Tyrant Maw,0,Devouring Maw deals 50% more damage and when you get a Takedown reduce its cooldown by 25 seconds.
+1237,53,20,Endless Creep,0,"The cast range for Creep Tumor is increased by 2000%. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 20% Movement Speed."
+1238,53,20,Fury of the Storm,0,"Every 5 seconds, your next basic attack will deal an additional 91 damage to the target, and 228 damage to all nearby Minions and Mercenaries."
+1239,54,1,Greater Cleave,0,Increases the radius of Cleave by 33%.
+1240,54,1,Vorpal Blade,15,Activate to teleport to the last non-structure target you attacked within 3 seconds.
+1241,54,1,Shadow Hunter,0,"Quest:ÿGather Regeneration Globes to lower the Mana cost of Blink by 2 . Reward:ÿUpon gathering 20 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1 second."
+1242,54,4,Grim Task,0,Quest:ÿHero Takedowns increase Ability Power by 5% up to 50% . This bonus Ability Power is lost on death. Reward:ÿNone
+1243,54,4,Rending Cleave,0,Cleave deals an additional 40% damage over 3 seconds.
+1244,54,4,Combo Slash,0,"After using an Ability, Zeratul\'s next Basic Attack within 6 seconds deals 40% additional damage."
+1245,54,7,Wormhole,0,"For 2 seconds, you can activate Blink again to return to the point where it was cast from."
+1246,54,7,Slip into Shadow,0,"Blink gains an additional charge, but its cooldown is increased by 8 seconds."
+1247,54,7,Seeker in the Dark,0,"Singularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds."
+1248,54,10,Shadow Assault,0,Your Basic Attacks cause you to charge at enemies and have 20% increased Attack Speed. Lasts for 6 seconds.
+1249,54,10,Void Prison,0,"Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected."
+1250,54,13,Shroud of Adun,0,Zeratul gains a shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.
+1251,54,13,Spell Shield,0,"Every 30 seconds, gain 50 Spell Armor against the next Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering."
+1252,54,13,Mending Strikes,0,Basic Attacks heal for 35% of the damage dealt.
+1253,54,16,Master Warp-Blade,0,Every third consecutive Basic Attack against the same target deals 125% bonus damage.
+1254,54,16,Void Slash,0,"If Cleave hits more than one enemy Hero, it deals 50% increased damage and its cooldown is reduced by 3 seconds."
+1255,54,16,Sentenced to Death,0,Deal 50% increased damage to enemies while they have a Singularity Spike attached to them.
+1256,54,20,Nerazim Fury,0,"Shadow Assault grants 30% Life Steal, and the duration is increased by 50%."
+1257,54,20,Protective Prison,0,"Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends."
+1258,54,20,Nexus Blades,0,Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.
+1259,54,20,Rewind,60,Activate to reset the cooldowns of your Basic Abilities.
+1260,55,1,Without Effort,0,Telekinesis no longer costs Mana.
+1261,55,1,Applied Force,0,Reduces the damage bonus of Sadism by 10% but Telekinesis pushes 20% further.
+1262,55,1,Power Conduit,0,Reduces the Mana cost of Lightning Surge by 10.
+1263,55,4,Double Cross,0,Increases the range of Discord Strike by 25% and also hits in a line perpendicular to the forward strike.
+1264,55,4,Reckless Strike,0,"Reduces the delay of Discord Strike by 0.25 seconds but if it hits an enemy you become Vulnerable, causing Alarak to take 25% more damage for 2 seconds."
+1265,55,4,Cycle of Discord,0,"Reduces the cooldown of Discord Strike by 2 seconds. If a Discord Strike hits no enemies, the mana cost is refunded and cooldown reduced by 3 seconds."
+1266,55,4,Extended Lightning,0,Increases Lightning Surge range by 20%.
+1267,55,7,Chaos Reigns,0,"Quest:ÿEach time Discord Strike hits a Hero its damage increases by 3 up to 45. Reward:ÿAfter hitting 15 Heroes, increase its damage by an additional 45."
+1268,55,7,Endless Energy,0,"Quest:ÿHeroes hit between you and the victim permanently decreases the cooldown of Lightning Surge by 0.2 seconds, up to 2 seconds. Reward:ÿNone"
+1269,55,7,Thunderstruck,0,"Reduces the damage bonus of Sadism by 10%, but Lightning Surge slows enemies hit between you and the victim by 70% for 2 seconds."
+1270,55,10,Deadly Charge,60,"After channeling, Alarak charges forward dealing 439 (208 + 4% per level) damage to all enemies in the path. Distance is increased based on the amount of time channeled, up to 1.625 seconds.Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling."
+1271,55,10,Counter-Strike,30,"Alarak becomes Protected and channels for 1 second. If an enemy Hero attacked Alarak during that time, Alarak sends a shockwave forward that deals 548 (260 + 4% per level) damage."
+1272,55,13,Dissonance,0,Reduces the damage bonus of Sadism by 10% but increases Discord Strike\'s silence duration by 0.75 seconds.
+1273,55,13,Psychokinesis,0,Increases the damage of Telekinesis by 100%.
+1274,55,13,Hindered Motion,0,Reduces the damage bonus of Sadism by 10% but Telekinesis slows enemies by 40% for 2 seconds.
+1275,55,13,Pure Malice,0,"When a nearby Ally Hero dies, your Sadism bonus is increased by 8%, stacking up to 40%. This bonus Sadism cannot be consumed by Hasty Bargain and is lost on death."
+1276,55,16,Quick Mind,0,Reduces the damage bonus of Sadism by 10% and the cooldown of Telekinesis by 6 seconds.
+1277,55,16,Projected Force,0,Reduces the damage bonus of Sadism by 10% but increases the range of Telekinesis by 25%.
+1278,55,16,Sustaining Power,0,Increases the healing you receive from dealing damage to Heroes with Lightning Surge by 30%.
+1279,55,16,Negatively Charged,0,"Increases damage dealt to enemies hit by the center beam of Lightning Surge by 100%, but does not generate any additional healing."
+1280,55,20,Deadly Charge,60,"After channeling, Alarak charges forward dealing 439 (208 + 4% per level) damage to all enemies in the path. Distance is increased based on the amount of time channeled, up to 1.625 seconds.Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.This ability will take over your Trait button."
+1281,55,20,Counter-Strike,30,"Channel for 1 second and become Protected. After, if an enemy Hero attacked you, send a shockwave that deals 548 (260 + 4% per level) damage.This ability will take over your Trait button."
+1282,55,20,Last Laugh,20,"Activate to remove all roots, slows, and damage over time effects and teleport to the chosen location. Activating Last Laugh will immediately reduce Alarak\'s Health to 1."
+1283,55,20,Hasty Bargain,20,Activate to permanently reduce your Sadism bonus by 4% and reset the cooldowns of your Basic Abilities.
+1284,56,1,Swift Sweep,0,Increases the cast speed of Sacred Sweep by 50%.
+1285,56,1,Increasing Clarity,0,"Quest: Every time Sacred Sweep hits a Hero in the center, increase the center damage by 3 up to 60. Reward: After hitting 20 Heroes, the center damage bonus is doubled to 120."
+1286,56,1,Righteous Assault,0,"Reduces the cooldown of Sacred Sweep by 2 seconds for each enemy Hero hit, up to a total of 4 seconds."
+1287,56,1,Searing Light,0,Ray of Heaven also deals damage to enemies in the area equal to 30% of the energy consumed.
+1288,56,4,Majestic Span,0,Increase Sacred Sweep radius
+1289,56,4,Heavy Burden,0,The enemy will be slowed by 35% for 3 seconds if Detainment Strike stuns the enemy.
+1290,56,4,Repeated Offense,0,"Quest: Every time Detainment Strike stuns a Hero, increase the stun damage by 10 up to 100.Reward: After stunning 10 Heroes, increase the damage by an additional 100."
+1291,56,7,Bursting Light,0,Reduces the cooldown of Ray of Heaven by 2 seconds.
+1292,56,7,Glimmer of Hope,0,Collecting a Regeneration Globe reduces the cost of your next Ray of Heaven by 35%.
+1293,56,7,Energized Cord,0,Increases the energy stored from Auriel\'s Basic Attacks to 100% of the damage against Heroes and 30% of the damage against non-Heroes.Does not affect your Bestow Hope ally.
+1294,56,7,Empathic Link,0,Auriel stores 25% of damage taken by allies with Bestow Hope.
+1295,56,10,Resurrect,0,"Channel on the spirit of a dead ally for 3 seconds, bringing them back to life with 50% of their maximum health at the location where they died."
+1296,56,10,Crystal Aegis,0,"Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 592 (281 + 4% per level) damage to all nearby enemies."
+1297,56,13,Blinding Flash,0,Enemies hit by the center area of Sacred Sweep are blinded for 4 seconds.
+1298,56,13,Converging Force,0,Enemies hit by the outer area are pushed slightly toward the center.
+1299,56,13,Piercing Lash,0,Detainment Strike now pierces and hits all enemies in a line.
+1300,56,13,Repelling Strike,0,Enemies hit by Detainment Strike are knocked back 35% farther.
+1301,56,16,Reservoir of Hope,0,Quest: Each maximum energy Ray of Heaven Auriel casts increases the maximum amount of energy that can be stored by 75.
+1302,56,16,Will of Heaven,0,Allies with Bestow Hope gain 20% Attack Speed.
+1303,56,16,Wrath of Heaven,0,Allies with Bestow Hope gain 10% Ability Power.
+1304,56,20,Light Speed,0,"Increases the healing of Resurrect to 100% of the ally\'s maximum Health, and they also gain 199.68% increased Movement Speed that decays over 4 seconds."
+1305,56,20,Diamond Resolve,0,"When Crystal Aegis expires, it grants a shield that reduces damage taken by 50% for 4 seconds."
+1306,56,20,Angelic Flight,45,Activate to fly to a chosen location.
+1307,56,20,Shield of Hope,0,Activate to grant all nearby allied Heroes a shield for 3 seconds equal to 50% of the amount of Health they are missing.
+1308,57,1,We Move Together,0,Increase the passive movement speed bonus ofÿSpeed Boostÿto 20% (from 15%).
+1309,57,1,Maximum Tempo,0,Quest:ÿKill 5 enemy Heroes whileÿSpeed Boostÿis active. Reward:ÿIncrease AmpedÿSpeed Boostÿto 60%.
+1310,57,1,Accelerando,0,"Increase the Movement Speed bonus of Wall Ride from 20% to 40% over 4 seconds, and maintain that speed as long as you maintain the Wall Riding movement speed bonus."
+1311,57,1,Slip,0,Increase the Movement Speed bonus of Wall Ride to 70% for 1 second when near or passing through an enemy Hero.
+1312,57,4,Subwoofer,0,"Increase the knockback of Soundwave by up to 50%, based on how close to you they are."
+1313,57,4,Off the Wall,0,"If you hit an enemy Hero while you have the Wall Riding Movement Speed bonus, reduce the cooldown by 3 seconds."
+1314,57,4,Chase the Bass,0,"Quest:ÿAfter hitting 20 enemy Heroes with Soundwave, increase the arc by 50% and the range by 20%."
+1315,57,7,Party Mix,0,Quest:ÿSupport allies with your aura for a total of 8 minutes (supporting multiple allies rewards more time). Reward:ÿIncrease its radius by 25%.
+1316,57,7,Loudspeaker,0,"If your aura is currently affecting 2 or more allies when you cast Amp It Up, increase its radius by 50% for the duration."
+1317,57,7,Boombox,20,Place a permanent killable ward on the ground that gives nearby allies your Crossfade and Amp It Up auras (auras do not stack). 20 second cooldown. Max 1.
+1318,57,10,Sound Barrier,100,"After a 1 second delay, grant yourself and all nearby allied Heroes an X point shield that decays to 0 over 6 seconds."
+1319,57,10,Reverse Amp,100,"If your current Crossfade track isÿSpeed Boost, slow nearby enemy Heroes by 40% for 3 seconds. If your current Crossfade track isÿHealing Boost, damage nearby enemy Heroes for X damage per second for 3 seconds."
+1320,57,13,Beat Mixing,0,Gain a permanent x point shield 1.5 seconds after switching tracks. Switching tracks also immediately clears any current shield from this talent.
+1321,57,13,"Can\'t Stop, Won\'t Stop",0,You cannot be slowed or rooted while you have the Wall Riding Movement Speed bonus.
+1322,57,13,Hard Style,0,"Gain 25 Armor while Wall Ride\'s Movement Speed bonus is active, reducing damage by 25%."
+1323,57,13,Back in the Mix,0,"Heal yourself for x after exiting from an enemy Stun, Silence, or Stasis. This effect cannot happen more than once every 10 seconds."
+1324,57,16,Heliotropics,0,Soundwave also Blinds enemies for 2.5 seconds.
+1325,57,16,Rejuvenescˆncia,0,"While Amp It Up is active, Crossfade\'sÿHealing Boostÿheals for an additional 3% of the target\'s maximum health per second."
+1326,57,16,Bring it Together,0,"If your aura is currently affecting 2 or more allies when you cast Amp It Up, Crossfade\'sÿHealing Boostÿis increased by 40% for the duration."
+1327,57,16,Up the Frequency,0,"Amp It Up\'s mana cost is reduced to 80 from 100, and dealing Basic Attack damage to enemy Heroes reduces the cooldown of Amp It Up by 0.35 seconds."
+1328,57,20,Bossa Nova,0,"Reduce the cooldown of Sound Barrier to 30 seconds, but the shield now decays over 4 seconds (from 6)."
+1329,57,20,Nonstop Remix,0,The duration of Reverse Amp is paused while it effects 2 or more enemy Heroes.
+1330,57,20,Encore,0,Using Crossfade while Amp It Up is active resets the duration of Amp It Up back to its max duration. This can only occur once per cast.
+1331,57,20,Synaesthesia Auditiva,0,"Casting Amp It Up removes all Stun, Slow, and Root effects from nearby allies, and all Slow and Root effects on L£cio."
+1332,58,1,Sulfuras Hungers,0,"Quest:ÿEvery time you kill a Minion with Empower Sulfuras, its damage is increased by 1, up to 30. Reward:ÿAfter killing 30 Minions, increase its damage by an additional 90."
+1333,58,1,Shifting Meteor,0,"Quest:ÿHit 75 heroes with Living Meteor. Reward:ÿDuration is increased by 30%, and you can recast the Ability to change its direction once per cast."
+1334,58,1,Engulfing Flame,0,"Blast Wave\'s cooldown is reduced by 2 seconds, and its radius is increased by 15%."
+1335,58,4,Fire Ward,0,"When Living Meteor hits an Enemy Hero, you gain a charge of Spell Block, reducing damage from the next enemy ability against you by 50%. Can hold up to 2 charges."
+1336,58,4,Slow Burn,0,Blast Wave slows enemies hit by 40% for 2 seconds.
+1337,58,4,Catching Fire,0,"Quest:ÿGathering a Regeneration Globe increases your Health Regeneration by 2 per second, up to 30. Reward:ÿAfter gathering 15 Regeneration Globes, you can activate Catching Fire to gain 25 Armor for 3 seconds, reducing damage taken by 25%."
+1338,58,7,Hand of Ragnaros,0,"If Empower Sulfuras hits at least 2 enemy Heroes, it restores 10 Mana and its cooldown is reduced by 2 seconds."
+1339,58,7,Molten Power,0,"Each enemy hero hit by Living Meteor increases the damage of your next Living Meteor by 15%, up to a maximum of 75%."
+1340,58,7,Superheated,0,"When you cast Blast Wave on yourself, it deals 100% increased damage."
+1341,58,10,Sulfuras Smash,60,"Hurl Sulfuras at the target area. It lands after 0.75 seconds, dealing 187 damage (+4% per level). Enemies in the center take an additional 374 damage (+4% per level) and are stunned for 0.5 seconds."
+1342,58,10,Lava Wave,100,"Release a wave of lava from your Core that travels down the targeted lane, dealing 603 damage (+4% per level) per second to non-Structure enemies in its path and instantly killing enemy Minions. Damage increased by 33% versus Heroes."
+1343,58,13,Cauterized Wounds,0,Empower Sulfuras heals you for an additional 60% of the damage dealt to heroes over 2 seconds.
+1344,58,13,Tempered Flame,0,"When Blast Wave damages an enemy Hero, you gain a Shield equal to 100% of the damage dealt for 3 seconds."
+1345,58,13,Resilient Flame,0,While Stunned gain 50 Armor for 3 seconds reducing damage taken by 50%.
+1346,58,16,Giant Scorcher,0,Empower Sulfuras burns enemy Heroes for 6% of their maximum Health over 3 seconds. This additional damage does not heal you.
+1347,58,16,Meteor Bomb,0,"Living Meteor explodes at the end of its path, dealing 229 damage (+4% per level) to all nearby enemies."
+1348,58,16,Blast Echo,0,"After Blast Wave explodes, cast another Blast Wave on yourself. Can only occur once per cast."
+1349,58,20,Flames of Sulfuron,0,Sulfuras Smash slows enemies by 50% for 2 seconds and enemies in the center are stunned for an additional 0.5 seconds.
+1350,58,20,Lava Surge,0,Lava Wave gains an additional charge and its cooldown is reduced by 10 seconds.
+1351,58,20,Heroic Difficulty,0,"Your Health and damage are increased by 25% while in Molten Core, and its cooldown is reduced by 50 seconds."
+1352,58,20,Submerge,90,Activate to place yourself in stasis and heal for 624 Health (+4% per level) over 3 seconds.
+1353,59,1,Way of Illusion,0,"Quest:ÿEvery time one of your Images Critically Strikes a Hero, gain 0.5 Attack Damage, up to 20. Reward:ÿAfter hitting 40 Heroes, gain an additional 20 Attack Damage."
+1354,59,1,Way of the Blade,0,Critical Strike now happens every 3rd Basic Attack and deals an additional 25% of your Basic Attack damage.
+1355,59,1,Way of the Wind,0,"Quest:ÿAttacking a Hero from Wind Walk increases the Movement Speed bonus of Wind Walk by 1.25%, up to 25%. Reward:ÿAfter hitting 20 Heroes, Wind Walk\'s Unrevealable duration is increased to 2.5 seconds."
+1356,59,4,Mirage,0,"Mirror Image grants you and your Images 40 Spell Armor against the next 2 sources of Spell damage, reducing damage taken by 40%."
+1357,59,4,One with the Wind,0,"While Stealthed by Wind Walk, gain 60 Armor, taking 60% reduced damage from all sources."
+1358,59,4,Deflection,0,"Advancing Strikes grants 25 Physical Armor against Hero Basic Attacks, reducing damage taken by 25%."
+1359,59,7,Burning Blade,0,"Critical Strikes unleash a burst of flame, dealing an additional 65% of your Basic Attack damage to the target and nearby enemies."
+1360,59,7,Phantom Pain,0,Critical Strikes deal an additional 40% of your Basic Attack damage for each Image you have active.
+1361,59,7,Crushing Blows,0,"Critical Strike now has two charges, and Critical Strikes deal an additional 25% of your Basic Attack damage."
+1362,59,10,Bladestorm,110,"Become an Unstoppable whirlwind of death, dealing 548 (260 + 4% per level) damage per second to nearby enemies for 4 seconds."
+1363,59,10,Illusion Master,6,"Switch places with the target Mirror Image, removing most negative effects from Samuro and the target Mirror Image. Passive:ÿYou can control Mirror Images separately or as a group, and they deal an additional 10% of your damage."
+1364,59,13,Mirrored Steel,0,Basic Attacks against Heroes reduce the cooldown of Mirror Image by 1 second.
+1365,59,13,Kawarimi,0,Wind Walk creates an Image at your location that will continue whatever you were doing.
+1366,59,13,Shukuchi,0,Wind Walk teleports you a short distance in the direction you\'re currently facing.
+1367,59,16,Merciless Strikes,0,"Basic Attacks against slowed, rooted, or stunned targets are always Critical Strikes."
+1368,59,16,Harsh Winds,0,Attacking a Hero from Wind Walk causes them to take 30% increased damage from you and your Images for 3 seconds.
+1369,59,16,Press the Attack,0,"While Advancing Strikes is active, Basic Attacks increase your Attack Speed by 15%, up to 60%."
+1370,59,20,Dance of Death,0,Your Images use Bladestorm when you do.
+1371,59,20,Three Blade Style,0,"Your Images gain an additional 50% of your Health, and last up to 36 seconds."
+1372,59,20,Wind Strider,0,Wind Walk\'s cooldown is reduced by 6 seconds.
+1373,59,20,Blademaster\'s Pursuit,0,"Advancing Strikes grants an additional 15% bonus Movement Speed, and its duration is increased by 2 seconds."
+1374,60,1,Lion\'s Maw,0,"Quest:ÿEvery time Lion\'s Fang hits a Hero, increase its damage by 4, up to 120 Reward:ÿAfter hitting 30 Heroes, the slow is increased to 50% and its duration is increased to 2 seconds."
+1375,60,1,Overpower,0,"When you Parry a Hero\'s Basic Attack, Heroic Strike\'s cooldown is refreshed and the next one does 25% more damage."
+1376,60,1,High King\'s Quest,0,Quest:ÿHit 50 Heroes with Basic Attacks. Quest Participate in 5 Hero Takedowns. Quest: Gather 20 Regeneration Globes. Reward: Completing a Quest grants 10 Base Attack Damage. Completing all 3 Quests grants an additional 30 Base Attack Damage.
+1377,60,4,Shield Wall,0,"Parry now grants Protected, preventing all incoming damage for the duration."
+1378,60,4,Warbringer,0,"Charge now stuns the target for 1 second instead of slowing them, and its cooldown is reduced by 6 seconds."
+1379,60,7,Live by the Sword,0,"Increase the duration of Parry by 40%. If you block at least 2 Hero Basic Attacks with a single Parry, its cooldown is reduced by 2 seconds."
+1380,60,7,Second Wind,0,"Basic Attacks heal Varian for 1.17% of his maximum Health. While below 50% Health, they also heal him for 50% of the damage dealt."
+1381,60,7,Victory Rush,0,"Every 60 seconds, Varian\'s next Basic Attack will heal him for 877 (416 + 4% per level) Health. When a nearby enemy minion dies, the cooldown is reduced by 15 seconds."
+1382,60,10,Taunt,16,Force the target Hero to attack Varian for 1.25 seconds.
+1383,60,10,Colossus Smash,20,"Smash a target enemy, dealing 410 (195 + 4% per level) damage and making them Vulnerable for 3 seconds."
+1384,60,10,Twin Blades of Fury,0,"Basic Attacks reduce Heroic Strike\'s cooldown by 9 seconds, and increase Varian\'s Movement Speed by 30% for 2 seconds."
+1385,60,13,Juggernaut,0,Charge deals bonus damage to Heroes equal to 6% of their maximum Health.
+1386,60,13,Mortal Strike,0,Heroes hit by Heroic Strike receive 40% reduced healing for 4 seconds.
+1387,60,13,Shattering Throw,30,"Activate to throw a sword that deals 110 (52 + 4% per level) damage to the target, and up to 3068 (1456 + 4% per level) bonus damage to their Shields.Passive: Basic Attacks deal up to 200% bonus damage to Shields."
+1388,60,16,Banner of Stormwind,45,Activate to place a Banner that grants 25% increased Movement Speed to nearby allied Heroes. Lasts 12 seconds.
+1389,60,16,Banner of Ironforge,45,"Activate to place a Banner that grants 25 Armor to nearby allied Heroes, reducing damage taken by 25%. Lasts 12 seconds."
+1390,60,16,Banner of Dalaran,45,Activate to place a Banner that grants 20% increased Ability Power to nearby allied Heroes. Lasts 12 seconds.
+1391,60,20,Vigilance,0,Being hit by a Hero Basic Attack reduces the cooldown of Taunt by 1 second.
+1392,60,20,Master at Arms,0,"Colossus Smash affects all enemies near the target, and its cooldown is reduced by 10 seconds."
+1393,60,20,Frenzy,0,"Twin Blades of Fury increases Varian\'s Attack Speed by an additional 15%, and Basic Attacks increase his Movement Speed by an additional 10%."
+1394,60,20,Glory to the Alliance,0,"Banner now also increases health regeneration and all healing received for nearby allied Heroes by 50%, and the cooldown is reduced by 20 seconds."
+1395,60,20,Demoralizing Shout,25,"Activate to demoralize nearby enemy Heroes, reducing damage they deal by 25% for 5 seconds."
+1396,61,1,Demolitions Expert,0,"Quest: For every 5 enemy Heroes hit by Particle Grenade, its recharge rate lowers by 0.375 seconds, up to 3 seconds.Reward: Once Particle Grenade has hit 40 enemy Heroes, its radius is increased by 15%."
+1397,61,1,Together We Are Strong,0,"Every 22 (11 + 4% per level) damage done by allies while under Shield Ally contributes 1 Energy, up to 25 Energy per shield."
+1398,61,1,Feel the Heat,0,Zarya\'s Basic Attack deals -8.50% additional damage to enemies in melee range.
+1399,61,1,Maximum Charge,0,Regen Globes now instantly grant 20 Energy.Quest: Spend 120 seconds at or above 50 Energy.Reward: Gain an additional 20 maximum Energy.
+1400,61,4,I Am the Strongest,0,Personal Barrier absorbs an additional 307 (146 + 4% per level) damage.
+1401,61,4,Give Me Twenty,0,"Quest: Regeneration Globes increase Shield Ally absorb amount by 15, up to 300 permanently. Reward: After collecting 20 Regen Globes, permanently reduce the cooldown of Shield Ally by 3 seconds."
+1402,61,4,Speed Barrier,0,Shield Ally increases the allied Hero\'s Movement Speed by 35% for the duration.
+1403,61,4,Defensive Shielding,0,"Upon expiration or breaking, Personal Barrier and Shield Ally reduce the damage of the next 2 Hero Basic Attacks within 12 seconds by 75%."
+1404,61,7,Pinpoint Accuracy,0,Particle Grenade deals 40% more damage to enemies hit by the center of the blast.
+1405,61,7,Explosive Barrier,0,"Upon expiration or breaking, Personal Barrier explodes, dealing 220 (104 + 4% per level) damage to nearby enemies."
+1406,61,7,To the Limit,0,While above 50 Energy your Basic Attack size is increased by 35%.
+1407,61,7,Hit Me,0,Damage absorbed by Zarya\'s Shields contributes 20% more Energy.
+1408,61,10,Graviton Surge,120,Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds.
+1409,61,10,Expulsion Zone,45,Launch a gravity bomb that deals 272 (129 + 4% per level) damage and creates an expulsion zone for 3.5 seconds. Enemies who enter the affected area are knocked back and have their Movement Speed reduced by 50% for 1 second.
+1410,61,13,Unstoppable Competitor,0,Personal Barrier makes you Unstoppable for up to 1.5 seconds.
+1411,61,13,Spell Barrier,0,"Upon expiration or breaking, Personal Barrier grants a Spell Shield that reduces Ability Damage taken by 75% for 3 seconds."
+1412,61,13,Endurance Training,0,"While at or above 75 Energy, Zarya gains 20 Armor, reducing all damage taken by 20%."
+1413,61,13,Pain is Temporary,30,Activate to consume all Energy and gain a shield that absorbs 0.5% of Zarya\'s maximum Health per Energy consumed and lasts for 3 seconds. Zarya may only have one personal shield active on herself at a time.
+1414,61,16,Plasma Shock,0,Particle Grenade slows Movement Speed by 35% for 1 second to enemies near the center.
+1415,61,16,Cleansing Shield,0,Shield Ally removes all disabling effects.
+1416,61,16,Gain Train,0,Shield Ally now grants an untalented shield to a nearby ally upon impact.
+1417,61,16,Born in Battle,0,"While at or above 75 Energy, Zarya\'s cooldowns regenerate 25% faster."
+1418,61,20,Gravity Kills,0,Increases Graviton Surge\'s duration by 1 second and causes it to deal 307 (146 + 4% per level) damage over the duration.
+1419,61,20,Clear Out,0,Increases Expulsion Zone\'s radius by 15% and Zarya\'s maximum Energy temporarily increases by 10 per enemy Hero hit for 10 seconds.
+1420,61,20,Grenadier,0,All Particle Grenade charges are returned at once.
+1421,61,20,Unyielding Defender,45,Activate to reset the cooldown of Personal Barrier and Shield Ally.
+1422,62,1,Vigor,0,"Quest:ÿValeera regenerates an additional 2 Energy per second. Reward: After Gathering 20 Regen Globes, increase Valeera\'s maximum Energy to 120."
+1423,62,1,Subtlety,0,"After remaining Vanished for at least 4 seconds, Ambush, Cheap Shot, or Garrote causes Veleera to regenerate an additional 10 Energy per second for 5 seconds."
+1424,62,1,Combat Readiness,0,"Each Combo Point spent grants 50 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 50%. Stores up to 3 charges."
+1425,62,1,Crippling Poison,15,Activate to cause Valeera\'s next instance of Spell Damage to slow enemy Movement Speed by 25% for 3 seconds. Activating Crippling Poison does not break Vanish.
+1426,62,4,Relentless Strikes,0,Reduces the Energy cost of Sinister Strike by 10.
+1427,62,4,Hemorrhage,0,Valeer\'s Basic Attacks deal 25% additional damage to enemies affected by Garrote.
+1428,62,4,Initiative,0,"Ambush, Cheap Shot, and Garrote award 2 Combo Points."
+1429,62,4,Wound Poison,15,Activate to cause Valeera\'s next instance of Spell Damage to also reduce healing received by the victim by 50% for 4 seconds. Activating Wound Poison does not break Vanish.
+1430,62,7,Mutilate,0,"Sinister Strike now hits with both blades, dealing 100% additional damage, but its range is reduced by 1."
+1431,62,7,Fatal Finesse,0,"Quest:ÿEach time Blade Flurry damages an enemy Hero, its damage increases by 3, up to 60. Reward:ÿAfter damaging 20 Heroes with Blade Flurry, permanently reduce its Energy cost by 20."
+1432,62,7,Slice and Dice,0,Eviscerating an enemy with 3 Combo Points causes Valeera\'s next 3 Basic Attacks to have their Attack Speed increased by 150%. Lasts 3 seconds.
+1433,62,7,Assassinate,0,Ambush deals 100% additional damage if no other enemy Heroes are within 5 range of the victim.
+1434,62,10,Smoke Bomb,60,"Create a cloud of smoke. While in the smoke, Valeera is Unreavealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish."
+1435,62,10,Cloak of Shadows,18,"Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1 second, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish."
+1436,62,13,Elusiveness,0,Increase Valeera\'s Movement Speed while Vanished by an additional 10%.
+1437,62,13,Death From Above,0,Ambush now has 5 range and teleports Valeera behind the victim.
+1438,62,13,Blind,0,"When Cheap Shot expires, the victim is blinded for 2.5 seconds."
+1439,62,13,Strangle,0,Garrote reduces Ability Damage dealt by the victim by 25% for 7 seconds.
+1440,62,16,Seal Fate,0,"Sinister Strike deals 50% additional damage and generates an additional Combo Point when used against silenced, rooted, or stunned enemy Heroes."
+1441,62,16,Rupture,0,Valeera\'s Basic Attacks refresh the damage over time effect of Garrote.
+1442,62,16,Expose Armor,0,"Eviscerating an enemy with 3 Combo Points causes them to lose 25 Armor for 2 seconds, increasing all damage taken by 25%."
+1443,62,16,Thistle Tea,60,Activate to instantly restore 100 Energy.
+1444,62,20,Adrenaline Rush,0,"While in the Smoke Bomb, Valeera regenerates an additional 30 Energy per second."
+1445,62,20,Enveloping Shadows,0,"Whenever Valeera uses Vanish, she also gains Cloak of Shadows."
+1446,62,20,Nightslayer,0,Reduces the cooldown of Vanish by 3 seconds.
+1447,62,20,Cold Blood,45,Activate to increase the damage of Valeera\'s next Evicerate by 100%. Activating Cold Blood does not break Vanish.
+1448,63,1,Boneslicer,0,Grievous Throw now pierces through enemies. Bonus damage increased by 15%.
+1449,63,1,Arcanite Axes,0,Twin Cleave cooldown reduced by 0.5 seconds for every Hero hit. Ability Power is increased by 25% while below 50% Health.
+1450,63,1,You Want Axe?,0,"Quest:ÿEvery 5 Basic Attacks used against Heroes increases your Basic Attack damage by 1.5. Reward:ÿUpon reaching 24 Stacks, permanently gain 20% Range."
+1451,63,4,Troll\'s Blood,0,Increases Regeneration healing by 75%.
+1452,63,4,Let the Killing Begin,0,"Enemies killed by you increase your attack speed by 6% for 10 seconds, stacking up to 5 times. Basic Attacks refresh the duration."
+1453,63,4,Headhunter,60,Quest:ÿKill all unique enemy Heroes. Reward: Activate to reveal all enemy Heroes for 4 seconds.
+1454,63,7,Vicious Assault,0,Increases the number of charges to 6. Basic Attacks against afflicted Heroes reduces cooldown by 2 seconds.
+1455,63,7,Wrong Place Wrong Time,0,"If an enemy is hit by both axes at the same time, deal bonus damage."
+1456,63,7,Recklessness,0,"While below 50% health, gain 25% bonus Attack Damage."
+1457,63,10,Taz\'dingo!,90,Cannot be reduced to less than 1 Health for the next 4 seconds.
+1458,63,10,Guillotine,45,"Throw a massive axe into the air that crashes down on enemies, dealing damage based on how much Health you are missing."
+1459,63,13,Eye of Zul\'jin,0,Hitting an enemy Hero with Grievous Throw increases Movement Speed by 25% for 2 seconds.
+1460,63,13,Forest Medicine,0,Regeneration no longer has to be channeled. Damage still breaks the heal.
+1461,63,13,Voodoo Shuffle,45,Activate to remove all Slow and Root effects.
+1462,63,16,Swirling Death,0,Axes cycle twice and can hit enemies on each revolution but cooldown is increased by 4 seconds.
+1463,63,16,Lacerate,0,Increases Slow amount of each axe by 15%.
+1464,63,16,Ferocity,0,Increases the Attack Speed bonus of Berserker by 40%.
+1465,63,20,Amani Resilience,0,Restore Health equal to 50% of the damage you dealt while using Taz\'dingo.
+1466,63,20,Buzzsaw,0,"After impact, the Guillotine continues rapidly forward, dealing damage to enemies in the line."
+1467,63,20,Ensnare,60,"Throw a net forward, rooting the first enemy hit."
