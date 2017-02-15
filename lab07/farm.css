@@ -1,0 +1,19 @@
+body {
+    background-image: url(images/farm.jpg);
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    color: darkred;
+}
+div {
+    margin-top: 533px;
+    width: 100%;
+    text-align: right;
+    background-image: url(images/cow.gif);
+    background-repeat: no-repeat;
+}
+a:link {
+    color: orange;
+}
+a:visited {
+    color: orange;
+}
