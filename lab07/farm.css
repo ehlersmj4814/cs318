@@ -17,3 +17,6 @@ a:link {
 a:visited {
     color: orange;
 }
+h1 {
+    margin-bottom: 0;
+}
