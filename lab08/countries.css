@@ -1,0 +1,15 @@
+body {
+	box-sizing: border-box;
+	background-color: light-grey;
+}
+.stamp {
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	border-style: dashed;
+	border-width: 4px;
+	box-shadow: initial;
+	background-image: center;
+	background-size: auto 300px;
+}
