@@ -3,7 +3,7 @@ body {
 	background-color: light-grey;
 }
 #jamaica {
-	background-image: url(images/jamaica.jpg), url(images/jamaicaflag.gif);
+	background-image: url(images/jamaicaflag.gif), url(images/jamaica.jpg);
 }
 #greece {
 	background-image: url(images/greece.png), url(images/greeceflag.gif);
