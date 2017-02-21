@@ -10,8 +10,8 @@ body {
 	border-style: dashed;
 	border-width: 4px;
 	box-shadow: initial;
-	background-position: center, right;
-	background-size: 300px auto;
+	background-position: center, center;
+	background-size: auto 300px;
 }
 #jamaica {
 	background-image: url(images/jamaica.jpg), url(images/jamaicaflag.gif);
