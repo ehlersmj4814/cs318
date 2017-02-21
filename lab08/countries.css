@@ -24,6 +24,6 @@ body {
 	border-width: 4px;
 	box-shadow: 3px 3px 5px black;
 	background-position: top right, center;
-	background-size: 100px 50px, auto 300px;
+	background-size: 100px 50px, 300px auto;
 	background-repeat: no-repeat, no-repeat;
 }
