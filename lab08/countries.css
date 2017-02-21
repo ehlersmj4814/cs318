@@ -14,14 +14,14 @@ body {
 	background-size: auto 300px;
 }
 #jamaica {
-	background-image: url("images/jamaica.jpg"), url("images/jamaicaflag.gif");
+	background-image: url(images/jamaica.jpg), url(images/jamaicaflag.gif);
 }
 #greece {
-	background-image: url("images/greece.png"), url("images/greeceflag.gif");
+	background-image: url(images/greece.png), url(images/greeceflag.gif);
 }
 #france {
-	background-image: url("images/france.jpg"), url("images/franceflag.gif");
+	background-image: url(images/france.jpg), url(images/franceflag.gif);
 }
 #italy {
-	background-image: url("images/italy.jpg"), url("images/italyflag.gif");
+	background-image: url(images/italy.jpg), url(images/italyflag.gif);
 }
