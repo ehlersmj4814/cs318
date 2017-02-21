@@ -1,0 +1,27 @@
+body {
+	box-sizing: border-box;
+	background-color: light-grey;
+}
+.stamp {
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	border-style: dashed;
+	border-width: 4px;
+	box-shadow: initial;
+	background-position: center, right;
+	background-size: auto 300px;
+}
+#jamaica {
+	background-image: url(images/jamaica.jpg), url(images/jamaicaflag.gif);
+}
+#greece {
+	background-image: url(images/greece.png), url(images/greeceflag.gif);
+}
+#france {
+	background-image: url(images/france.jpg), url(images/franceflag.gif);
+}
+#italy {
+	background-image: url(images/italy.jpg), url(images/italyflag.gif);
+}
