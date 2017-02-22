@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
 	box-sizing: border-box;
 	background-color: #eeeeee;
@@ -28,34 +27,3 @@ body {
 	background-size: 100px 50px, auto 310px;
 	background-repeat: no-repeat, no-repeat;
 }
-=======
-body {
-	box-sizing: border-box;
-	background-color: #eeeeee;
-}
-#jamaica {
-	background-image: url(images/jamaicaflag.gif), url(images/jamaica.jpg);
-}
-#greece {
-	background-image: url(images/greeceflag.gif), url(images/greece.png);
-}
-#france {
-	background-image: url(images/franceflag.gif), url(images/france.jpg);
-}
-#italy {
-	background-image: url(images/italyflag.gif), url(images/italy.jpg);
-}
-.stamp {
-	display: inline-block;
-	height: 300px;
-	width: 300px;
-	margin: 10px;
-	border-style: dashed;
-	border-color: lime;
-	border-width: 4px;
-	box-shadow: 5px 5px 5px black;
-	background-position: top right, center;
-	background-size: 100px 50px, auto 310px;
-	background-repeat: no-repeat, no-repeat;
-}
->>>>>>> origin/master
