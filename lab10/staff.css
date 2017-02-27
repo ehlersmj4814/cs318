@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+#head1 {
+    background-image: url(https://www.biography.com/.image/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NDg0MDU0ODI0MTkxNTAz/anthony-kiedis-380596-1-402.jpg);
+    background-size: 100%;
+}
+#head2 {
+    background-image: url(http://thechilisource.com/wp-content/uploads/2011/06/John-frusciante-2.jpg);
+    background-size: 100%;
+}
+#head3 {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/25/f2/64/25f2644983b0adffc48af60bceef7dd5.jpg);
+    background-size: 100%;
+}
+#head4 {
+    background-image: url(http://a5.files.biography.com/image/upload/c_fit,cs_srgb,dpr_1.0,h_1200,q_80,w_1200/MTIwNjA4NjM0MTMxMDg4OTA4.jpg);
+    background-size: 100%;
+}
+.photo {
+    display: inline-block;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+}
+.photo:hover {
+    box-shadow: 1px 1px 1px black;
+    top: 5px;
+    left: 5px;
+}
+.name {
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: yellow;
+    text-shadow: 3px 3px 3px black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
