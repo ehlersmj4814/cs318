@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Baloo', cursive;
+    src: url(Baloo-Regular.ttf);
+}
+body {
+    margin: auto;
+    width: 600px;
+    display: center;
+    box-shadow: 3px 0 3px, -3px 0 3px;
+}
+header {
+    text-align: center;
+    background-color: #DC143C;
+    color: white;
+    padding: 20px;
+    font-size: 28pt;
+    font-family: 'Baloo', cursive;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #840c24;
+    height: 100%;
+}
+li a {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+}
+nav {
+    float: left;
+    margin-left: 0;
+    font-family: 'Baloo', cursive;
+    font-size: 20pt;
+    background-color: #840c24;
+}
+main {
+    background-color: white;
+    margin-left: 200px;
+    padding: 15px;
+}
+#bodyimage {
+    height: 200px;
+    width: auto;
+}
+.order {
+    position: fixed;
+    background-image: url(images/pizza.png);
+	left: 50%;
+	top: 5%;
+    text-shadow: 3px 3px 3px black;
+    height: 100px;
+    width: 100px;
+	margin-left: 200px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+    background-size: 100%;
+}
+.vertpos {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.navext {
+    background-color: #840c24;
+}
+footer {
+    margin-left: 200px;
+    background-color: #DC143C;
+    text-align: center;
+    font-size: 18pt;
+    color: white;
+}
+.pizza {
+    height: 75px;
+    width: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#pizza1 {
+    background-image: url(images/pizza2.jpg);
+    float: right;
+}
+#pizza2 {
+    background-image: url(images/pizza3.jpg);
+    float: left;
+}
+#pizza3 {
+    background-image: url(images/pizza4.jpg);
+    float: right;
+}
