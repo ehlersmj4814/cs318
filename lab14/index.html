@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mazes</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="http://intridea.github.io/sketch.js/lib/sketch.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Maze Runner</h1>
+        </header>
+        <figure>
+            <canvas id="desktop" width="800" height="800"></canvas>
+            <script type="text/javascript">
+                $(function() {
+                    $('#desktop').sketch({defaultColor: "#f00"});
+                });
+            </script>
+            <canvas id="mobile" width="400" height="400"></canvas>
+            <script type="text/javascript">
+                $(function() {
+                    $('#mobile').sketch({defaultColor: "#f00"});
+                });
+            </script>
+            <figcaption> Press your browser refresh button to clear the maze!</figcaption>
+        </figure>
+    </body>
+</html>
