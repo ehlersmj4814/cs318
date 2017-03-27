@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+td:hover {
+    background-color: lightblue;
+}
+table {
+    border-spacing: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+td {
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+    font-size: 14pt;
+}
+th {
+    font-size: 20pt;
+    padding: 20px;
+}

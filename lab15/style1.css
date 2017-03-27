@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+td:hover {
+    background-color: lightblue;
+}
+table {
+    border-spacing: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 10px;
+    font-size: 14pt;
+}
+th {
+    font-size: 15pt;
+}
+#work {
+    background-color: indianred;
+}
+#class {
+    background-color: tan;
+}
+#lunch {
+    background-color: lightgreen;
+}
