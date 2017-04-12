@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+}
+option {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+form {
+    float: left;
+    width: 700px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+select, input {
+    float: left;
+}
+select, #range, #name {
+    width: 300px;
+}
+label {
+    float: left;
+    width: 300px;
+    clear: left;
+    text-align: right;
+}

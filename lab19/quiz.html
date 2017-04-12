@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personality Quiz</title>
+        <link href="style2.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form action="https://formspree.io/ehlersmj4814@uwec.edu" method="post">
+            <h1>Personality Quiz</h1>
+            <ol>
+                <li>
+                    <label> Who are you?</label> 
+                    <input type="text" id="name" name:="name">
+                </li>
+                <li>
+                    <label>What is your favorite color?</label>
+                    <select id="color" name="color">
+                        <option value="red">Red</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Green</option>
+                        <option value="indigo">Indigo</option>
+                        <option value="violet">Violet</option>
+                    </select>
+                </li>
+                <li>
+                    <label> What pets do you have?</label>
+                    <select multiple="yes" id="pet" name="pet">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="fish">Fish</option>
+                        <option value="rabbit">Rabbit</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Do you like swimming?</label>
+                    <input type="checkbox" id="swim" name="swim">YES!
+                </li>
+                <li>
+                    <label>Explain your life</label>
+                    <textarea name="life" id="life" placeholder="type here..."></textarea>
+                </li>
+                <label></label>
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </ol>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+}
+option {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+form {
+    float: left;
+    width: 600px;
+    background-color: azure;
+    border-radius: 10px;
+}
+select, input, li, textarea {
+    float: left;
+}
+select, #range, #name, textarea {
+    width: 250px;
+}
+label {
+    float: left;
+    width: 250px;
+    clear: left;
+}
+#true, #false {
+    clear: none;
+    float: left;
+    width: auto;
+}
+textarea {
+    height: 75px;
+}
