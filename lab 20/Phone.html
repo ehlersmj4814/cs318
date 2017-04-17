@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personality Quiz</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onload="disable();">
+        <form action="https://formspree.io/ehlersmj4814@uwec.edu" method="post">
+            <table border= "1">
+                <tr>
+                    <th><label>Click Button to enable fields: <input type="button" id="button" name="button" value="Button" onclick="enable();"></label></th>
+                </tr>
+                <tr>
+                    <td><label>Area Code:<input type="number" id="phone1" tabindex="3" placeholder="100" onchange="onChange();"></label></td>
+                </tr>
+                <tr>
+                    <td><label>Prefix:<input type="number" id="phone2" tabindex="2" placeholder="867" onchange="onChange();"></label></td>
+                </tr>
+                <tr>
+                    <td><label>Suffix:<input type="number" id="phone3" tabindex="1" placeholder="5309" onchange="onChange();"></label></td>
+                </tr>
+            </table>
+        </form>
+        <h1>Help and Support Line</h1>
+        <p>
+        <h2>Please Call: <label id="num"></label></h2>
+        </p>
+        <script>
+            var phone_1 = document.getElementById("phone1");
+            var phone_2 = document.getElementById("phone2");
+            var phone_3 = document.getElementById("phone3");
+            function enable() {
+                phone_1.disabled = false;
+                phone_2.disabled = false;
+                phone_3.disabled = false;
+            }
+            function disable() {
+                phone_1.disabled= true;
+                phone_2.disabled= true;
+                phone_3.disabled= true;
+            }
+            function onChange() {
+                document.getElementById("num").innerHTML = phone_1.value +"-"+ phone_2.value +"-"+ phone_3.value;
+            }
+        </script>
+    </body>
+</html>

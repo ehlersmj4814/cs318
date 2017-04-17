@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+label {
+    font-size: 20pt;
+}
