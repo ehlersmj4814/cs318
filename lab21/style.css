@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    display: inline;
+}
+body {
+    text-align: center;
+    margin: auto;
+}
+.twitter-tweet {
+    margin: auto;
+}
