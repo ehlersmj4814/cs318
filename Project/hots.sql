@@ -1,9 +1,11 @@
 DROP TABLE IF EXISTS hots_ability;
 DROP TABLE IF EXISTS hots_talent;
 DROP TABLE IF EXISTS hots_hero;
+DROP TABLE IF EXISTS hots_class;
+DROP TABLE IF EXISTS hots_map;
 DROP TABLE IF EXISTS login_member;
 
-CREATE USER 'admin_manny'@'localhost' IDENTIFIED BY 'N4tKJRTL8Q4qKH';
+/*CREATE USER 'admin_manny'@'localhost' IDENTIFIED BY 'N4tKJRTL8Q4qKH';
 GRANT SELECT, INSERT, UPDATE 
 	ON login_member TO 'admin_manny'@'localhost';
 GRANT SELECT, INSERT, UPDATE
@@ -11,14 +13,23 @@ GRANT SELECT, INSERT, UPDATE
 GRANT SELECT, INSERT, UPDATE
 	ON hots_ability TO 'admin_manny'@'localhost';
 GRANT SELECT, INSERT, UPDATE
-	ON hots_talent TO 'admin_manny'@'localhost';
+	ON hots_talent TO 'admin_manny'@'localhost';*/
 
 CREATE TABLE login_member
 (login_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 login_username VARCHAR(30) NOT NULL,
 login_email VARCHAR(50) NOT NULL,
-login_password CHAR(128) NOT NULL
-);
+login_password CHAR(128) NOT NULL);
+
+CREATE TABLE hots_map
+(map_id INT AUTO_INCREMENT PRIMARY KEY,
+map_name VARCHAR(30) NOT NULL,
+map_desc VARCHAR(750));
+
+CREATE TABLE hots_class
+(class_id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+class_name VARCHAR(20) NOT NULL,
+class_desc VARCHAR(750));
 
 CREATE TABLE hots_hero
 (hero_id SMALLINT AUTO_INCREMENT PRIMARY KEY,
@@ -36,7 +47,10 @@ hero_hp_regen_per_level DECIMAL(7,4),
 hero_ranged_damage SMALLINT,
 hero_splash_damage SMALLINT,
 hero_mana_per_level SMALLINT,
-hero_mana_regen_per_level SMALLINT);
+hero_mana_regen_per_level SMALLINT,
+class_id SMALLINT,
+CONSTRAINT FOREIGN KEY (class_id)
+REFERENCES hots_class(class_id));
 
 CREATE TABLE hots_ability
 (ability_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -59,199 +73,200 @@ talent_name VARCHAR(50) NOT NULL,
 talent_cooldown DECIMAL(5,2),
 talent_desc VARCHAR(750));
 
-INSERT INTO hots_hero
-VALUES
-(1,'Abathur',713,1.48,0,0,4.3984,1.43,1,27,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(2,'Anub\'arak',2316,4.82,500,3,4.3984,1,1.5,103,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(3,'Artanis',2569,5.35,500,3,4.3984,1,1.2,115,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(4,'Arthas',2400,5.002,500,3,4.3984,1,2,103,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(5,'Azmodan',2848,5.93,500,3,4.3984,1,5.5,88,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(6,'Brightwing',1529,3.18,500,3,4.3984,1.11,5.5,88,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(7,'The Butcher',2241, 4.67,500,3,1.1,1.11,1.5,146,4,4,0,0,0,4);
-INSERT INTO hots_hero
-VALUES
-(8,'Chen',2653,5.52,100,0,4.3984,1.11,2,87,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(9,'Cho',3687,7.68,0,0,4.3984,0.91,2,125,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(10,'Chromie',1376,2.87,500,3,0,1.0,5.5,76,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(11,'Dehaka',2532,5.27,500,3,4.3987,1.11,1.00,114,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(12,'Diablo',2670,5.56,500,3,4.3984,0.91,1.2,109,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(13,'E.T.C.',2526,5.26,500,3,4.3984,1,1.5,103,4,4,4,4,0,0);
-INSERT INTO hots_hero
-VALUES
-(14,'Falstad',1420,2.95,500,3,4.3984,1.43,5.5,108,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(15,'Gall',0,0,0,0,4,0,0,0,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(16,'Gazlowe',1900,3.95,500,3,4.3984,1.25,1.2,99,4,4,4,4,0,0);
-INSERT INTO hots_hero
-VALUES
-(17,'Greymane',1960,4.09,500,3,4.3984,1,5.5,146,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(18,'Gul\'dan',1769,3.68,500,0,0,1,5.5,62,4,3.438,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(19,'Illidan',1717,3.57,0,0,4.3984,1.82,1.2,81,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(20,'Jaina',1420,2.95,500,3,4.3984,1,5.5,62,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(21,'Johanna',2550,5.3,500,3,4.3984,0.91,1.5,103,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(22,'Kael\'thas',1581,3.3,500,3,4.3984,1.11,5.5,68,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(23,'Kerrigan',1748,3.64,500,3,4.3984,1.25,2,125,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(24,'Kharazim',2028,4.21,500,3,4.3984,2,1.8,66,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(25,'Leoric',2567,5.35,500,3,4.3984,0.77,2,144,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(26,'Li Li',1615,3.36,500,3,4.3984,1.25,5.5,66,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(27,'Li-Ming',1282,2.66,500,3,4.3984,1.00,5.5,66,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(28,'The Lost Vikings',650,1.3554,0,0,4,1,1.25,20,130,0.2695,5,5,0,0);
-INSERT INTO hots_hero
-VALUES
-(29,'Lt. Morales',1590,3.31,500,3,4.3984,1,5.5,92,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(30,'Lunara',1488,3.10,500,3,4.3984,1.11,5.5,94,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(31,'Malfurion',1750,3.64,500,3,4.3984,1.11,5.5,70,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(32,'Medivh',1529,3.18,500,3,0,1.11,5.5,83,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(33,'Muradin',2739,5.7,500,3,4.3984,1.11,1,101,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(34,'Murky',660,26.38,0,0,4.3984,1.25,1.2,62,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(35,'Nazeebo',1704,3.55,500,3,4.3984,1.11,5.5,92,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(36,'Nova',1405,2.92,500,3,4.3984,1,6.5,109,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(37,'Raynor',1355,2.82,500,3,4.3984,1.25,6.6,127,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(38,'Rehgar',2132,4.44,500,3,4.3984,1.25,1.5,125,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(39,'Rexxar',1795,3.73,500,3,4.3984,0.87,5.5,103,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(40,'Sgt. Hammer',1704,3.55,500,3,4.3984,1,6.6,133,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(41,'Sonya',2435,5.08,100,0,4.3984,1.25,1.5,92,220,0.457,4,4,0,0);
-INSERT INTO hots_hero
-VALUES
-(42,'Stitches',2848,5.93,500,3,4.3984,0.91,1.5,88,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(43,'Sylvanas',1515,3.15,500,3,4.3984,1.67,5.5,88,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(44,'Tassadar',1484,3.09,500,3,4.3984,1,5.5,10,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(45,'Thrall',1859,3.87,500,3,4.3984,0.91,1.5,172,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(46,'Tracer',1255,5.22,0,0,0,8,5.5,28,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(47,'Tychus',2003,4.19,500,3,4.3984,4.00,5.5,46,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(48,'Tyrael',2567,5.35,500,3,4.3984,1.25,1.5,81,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(49,'Tyrande',1655,3.45,500,3,4.3984,1.25,5.5,90,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(50,'Uther',2137,4.45,500,3,4.3984,1,1,81,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(51,'Valla',1324,2.76,500,3,4.3984,1.67,5.5,78,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(52,'Xul',1977,4.11,500,3,4.3984,1.2,1.5,108,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(53,'Zagara',1709,3.56,500,3,4.3984,1.25,5.5,85,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(54,'Zeratul',1687,3.52,500,3,4.3984,1.11,1.5,131,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(55,'Alarak',1977,4.11,500,3,0,1.20,1.5,146,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(56,'Auriel',1925,4.0,526,0,0,1.25,5.5,62,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(57,'Lúcio',1509,0,500,0,0,0,0,0,4,4,4,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(58,'Ragnaros',2185,4.55,500,3,0,0.83,2.0,187,0,0,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(59,'Samuro',1717,3.58,0,0,0,1.67,2.0,92,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(60,'Varian',2215,4.61,500,3,0,1.25,1.2,90,4,3,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(61,'Zarya',2315,4.83,100,-2.5,0,4,4.5,22,4,4,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(62,'Valeera',2029,0,100,10,0,0,0,0,0,0,0,0,0,0);
-INSERT INTO hots_hero
-VALUES
-(63,'Zul\'jin',1951,5.54,500,3,0,1.25,5.5,114.4,0,0,0,0,0,0);
+INSERT INTO hots_class VALUES (1,'Assassin','Assassin heroes do a lot of damage in a very short time, usually to single targets. They should focus on killing enemy heroes and try to avoid counter-attacks. Assassins deal tremendous damage and can pick off unsuspecting enemies, but must choose their battles carefully due to their lack of resistances and hitpoints.');
+INSERT INTO hots_class VALUES (2,'Warrior','Warrior heroes are a strong and tough role of heroes. They often have ways to stun or bodyblock the enemy from reaching their allies, and are often very tough themselves. Most warrior heroes should protect their allies.');
+INSERT INTO hots_class VALUES (3,'Support','Support heroes are known for keeping their team alive through buffs, heals and shields. Supports can stay close to friendly heroes and allies and keep them alive.');
+INSERT INTO hots_class VALUES (4,'Specialist','Specialist heroes do various things that aren\'t covered by other roles. Specialists can be siege heroes that do massive damage to enemy bases and towers, but some can have completely different effects on the flow of battles.');
 
-/*INSERT INTO hots_hero
+INSERT INTO hots_hero
 VALUES
-(,'',,,,,,,,,,,,,,);*/
+(1,'Abathur',713,1.48,0,0,4.3984,1.43,1,27,4,4,0,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(2,'Anub\'arak',2316,4.82,500,3,4.3984,1,1.5,103,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(3,'Artanis',2569,5.35,500,3,4.3984,1,1.2,115,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(4,'Arthas',2400,5.002,500,3,4.3984,1,2,103,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(5,'Azmodan',2848,5.93,500,3,4.3984,1,5.5,88,4,4,4,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(6,'Brightwing',1529,3.18,500,3,4.3984,1.11,5.5,88,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(7,'The Butcher',2241, 4.67,500,3,1.1,1.11,1.5,146,4,4,0,0,0,4,1);
+INSERT INTO hots_hero
+VALUES
+(8,'Chen',2653,5.52,100,0,4.3984,1.11,2,87,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(9,'Cho',3687,7.68,0,0,4.3984,0.91,2,125,4,4,4,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(10,'Chromie',1376,2.87,500,3,0,1.0,5.5,76,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(11,'Dehaka',2532,5.27,500,3,4.3987,1.11,1.00,114,4,4,4,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(12,'Diablo',2670,5.56,500,3,4.3984,0.91,1.2,109,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(13,'E.T.C.',2526,5.26,500,3,4.3984,1,1.5,103,4,4,4,4,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(14,'Falstad',1420,2.95,500,3,4.3984,1.43,5.5,108,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(15,'Gall',0,0,0,0,4,0,0,0,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(16,'Gazlowe',1900,3.95,500,3,4.3984,1.25,1.2,99,4,4,4,4,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(17,'Greymane',1960,4.09,500,3,4.3984,1,5.5,146,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(18,'Gul\'dan',1769,3.68,500,0,0,1,5.5,62,4,3.438,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(19,'Illidan',1717,3.57,0,0,4.3984,1.82,1.2,81,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(20,'Jaina',1420,2.95,500,3,4.3984,1,5.5,62,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(21,'Johanna',2550,5.3,500,3,4.3984,0.91,1.5,103,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(22,'Kael\'thas',1581,3.3,500,3,4.3984,1.11,5.5,68,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(23,'Kerrigan',1748,3.64,500,3,4.3984,1.25,2,125,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(24,'Kharazim',2028,4.21,500,3,4.3984,2,1.8,66,4,4,0,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(25,'Leoric',2567,5.35,500,3,4.3984,0.77,2,144,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(26,'Li Li',1615,3.36,500,3,4.3984,1.25,5.5,66,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(27,'Li-Ming',1282,2.66,500,3,4.3984,1.00,5.5,66,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(28,'The Lost Vikings',650,1.3554,0,0,4,1,1.25,20,130,0.2695,5,5,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(29,'Lt. Morales',1590,3.31,500,3,4.3984,1,5.5,92,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(30,'Lunara',1488,3.10,500,3,4.3984,1.11,5.5,94,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(31,'Malfurion',1750,3.64,500,3,4.3984,1.11,5.5,70,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(32,'Medivh',1529,3.18,500,3,0,1.11,5.5,83,4,4,0,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(33,'Muradin',2739,5.7,500,3,4.3984,1.11,1,101,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(34,'Murky',660,26.38,0,0,4.3984,1.25,1.2,62,4,4,0,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(35,'Nazeebo',1704,3.55,500,3,4.3984,1.11,5.5,92,4,4,4,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(36,'Nova',1405,2.92,500,3,4.3984,1,6.5,109,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(37,'Raynor',1355,2.82,500,3,4.3984,1.25,6.6,127,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(38,'Rehgar',2132,4.44,500,3,4.3984,1.25,1.5,125,4,4,0,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(39,'Rexxar',1795,3.73,500,3,4.3984,0.87,5.5,103,4,4,4,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(40,'Sgt. Hammer',1704,3.55,500,3,4.3984,1,6.6,133,4,4,4,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(41,'Sonya',2435,5.08,100,0,4.3984,1.25,1.5,92,220,0.457,4,4,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(42,'Stitches',2848,5.93,500,3,4.3984,0.91,1.5,88,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(43,'Sylvanas',1515,3.15,500,3,4.3984,1.67,5.5,88,4,4,4,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(44,'Tassadar',1484,3.09,500,3,4.3984,1,5.5,10,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(45,'Thrall',1859,3.87,500,3,4.3984,0.91,1.5,172,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(46,'Tracer',1255,5.22,0,0,0,8,5.5,28,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(47,'Tychus',2003,4.19,500,3,4.3984,4.00,5.5,46,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(48,'Tyrael',2567,5.35,500,3,4.3984,1.25,1.5,81,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(49,'Tyrande',1655,3.45,500,3,4.3984,1.25,5.5,90,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(50,'Uther',2137,4.45,500,3,4.3984,1,1,81,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(51,'Valla',1324,2.76,500,3,4.3984,1.67,5.5,78,4,4,4,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(52,'Xul',1977,4.11,500,3,4.3984,1.2,1.5,108,4,4,4,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(53,'Zagara',1709,3.56,500,3,4.3984,1.25,5.5,85,4,4,4,0,0,0,4);
+INSERT INTO hots_hero
+VALUES
+(54,'Zeratul',1687,3.52,500,3,4.3984,1.11,1.5,131,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(55,'Alarak',1977,4.11,500,3,0,1.20,1.5,146,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(56,'Auriel',1925,4.0,526,0,0,1.25,5.5,62,4,4,0,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(57,'Lúcio',1509,0,500,0,0,0,0,0,4,4,4,0,0,0,3);
+INSERT INTO hots_hero
+VALUES
+(58,'Ragnaros',2185,4.55,500,3,0,0.83,2.0,187,0,0,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(59,'Samuro',1717,3.58,0,0,0,1.67,2.0,92,4,4,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(60,'Varian',2215,4.61,500,3,0,1.25,1.2,90,4,3,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(61,'Zarya',2315,4.83,100,-2.5,0,4,4.5,22,4,4,0,0,0,0,2);
+INSERT INTO hots_hero
+VALUES
+(62,'Valeera',2029,0,100,10,0,0,0,0,0,0,0,0,0,0,1);
+INSERT INTO hots_hero
+VALUES
+(63,'Zul\'jin',1951,5.54,500,3,0,1.25,5.5,114.4,0,0,0,0,0,0,1);
 
 INSERT INTO hots_ability (hero_id, ability_name, ability_desc, ability_cooldown, ability_key, ability_mana)
 VALUES
@@ -2955,3 +2970,17 @@ INSERT INTO hots_talent VALUES (1464,63,16,'Ferocity',0,'Increases the Attack Sp
 INSERT INTO hots_talent VALUES (1465,63,20,'Amani Resilience',0,'Restore Health equal to 50% of the damage you dealt while using Taz''dingo.');
 INSERT INTO hots_talent VALUES (1466,63,20,'Buzzsaw',0,'After impact, the Guillotine continues rapidly forward, dealing damage to enemies in the line.');
 INSERT INTO hots_talent VALUES (1467,63,20,'Ensnare',60,'Throw a net forward, rooting the first enemy hit.');
+
+INSERT INTO hots_map VALUES (1,'Hanamura','Capture payloads to unleash dragons and assail the enemy Core!');
+INSERT INTO hots_map VALUES (2,'Haunted Mines','Engage in necromancy for fun and profit as you collect the skulls of the undead and use them to raise your very own grave golem.');
+INSERT INTO hots_map VALUES (3,'Towers of Doom','Control the Bell Towers, capture the Altars, and break through the enemy Core’s impenetrable shield.');
+INSERT INTO hots_map VALUES (4,'Infernal Shrines','A dark, destructive force threatens the Gardens of Hope, creatures made of equal parts mayhem and destruction. Harness their devastating might, or perish at the hands of the Punishers.');
+INSERT INTO hots_map VALUES (5,'Battlefield of Eternity','Two Immortals are locked in a duel to the death. Help your Immortal prevail, and he’ll devastate your enemy’s forts.');
+INSERT INTO hots_map VALUES (6,'Tomb of The Spider Queen','Slay your enemies and gather gems of magical power. Bring enough to the Spider Queen’s altar, and her skittering Webweavers will devour your foes.');
+INSERT INTO hots_map VALUES (7,'Sky Temple','Capture the ancient temples, defeat their guardians, and use their awesome power to destroy your enemy’s forts.');
+INSERT INTO hots_map VALUES (8,'Garden of Terror','When night falls, horror sprouts in the Garden of Terror. Kill the terrors, collect their evil seeds, and let your green thumb bring victory!');
+INSERT INTO hots_map VALUES (9,'Blackheart\'s Bay','Collect doubloons and pay the ghost pirate Blackheart to turn his guns on your enemies. If you see a cannonball flying your way… run!');
+INSERT INTO hots_map VALUES (10,'Dragon Shire','He who controls the shrines controls the dragon; he who controls the dragon punts the other team’s puny heroes.');
+INSERT INTO hots_map VALUES (11,'Cursed Hollow','It really is a horrible night to have a curse. Gather the Raven Lord’s tribute and make sure it’s the other team and not yours that has to suffer.');
+INSERT INTO hots_map VALUES (12,'Braxis Holdout','Capture the beacons and watch what happens when a flood of weaponized Zerg ravages the battlefield!');
+INSERT INTO hots_map VALUES (13,'Warhead Junction','Join the arms race of Warhead Junction, build up your stockpile, and rain hell on your enemies!');
