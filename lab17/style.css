@@ -49,6 +49,7 @@ li {
 }
 .label:hover .menu {
     display: block;
+	right: 0;
 }
 .menu li:hover {
     background-color: lightgray;
